@@ -22,3 +22,6 @@ Large field-of-view miniature microscope for rats and larger animals.
 <li>Still uses only a single coaxial cable (down to 0.3mm in diameter) for power, communication, and data.</li>
 <li>New DAQ software</li>
 </ul>
+<p align="center">
+  <img align="center" width="433" height="343" src="https://user-images.githubusercontent.com/44171252/141366558-0426378f-90db-4e11-9503-23eecbc692d4.jpg">
+</p>
