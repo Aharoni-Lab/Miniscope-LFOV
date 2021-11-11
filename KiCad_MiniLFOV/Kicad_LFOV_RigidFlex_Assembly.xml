@@ -1,0 +1,2516 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>I:\Monkey_Miniscope\Monkey_V2\Kicad_Monkey_ChangliangGuo\Kicad_Monkey_2LED_RigidFlex_Assembly_Federico\Siminiscope-master\Kicad_Monkey_2LED_RigidFlex_Assembly\Kicad_Final_V1\Kicad_LFOV_RigidFlex_Assembly.sch</source>
+    <date>11/11/2021 10:10:26 AM</date>
+    <tool>Eeschema (5.1.10)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Kicad_LFOV_RigidFlex_Assembly.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U3">
+      <value>BNO055</value>
+      <footprint>Package_LGA:LGA-28_5.2x3.8mm_P0.5mm</footprint>
+      <datasheet>LGA-28 Bosch</datasheet>
+      <fields>
+        <field name="Description">Accelerometer, Gyroscope, Magnetometer, 9 Axis Sensor I²C, UART Output</field>
+        <field name="DigikeyPN">828-1058-1-ND</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="BNO055-.IMU" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D4EA5F1</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>GRM033R61A104ME15D</value>
+      <footprint>.Capacitor:C_0201_0603Metric_L</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/murata-electronics/GRM033R61A104ME15D/490-5405-2-ND/2175191</datasheet>
+      <fields>
+        <field name="Description">0.1µF ±20% 10V Ceramic Capacitor X5R 0201 (0603 Metric)</field>
+        <field name="DigikeyPN">490-5405-1-ND</field>
+        <field name="Note">0.1uF 0201</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="C_Small-.Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D4ED5C9</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>GRM033R61A104ME15D</value>
+      <footprint>.Capacitor:C_0201_0603Metric_L</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/murata-electronics/GRM033R61A104ME15D/490-5405-2-ND/2175191</datasheet>
+      <fields>
+        <field name="Description">0.1µF ±20% 10V Ceramic Capacitor X5R 0201 (0603 Metric)</field>
+        <field name="DigikeyPN">490-5405-1-ND</field>
+        <field name="Note">0.1uF 0201</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="C_Small-.Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D4F4F66</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>GRM033R61A104ME15D</value>
+      <footprint>.Capacitor:C_0201_0603Metric_L</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/murata-electronics/GRM033R61A104ME15D/490-5405-2-ND/2175191</datasheet>
+      <fields>
+        <field name="Description">0.1µF ±20% 10V Ceramic Capacitor X5R 0201 (0603 Metric)</field>
+        <field name="DigikeyPN">490-5405-1-ND</field>
+        <field name="Note">0.1uF 0201</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="C_Small-.Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D4EDBF9</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>GRM033R71A103KA01D</value>
+      <footprint>.Capacitor:C_0201_0603Metric_L</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/murata-electronics/GRM033R71A103KA01D/490-3194-2-ND/702460</datasheet>
+      <fields>
+        <field name="Description">10000pF ±10% 10V Ceramic Capacitor X7R 0201 (0603 Metric)</field>
+        <field name="DigikeyPN">490-3194-1-ND</field>
+        <field name="Note">10nF 0201</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="C_Small-.Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D4ED91A</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>ERJ-1GNF1022C</value>
+      <footprint>.Resistor:R_0201_0603Metric_ERJ_L</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-1GEF1022C/P10-2KABCT-ND/1467562</datasheet>
+      <fields>
+        <field name="Description">10.2 kOhms ±1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric) Automotive AEC-Q200 Thick Film</field>
+        <field name="DigikeyPN">ERJ-1GNF1022C</field>
+        <field name="Note">10.2k 0201</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="R_Small_US-.Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D548B18</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>ERJ-1GNF1022C</value>
+      <footprint>.Resistor:R_0201_0603Metric_ERJ_L</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-1GEF1022C/P10-2KABCT-ND/1467562</datasheet>
+      <fields>
+        <field name="Description">10.2 kOhms ±1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric) Automotive AEC-Q200 Thick Film</field>
+        <field name="DigikeyPN">ERJ-1GNF1022C</field>
+        <field name="Note">10.2k 0201</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="R_Small_US-.Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D565BFF</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x01</value>
+      <footprint>.Connector:Conn_1x1_250x750_Pad</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">DNL</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="Conn_01x01-.Connector" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C6FD752</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>GRJ188R72A104KE11D</value>
+      <footprint>.Capacitor:C_0603_1608Metric_L</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/murata-electronics/GRJ188R72A104KE11D/490-10901-1-ND/5321102</datasheet>
+      <fields>
+        <field name="Description">0.1µF ±10% 100V Ceramic Capacitor X7R 0603 (1608 Metric)</field>
+        <field name="DigikeyPN">490-10901-1-ND</field>
+        <field name="Note">100nF 100V 0603</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="C_Small-.Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C6E0A84</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x01</value>
+      <footprint>.Connector:Conn_1x1_250x750_Pad</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">DNL</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="Conn_01x01-.Connector" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C1BE5C6</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x01</value>
+      <footprint>.Connector:Conn_1x1_250x750_Pad</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">DNL</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="Conn_01x01-.Connector" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C1BE586</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>GRM033R61A104ME15D</value>
+      <footprint>.Capacitor:C_0201_0603Metric_L</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/murata-electronics/GRM033R61A104ME15D/490-5405-2-ND/2175191</datasheet>
+      <fields>
+        <field name="Description">0.1µF ±20% 10V Ceramic Capacitor X5R 0201 (0603 Metric)</field>
+        <field name="DigikeyPN">490-5405-1-ND</field>
+        <field name="Note">0.1uF 0201</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="C_Small-.Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C19445B</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>GRM155R60J475ME47D</value>
+      <footprint>.Capacitor:C_0402_1005Metric_L</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/murata-electronics/GRM155R60J475ME87D/490-5408-1-ND/2175215</datasheet>
+      <fields>
+        <field name="Description">4.7µF ±20% 6.3V Ceramic Capacitor X5R 0402 (1005 Metric)</field>
+        <field name="DigikeyPN">490-5915-1-ND</field>
+        <field name="Note">4.7uF 0402</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="C_Small-.Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C194452</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>BAS316-TP</value>
+      <footprint>Diode:SOD_323_250X125X110L30X32L</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/micro-commercial-co/BAS316-TP/BAS316-TPMSTR-ND/2625086</datasheet>
+      <fields>
+        <field name="Description">Diode Standard 100V 250mA (DC) Surface Mount SOD-323</field>
+        <field name="DigikeyPN">BAS316-TPMSCT-ND</field>
+        <field name="Note">BAS316</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="BAS316-.Diode" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C18B231</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>LQM18PN3R3MGHD</value>
+      <footprint>.Inductor:L_0603_1608Metric_L</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/murata-electronics/LQM18PN3R3MGHD/490-15635-2-ND/6799060</datasheet>
+      <fields>
+        <field name="Description">3.3µH Shielded Multilayer Inductor 1.05A 250mOhm Max 0603 (1608 Metric)</field>
+        <field name="DigikeyPN">490-15635-1-ND</field>
+        <field name="Note">3.3uH</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="LQM18PN3R3MGHD-.Inductor" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C18B403</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>MAX14574EWL+</value>
+      <footprint>.Package_BGA:BGA_15_NP50_3X5_155X255X69B31N</footprint>
+      <fields>
+        <field name="Description">4-Channel, High-Voltage, Liquid Lens Driver</field>
+        <field name="DigikeyPN">NA</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="MAX14574EWL+-.Driver_ETL" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C189E9C</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>GRM32ER61A107ME20L</value>
+      <footprint>.Capacitor:C_1210_3225Metric_L</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/kemet/C1210C107M8PACTU/399-11631-2-ND/4918884</datasheet>
+      <fields>
+        <field name="Description">100µF ±20% 10V Ceramic Capacitor X5R 1210 (3225 Metric)</field>
+        <field name="DigikeyPN">490-9969-1-ND</field>
+        <field name="Note">10uF 1210</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="CL32A476KOJNNNE-.Capacitor" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DC34165</tstamp>
+    </comp>
+    <comp ref="C31">
+      <value>GRM155R60J104KA01D</value>
+      <footprint>.Capacitor:C_0402_1005Metric_L</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/kemet/C0402C105K9PACTU/399-4873-2-ND/1090778</datasheet>
+      <fields>
+        <field name="Description">0.1µF ±10% 6.3V Ceramic Capacitor X5R 0402 (1005 Metric)</field>
+        <field name="DigikeyPN">490-6287-1-ND</field>
+        <field name="Note">1uF 0402</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="C_Small-.Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D68354B</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>ERJ-1GNF1021C</value>
+      <footprint>.Resistor:R_0402_1005Metric_ERJ_L</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-1GNF1021C/P122658DKR-ND/8342256</datasheet>
+      <fields>
+        <field name="Description">	RES SMD 1.02K OHM 1% 1/20W 0201</field>
+        <field name="DigikeyPN">P122658CT-ND</field>
+        <field name="Note">1.02k 0402</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="R_Small_US-.Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D683333</tstamp>
+    </comp>
+    <comp ref="U10">
+      <value>SG-210STF 66.6667ML3</value>
+      <footprint>.Oscillator:OSC_CC250X200X80L70X75L</footprint>
+      <datasheet>https://www.digikey.com/products/en?keywords=SG-210STF%2066.6667ML3</datasheet>
+      <fields>
+        <field name="Description">66.667MHz XO (Standard) CMOS Oscillator 1.6V ~ 3.6V Standby (Power Down) 4-SMD, No Lead</field>
+        <field name="DigikeyPN">SER3901-ND</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="SiT_2.5mmx2mm-.Oscillator" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D68E7E5</tstamp>
+    </comp>
+    <comp ref="C49">
+      <value>GRM155R71C103KA01J</value>
+      <footprint>.Capacitor:C_0402_1005Metric_L</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/murata-electronics/GRM155R71C103KA01J/490-6326-2-ND/2610890</datasheet>
+      <fields>
+        <field name="Description">10000pF ±10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)</field>
+        <field name="DigikeyPN">490-6326-1-ND</field>
+        <field name="Note">10nF 0402</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="C_Small-.Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D69B153</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>DNL</value>
+      <footprint>.Resistor:R_0402_1005Metric_ERJ_L</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="R_Small_US-.Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D6A00F6</tstamp>
+    </comp>
+    <comp ref="C32">
+      <value>GRM155R60J106ME15D</value>
+      <footprint>.Capacitor:C_0402_1005Metric_L</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R60J106ME15-01.pdf</datasheet>
+      <fields>
+        <field name="Description">10µF ±20% 6.3V Ceramic Capacitor X5R 0402 (1005 Metric)</field>
+        <field name="DigikeyPN">490-13238-1-ND</field>
+        <field name="Note">10uF 0402</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="C_Small-.Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D6B1247</tstamp>
+    </comp>
+    <comp ref="C37">
+      <value>GRM155R60J106ME15D</value>
+      <footprint>.Capacitor:C_0402_1005Metric_L</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R60J106ME15-01.pdf</datasheet>
+      <fields>
+        <field name="Description">10µF ±20% 6.3V Ceramic Capacitor X5R 0402 (1005 Metric)</field>
+        <field name="DigikeyPN">490-13238-1-ND</field>
+        <field name="Note">10uF 0402</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="C_Small-.Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D6B2753</tstamp>
+    </comp>
+    <comp ref="C40">
+      <value>GRM155R61A104KA01J</value>
+      <footprint>.Capacitor:C_0402_1005Metric_L</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/murata-electronics/GRM155R61A104KA01J/490-6297-2-ND/2610841</datasheet>
+      <fields>
+        <field name="Description">0.1µF ±10% 10V Ceramic Capacitor X5R 0402 (1005 Metric)</field>
+        <field name="DigikeyPN">490-6297-1-ND</field>
+        <field name="Note">0.1uF 0402</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="C_Small-.Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D6B2759</tstamp>
+    </comp>
+    <comp ref="C42">
+      <value>GRM155R60J106ME15D</value>
+      <footprint>.Capacitor:C_0402_1005Metric_L</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R60J106ME15-01.pdf</datasheet>
+      <fields>
+        <field name="Description">10µF ±20% 6.3V Ceramic Capacitor X5R 0402 (1005 Metric)</field>
+        <field name="DigikeyPN">490-13238-1-ND</field>
+        <field name="Note">10uF 0402</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="C_Small-.Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D6B4C93</tstamp>
+    </comp>
+    <comp ref="C43">
+      <value>GRM155R61A104KA01J</value>
+      <footprint>.Capacitor:C_0402_1005Metric_L</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/murata-electronics/GRM155R61A104KA01J/490-6297-2-ND/2610841</datasheet>
+      <fields>
+        <field name="Description">0.1µF ±10% 10V Ceramic Capacitor X5R 0402 (1005 Metric)</field>
+        <field name="DigikeyPN">490-6297-1-ND</field>
+        <field name="Note">0.1uF 0402</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="C_Small-.Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D6B4C99</tstamp>
+    </comp>
+    <comp ref="C44">
+      <value>GRM155R60J106ME15D</value>
+      <footprint>.Capacitor:C_0402_1005Metric_L</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R60J106ME15-01.pdf</datasheet>
+      <fields>
+        <field name="Description">10µF ±20% 6.3V Ceramic Capacitor X5R 0402 (1005 Metric)</field>
+        <field name="DigikeyPN">490-13238-1-ND</field>
+        <field name="Note">10uF 0402</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="C_Small-.Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D6B72EB</tstamp>
+    </comp>
+    <comp ref="C46">
+      <value>GRM155R61A104KA01J</value>
+      <footprint>.Capacitor:C_0402_1005Metric_L</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/murata-electronics/GRM155R61A104KA01J/490-6297-2-ND/2610841</datasheet>
+      <fields>
+        <field name="Description">0.1µF ±10% 10V Ceramic Capacitor X5R 0402 (1005 Metric)</field>
+        <field name="DigikeyPN">490-6297-1-ND</field>
+        <field name="Note">0.1uF 0402</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="C_Small-.Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D6B72F1</tstamp>
+    </comp>
+    <comp ref="C33">
+      <value>GRM155R60J106ME15D</value>
+      <footprint>.Capacitor:C_0402_1005Metric_L</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R60J106ME15-01.pdf</datasheet>
+      <fields>
+        <field name="Description">10µF ±20% 6.3V Ceramic Capacitor X5R 0402 (1005 Metric)</field>
+        <field name="DigikeyPN">490-13238-1-ND</field>
+        <field name="Note">10uF 0402</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="C_Small-.Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D6C70FC</tstamp>
+    </comp>
+    <comp ref="C36">
+      <value>GRM155R61A104KA01J</value>
+      <footprint>.Capacitor:C_0402_1005Metric_L</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/murata-electronics/GRM155R61A104KA01J/490-6297-2-ND/2610841</datasheet>
+      <fields>
+        <field name="Description">0.1µF ±10% 10V Ceramic Capacitor X5R 0402 (1005 Metric)</field>
+        <field name="DigikeyPN">490-6297-1-ND</field>
+        <field name="Note">0.1uF 0402</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="C_Small-.Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D6C7102</tstamp>
+    </comp>
+    <comp ref="C38">
+      <value>GRM155R60J106ME15D</value>
+      <footprint>.Capacitor:C_0402_1005Metric_L</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R60J106ME15-01.pdf</datasheet>
+      <fields>
+        <field name="Description">10µF ±20% 6.3V Ceramic Capacitor X5R 0402 (1005 Metric)</field>
+        <field name="DigikeyPN">490-13238-1-ND</field>
+        <field name="Note">10uF 0402</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="C_Small-.Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D6C7108</tstamp>
+    </comp>
+    <comp ref="C41">
+      <value>GRM155R61A104KA01J</value>
+      <footprint>.Capacitor:C_0402_1005Metric_L</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/murata-electronics/GRM155R61A104KA01J/490-6297-2-ND/2610841</datasheet>
+      <fields>
+        <field name="Description">0.1µF ±10% 10V Ceramic Capacitor X5R 0402 (1005 Metric)</field>
+        <field name="DigikeyPN">490-6297-1-ND</field>
+        <field name="Note">0.1uF 0402</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="C_Small-.Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D6C710E</tstamp>
+    </comp>
+    <comp ref="U9">
+      <value>TPS79328-EP</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tps79333-ep.pdf?ts=1595290808654&amp;ref_url=https%253A%252F%252Fwww.google.com%252F</datasheet>
+      <fields>
+        <field name="Description">Linear Voltage Regulator IC  1 Output  200mA SOT-23-5</field>
+        <field name="DigikeyPN">296-12158-1-ND</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="TPS79328-EP" description="200mA UltraLow-Noise, High-Precision, Fast RF, Low Drop-out Voltage Regualtor, Fixed Output 2.8V, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D6D65C2</tstamp>
+    </comp>
+    <comp ref="C50">
+      <value>GRM155R61A104KA01J</value>
+      <footprint>.Capacitor:C_0402_1005Metric_L</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/murata-electronics/GRM155R61A104KA01J/490-6297-2-ND/2610841</datasheet>
+      <fields>
+        <field name="Description">0.1µF ±10% 10V Ceramic Capacitor X5R 0402 (1005 Metric)</field>
+        <field name="DigikeyPN">490-6297-1-ND</field>
+        <field name="Note">0.1uF 0402</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="C_Small-.Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D6E1BC9</tstamp>
+    </comp>
+    <comp ref="C54">
+      <value>GRM155R71C103KA01J</value>
+      <footprint>.Capacitor:C_0402_1005Metric_L</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/murata-electronics/GRM155R71C103KA01J/490-6326-2-ND/2610890</datasheet>
+      <fields>
+        <field name="Description">10000pF ±10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)</field>
+        <field name="DigikeyPN">490-6326-1-ND</field>
+        <field name="Note">10nF 0402</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="C_Small-.Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D6F17F4</tstamp>
+    </comp>
+    <comp ref="C55">
+      <value>GRM155R60J106ME15D</value>
+      <footprint>.Capacitor:C_0402_1005Metric_L</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R60J106ME15-01.pdf</datasheet>
+      <fields>
+        <field name="Description">10µF ±20% 6.3V Ceramic Capacitor X5R 0402 (1005 Metric)</field>
+        <field name="DigikeyPN">490-13238-1-ND</field>
+        <field name="Note">10uF 0402</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="C_Small-.Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D7094F6</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>VLMS1500-GS08</value>
+      <footprint>.LED:LED_SC80X160X65L40L</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/vishay-semiconductor-opto-division/VLMS1500-GS08/VLMS1500-GS08CT-ND/3504675</datasheet>
+      <fields>
+        <field name="Description">Red 631nm LED Indication - Discrete 2V 0402 (1005 Metric)</field>
+        <field name="DigikeyPN">VLMS1500-GS08CT-ND</field>
+        <field name="Note">RED</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="LED_Small_ALT-.Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D71A3FD</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>ERJ-2RKF4990X </value>
+      <footprint>.Resistor:R_0402_1005Metric_ERJ_L</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-2GEJ501X/ERJ-2GEJ501X-ND/6049450</datasheet>
+      <fields>
+        <field name="Description">	RES SMD 500 OHM 5% 1/10W 0402</field>
+        <field name="DigikeyPN">P499LCT-ND</field>
+        <field name="Note">500 0402</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="R_Small_US-.Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D71BFEE</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>LTC3218</value>
+      <footprint>.Package_SON:SON_11_P50_300X200X80L40X25T239X64L</footprint>
+      <datasheet>http://www.linear.com/docs/19518</datasheet>
+      <fields>
+        <field name="Description">IC LED DRIVER RGLTR 150MA 10DFN</field>
+        <field name="DigikeyPN">NA</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="LTC3218-.Driver_LED-MS_v4_ETL_LED_Driver-rescue-MS_v4_ETL_LED_Driver-rescue-MS_v4_ETL_LED_Driver-rescue-MS_v4_ETL_LED_Driver_v2-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C18A1DE</tstamp>
+    </comp>
+    <comp ref="C34">
+      <value>GRM033R61A225ME47D</value>
+      <footprint>.Capacitor:C_0201_0603Metric_L</footprint>
+      <datasheet>http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R61A225ME47-01.pdf</datasheet>
+      <fields>
+        <field name="Description">2.2µF ±20% 10V Ceramic Capacitor X5R 0201 (0603 Metric)</field>
+        <field name="DigikeyPN">490-13228-1-ND</field>
+        <field name="Note">2.2uF 0201</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="C_Small-.Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C195649</tstamp>
+    </comp>
+    <comp ref="C45">
+      <value>GRM155R60J475ME47D</value>
+      <footprint>.Capacitor:C_0402_1005Metric_L</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/murata-electronics/GRM155R60J475ME87D/490-5408-1-ND/2175215</datasheet>
+      <fields>
+        <field name="Description">4.7µF ±20% 6.3V Ceramic Capacitor X5R 0402 (1005 Metric)</field>
+        <field name="DigikeyPN">490-5915-1-ND</field>
+        <field name="Note">4.7uF 0402</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="C_Small-.Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C1958AD</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>DNL</value>
+      <footprint>.Resistor:R_0201_0603Metric_ERJ_L</footprint>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="ERJ-1GEF1022C-.Resistor-MS_v4_ETL_LED_Driver_v2-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C6EE01E</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>DNL</value>
+      <footprint>.Resistor:R_0201_0603Metric_ERJ_L</footprint>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="ERJ-1GEF1022C-.Resistor-MS_v4_ETL_LED_Driver_v2-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C6EE157</tstamp>
+    </comp>
+    <comp ref="C52">
+      <value>GRM033R61A104ME15D</value>
+      <footprint>.Capacitor:C_0201_0603Metric_L</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/murata-electronics/GRM033R61A104ME15D/490-5405-2-ND/2175191</datasheet>
+      <fields>
+        <field name="Description">0.1µF ±20% 10V Ceramic Capacitor X5R 0201 (0603 Metric)</field>
+        <field name="DigikeyPN">490-5405-1-ND</field>
+        <field name="Note">0.1uF 0201</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="C_Small-.Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C6FB71E</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>LTC3218</value>
+      <footprint>.Package_SON:SON_11_P50_300X200X80L40X25T239X64L</footprint>
+      <datasheet>http://www.linear.com/docs/19518</datasheet>
+      <fields>
+        <field name="Description">IC LED DRIVER RGLTR 150MA 10DFN</field>
+        <field name="DigikeyPN">NA</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="LTC3218-.Driver_LED-MS_v4_ETL_LED_Driver-rescue-MS_v4_ETL_LED_Driver-rescue-MS_v4_ETL_LED_Driver-rescue-MS_v4_ETL_LED_Driver_v2-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D02BC5D</tstamp>
+    </comp>
+    <comp ref="C47">
+      <value>GRM033R61A225ME47D</value>
+      <footprint>.Capacitor:C_0201_0603Metric_L</footprint>
+      <datasheet>http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R61A225ME47-01.pdf</datasheet>
+      <fields>
+        <field name="Description">2.2µF ±20% 10V Ceramic Capacitor X5R 0201 (0603 Metric)</field>
+        <field name="DigikeyPN">490-13228-1-ND</field>
+        <field name="Note">2.2uF 0201</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="GRM033R61A225ME47D-.Capacitor-MS_v4_ETL_LED_Driver_v2-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D02BC65</tstamp>
+    </comp>
+    <comp ref="C48">
+      <value>GRM033R61A225ME47D</value>
+      <footprint>.Capacitor:C_0201_0603Metric_L</footprint>
+      <datasheet>http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R61A225ME47-01.pdf</datasheet>
+      <fields>
+        <field name="Description">2.2µF ±20% 10V Ceramic Capacitor X5R 0201 (0603 Metric)</field>
+        <field name="DigikeyPN">490-13228-1-ND</field>
+        <field name="Note">2.2uF 0201</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="GRM033R61A225ME47D-.Capacitor-MS_v4_ETL_LED_Driver_v2-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D02BC6D</tstamp>
+    </comp>
+    <comp ref="C51">
+      <value>GRM155R60J475ME47D</value>
+      <footprint>.Capacitor:C_0402_1005Metric_L</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/murata-electronics/GRM155R60J475ME87D/490-5408-1-ND/2175215</datasheet>
+      <fields>
+        <field name="Description">4.7µF ±20% 6.3V Ceramic Capacitor X5R 0402 (1005 Metric)</field>
+        <field name="DigikeyPN">490-5915-1-ND</field>
+        <field name="Note">4.7uF 0402</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="GRM155R60J475ME87D-.Capacitor-MS_v4_ETL_LED_Driver_v2-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D02BC75</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>LXZ1-PB01</value>
+      <footprint>.LED:LED_LXZ1_PR01_L</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/lumileds/LXZ1-PB01/1416-1052-2-ND/3961275</datasheet>
+      <fields>
+        <field name="Description"> 	LED Lighting Color LUXEON Z Lime 568nm (566nm ~ 569nm) 0705 (1713 Metric) </field>
+        <field name="DigikeyPN">1416-1052-1-ND</field>
+        <field name="Note">LED LUXEON Z RYL Blue</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="LXZ1-PR01-.LED-MS_v4_ETL_LED_Driver_v2-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D02BCA5</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>ERJ-1GNF1022C</value>
+      <footprint>.Resistor:R_0201_0603Metric_ERJ_L</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-1GEF1022C/P10-2KABCT-ND/1467562</datasheet>
+      <fields>
+        <field name="Description">10.2 kOhms ±1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric) Automotive AEC-Q200 Thick Film</field>
+        <field name="DigikeyPN">ERJ-1GNF1022C</field>
+        <field name="Note">10.2k 0201</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="ERJ-1GEF1022C-.Resistor-MS_v4_ETL_LED_Driver_v2-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D02BCB7</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>ERJ-1GNF6201C</value>
+      <footprint>.Resistor:R_0201_0603Metric_ERJ_L</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-1GNJ622C/P123354CT-ND/8343647</datasheet>
+      <fields>
+        <field name="Description">6.2 kOhms ±1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric) Automotive AEC-Q200 Thick Film</field>
+        <field name="DigikeyPN">P123105CT-ND</field>
+        <field name="Note">6.2k 0201</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="ERJ-1GEF1022C-.Resistor-MS_v4_ETL_LED_Driver_v2-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D034890</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>ERJ-1GNF3741C</value>
+      <footprint>.Resistor:R_0201_0603Metric_ERJ_L</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-1GNF3741C/P122972CT-ND/8342883</datasheet>
+      <fields>
+        <field name="Description">3.74 kOhms ±1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric)  Thick Film</field>
+        <field name="DigikeyPN">P122972CT-ND</field>
+        <field name="Note">3.74k 0201</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="ERJ-1GEF1022C-.Resistor-MS_v4_ETL_LED_Driver_v2-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D07CC2E</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>ERJ-1GNF3741C</value>
+      <footprint>.Resistor:R_0201_0603Metric_ERJ_L</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-1GNF3741C/P122972CT-ND/8342883</datasheet>
+      <fields>
+        <field name="Description">3.74 kOhms ±1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric)  Thick Film</field>
+        <field name="DigikeyPN">P122972CT-ND</field>
+        <field name="Note">3.74k 0201</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="ERJ-1GEF1022C-.Resistor-MS_v4_ETL_LED_Driver_v2-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D031D7C</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>ERJ-1GNF6201C</value>
+      <footprint>.Resistor:R_0201_0603Metric_ERJ_L</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-1GNJ622C/P123354CT-ND/8343647</datasheet>
+      <fields>
+        <field name="Description">6.2 kOhms ±1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric) Automotive AEC-Q200 Thick Film</field>
+        <field name="DigikeyPN">P123105CT-ND</field>
+        <field name="Note">6.2k 0201</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="ERJ-1GEF1022C-.Resistor-MS_v4_ETL_LED_Driver_v2-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D0314EF</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>LXZ1-PB01</value>
+      <footprint>.LED:LED_LXZ1_PR01_L</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/lumileds/LXZ1-PB01/1416-1052-2-ND/3961275</datasheet>
+      <fields>
+        <field name="Description"> 	LED Lighting Color LUXEON Z Lime 568nm (566nm ~ 569nm) 0705 (1713 Metric) </field>
+        <field name="DigikeyPN">1416-1052-1-ND</field>
+        <field name="Note">LED LUXEON Z RYL Blue</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="LXZ1-PR01-.LED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DBAF281</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>TLV7103318DSER</value>
+      <footprint>.Package_SON:SON_6_P50_150X150X80L50X25L</footprint>
+      <datasheet>https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftlv710</datasheet>
+      <fields>
+        <field name="Description">Linear Voltage Regulator IC  2 Output  200mA 6-WSON (1.5x1.5)</field>
+        <field name="DigikeyPN">296-46453-1-ND</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="TLV7103318DSER-.Regulator_Linear" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9C8E9A</tstamp>
+    </comp>
+    <comp ref="L3">
+      <value>ADL3225V-470MT-TL000</value>
+      <footprint>.Inductor:L_1210_3225Metric_L</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/tdk-corporation/ADL3225V-470MT-TL000/445-174611-1-ND/6193006</datasheet>
+      <fields>
+        <field name="Description">47µH Unshielded Wirewound Inductor 500mA 900mOhm Max 1210 (3225 Metric)</field>
+        <field name="DigikeyPN">445-174611-1-ND</field>
+        <field name="Note">47uH</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="ADL3225V-470MT-TL000-.Inductor-Siminiscope-Ser-Pow-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9C9416</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>GRM155R60J106ME15D</value>
+      <footprint>.Capacitor:C_0402_1005Metric_L</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R60J106ME15-01.pdf</datasheet>
+      <fields>
+        <field name="Description">10µF ±20% 6.3V Ceramic Capacitor X5R 0402 (1005 Metric)</field>
+        <field name="DigikeyPN">490-13238-1-ND</field>
+        <field name="Note">10uF 0402</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="C_Small-.Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F24DC</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>GRM155R60J106ME15D</value>
+      <footprint>.Capacitor:C_0402_1005Metric_L</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R60J106ME15-01.pdf</datasheet>
+      <fields>
+        <field name="Description">10µF ±20% 6.3V Ceramic Capacitor X5R 0402 (1005 Metric)</field>
+        <field name="DigikeyPN">490-13238-1-ND</field>
+        <field name="Note">10uF 0402</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="C_Small-.Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9F29F6</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>DS90UB913ATRTVTQ1</value>
+      <footprint>.Package_QFN:QFN_33_P50_500X500X80L40X24T310L</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/ds90ub913a-q1.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&amp;ts=1595289439678</datasheet>
+      <fields>
+        <field name="Description">1.4Gbps Serializer 12 Input 1 Output 32-WQFN (5x5)</field>
+        <field name="DigikeyPN">296-37226-1-ND</field>
+        <field name="Note">Serializer 913A</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="DS90UB933-Q1-.SERDES" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9C800D</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>ERJ-1GNF49R9C</value>
+      <footprint>.Resistor:R_0201_0603Metric_ERJ_L</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-1GNF49R9C/P123049CT-ND/8343037</datasheet>
+      <fields>
+        <field name="Description">49.9 Ohms ±1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric) Automotive AEC-Q200 Thick Film</field>
+        <field name="DigikeyPN">P123049CT-ND</field>
+        <field name="Note">49.9 0201</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CD10FE2</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>ERJ-1GNF1022C</value>
+      <footprint>.Resistor:R_0201_0603Metric_ERJ_L</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-1GEF1022C/P10-2KABCT-ND/1467562</datasheet>
+      <fields>
+        <field name="Description">10.2 kOhms ±1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric) Automotive AEC-Q200 Thick Film</field>
+        <field name="DigikeyPN">ERJ-1GNF1022C</field>
+        <field name="Note">10.2k 0201</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CDD6D1F</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value> ERJ-1RHD1003C</value>
+      <footprint>.Resistor:R_0201_0603Metric_ERJ_L</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-1GNF1003C/P122655CT-ND/8342249</datasheet>
+      <fields>
+        <field name="Description">100 kOhms ±0.5% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric)  Thick Film</field>
+        <field name="DigikeyPN">P15981TR-ND</field>
+        <field name="Note">100k 0201</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CDD7569</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>ERJ-1GNF1022C</value>
+      <footprint>.Resistor:R_0201_0603Metric_ERJ_L</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-1GEF1022C/P10-2KABCT-ND/1467562</datasheet>
+      <fields>
+        <field name="Description">10.2 kOhms ±1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric) Automotive AEC-Q200 Thick Film</field>
+        <field name="DigikeyPN">ERJ-1GNF1022C</field>
+        <field name="Note">10.2k 0201</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CDF8F0F</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>GRM033R61A105ME15D</value>
+      <footprint>.Resistor:R_0201_0603Metric_ERJ_L</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/murata-electronics/GRM033R61A105ME15D/490-13226-1-ND/5877434</datasheet>
+      <fields>
+        <field name="Description">1µF ±20% 10V Ceramic Capacitor X5R 0201 (0603 Metric)</field>
+        <field name="DigikeyPN">490-13226-1-ND</field>
+        <field name="Note">1uF 0201</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CE02949</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>ERJ-1GNF3321C</value>
+      <footprint>.Resistor:R_0201_0603Metric_ERJ_L</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-1GNF3321C/P122941CT-ND/8342821</datasheet>
+      <fields>
+        <field name="Description">3.32 kOhms ±1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric)  Thick Film</field>
+        <field name="DigikeyPN">P3.32KABCT-ND</field>
+        <field name="Note">3.32k 0201</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CE13D55</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>ERJ-1GNF3321C</value>
+      <footprint>.Resistor:R_0201_0603Metric_ERJ_L</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-1GNF3321C/P122941CT-ND/8342821</datasheet>
+      <fields>
+        <field name="Description">3.32 kOhms ±1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric)  Thick Film</field>
+        <field name="DigikeyPN">P3.32KABCT-ND</field>
+        <field name="Note">3.32k 0201</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CE143F7</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>GRM033R61A104ME15D</value>
+      <footprint>.Capacitor:C_0201_0603Metric_L</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/murata-electronics/GRM033R61A104ME15D/490-5405-2-ND/2175191</datasheet>
+      <fields>
+        <field name="Description">0.1µF ±20% 10V Ceramic Capacitor X5R 0201 (0603 Metric)</field>
+        <field name="DigikeyPN">490-5405-1-ND</field>
+        <field name="Note">0.1uF 0201</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="C_Small-.Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CDDD576</tstamp>
+    </comp>
+    <comp ref="L2">
+      <value>BLM15HD102SN1D</value>
+      <footprint>Inductor_SMD:L_0402_1005Metric</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/murata-electronics/BLM15HD102SN1D/490-4003-1-ND/1016263</datasheet>
+      <fields>
+        <field name="Description">1 kOhms @ 100MHz 1 Signal Line Ferrite Bead 0402 (1005 Metric) 250mA 1.25Ohm</field>
+        <field name="DigikeyPN">490-4003-1-ND</field>
+        <field name="Note">1000ohm</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="L_Small-.Device-Siminiscope-Ser-Pow-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CDF30FD</tstamp>
+    </comp>
+    <comp ref="L4">
+      <value>BLM15HD102SN1D</value>
+      <footprint>Inductor_SMD:L_0402_1005Metric</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/murata-electronics/BLM15HD102SN1D/490-4003-1-ND/1016263</datasheet>
+      <fields>
+        <field name="Description">1 kOhms @ 100MHz 1 Signal Line Ferrite Bead 0402 (1005 Metric) 250mA 1.25Ohm</field>
+        <field name="DigikeyPN">490-4003-1-ND</field>
+        <field name="Note">1000ohm</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="LQM18PN3R3MGHD-.Inductor" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CDF9985</tstamp>
+    </comp>
+    <comp ref="L5">
+      <value>BLM15HD102SN1D</value>
+      <footprint>Inductor_SMD:L_0402_1005Metric</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/murata-electronics/BLM15HD102SN1D/490-4003-1-ND/1016263</datasheet>
+      <fields>
+        <field name="Description">1 kOhms @ 100MHz 1 Signal Line Ferrite Bead 0402 (1005 Metric) 250mA 1.25Ohm</field>
+        <field name="DigikeyPN">490-4003-1-ND</field>
+        <field name="Note">1000ohm</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="LQM18PN3R3MGHD-.Inductor" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CE054AE</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>GRM033R61A105ME15D</value>
+      <footprint>.Capacitor:C_0201_0603Metric_L</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/murata-electronics/GRM033R61A105ME15D/490-13226-1-ND/5877434</datasheet>
+      <fields>
+        <field name="Description">1µF ±20% 10V Ceramic Capacitor X5R 0201 (0603 Metric)</field>
+        <field name="DigikeyPN">490-13226-1-ND</field>
+        <field name="Note">1uF 0201</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="C_Small-.Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CE194B8</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>GRM033R61A105ME15D</value>
+      <footprint>.Capacitor:C_0201_0603Metric_L</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/murata-electronics/GRM033R61A105ME15D/490-13226-1-ND/5877434</datasheet>
+      <fields>
+        <field name="Description">1µF ±20% 10V Ceramic Capacitor X5R 0201 (0603 Metric)</field>
+        <field name="DigikeyPN">490-13226-1-ND</field>
+        <field name="Note">1uF 0201</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="C_Small-.Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CE1FE72</tstamp>
+    </comp>
+    <comp ref="C25">
+      <value>GRM033R61A105ME15D</value>
+      <footprint>.Capacitor:C_0201_0603Metric_L</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/murata-electronics/GRM033R61A105ME15D/490-13226-1-ND/5877434</datasheet>
+      <fields>
+        <field name="Description">1µF ±20% 10V Ceramic Capacitor X5R 0201 (0603 Metric)</field>
+        <field name="DigikeyPN">490-13226-1-ND</field>
+        <field name="Note">1uF 0201</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="C_Small-.Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CE2B3FE</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>GRM155R60J475ME47D</value>
+      <footprint>.Capacitor:C_0402_1005Metric_L</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/murata-electronics/GRM155R60J475ME87D/490-5408-1-ND/2175215</datasheet>
+      <fields>
+        <field name="Description">4.7µF ±20% 6.3V Ceramic Capacitor X5R 0402 (1005 Metric)</field>
+        <field name="DigikeyPN">490-5915-1-ND</field>
+        <field name="Note">4.7uF 0402</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="C_Small-.Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CE38628</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>GRM033R61A104ME15D</value>
+      <footprint>.Capacitor:C_0201_0603Metric_L</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/murata-electronics/GRM033R61A104ME15D/490-5405-2-ND/2175191</datasheet>
+      <fields>
+        <field name="Description">0.1µF ±20% 10V Ceramic Capacitor X5R 0201 (0603 Metric)</field>
+        <field name="DigikeyPN">490-5405-1-ND</field>
+        <field name="Note">0.1uF 0201</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="C_Small-.Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CE38BE5</tstamp>
+    </comp>
+    <comp ref="C26">
+      <value>GRM033R71A103KA01D</value>
+      <footprint>.Capacitor:C_0201_0603Metric_L</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/murata-electronics/GRM033R71A103KA01D/490-3194-2-ND/702460</datasheet>
+      <fields>
+        <field name="Description">10000pF ±10% 10V Ceramic Capacitor X7R 0201 (0603 Metric)</field>
+        <field name="DigikeyPN">490-3194-1-ND</field>
+        <field name="Note">10nF 0201</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="C_Small-.Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CE39151</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>GRM155R60J475ME47D</value>
+      <footprint>.Capacitor:C_0402_1005Metric_L</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/murata-electronics/GRM155R60J475ME87D/490-5408-1-ND/2175215</datasheet>
+      <fields>
+        <field name="Description">4.7µF ±20% 6.3V Ceramic Capacitor X5R 0402 (1005 Metric)</field>
+        <field name="DigikeyPN">490-5915-1-ND</field>
+        <field name="Note">4.7uF 0402</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="C_Small-.Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CE422D4</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>GRM033R61A104ME15D</value>
+      <footprint>.Capacitor:C_0201_0603Metric_L</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/murata-electronics/GRM033R61A104ME15D/490-5405-2-ND/2175191</datasheet>
+      <fields>
+        <field name="Description">0.1µF ±20% 10V Ceramic Capacitor X5R 0201 (0603 Metric)</field>
+        <field name="DigikeyPN">490-5405-1-ND</field>
+        <field name="Note">0.1uF 0201</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="C_Small-.Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CE422DC</tstamp>
+    </comp>
+    <comp ref="C27">
+      <value>GRM033R71A103KA01D</value>
+      <footprint>.Capacitor:C_0201_0603Metric_L</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/murata-electronics/GRM033R71A103KA01D/490-3194-2-ND/702460</datasheet>
+      <fields>
+        <field name="Description">10000pF ±10% 10V Ceramic Capacitor X7R 0201 (0603 Metric)</field>
+        <field name="DigikeyPN">490-3194-1-ND</field>
+        <field name="Note">10nF 0201</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="C_Small-.Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CE422E4</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>GRM033R61A104ME15D</value>
+      <footprint>.Capacitor:C_0201_0603Metric_L</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/murata-electronics/GRM033R61A104ME15D/490-5405-2-ND/2175191</datasheet>
+      <fields>
+        <field name="Description">0.1µF ±20% 10V Ceramic Capacitor X5R 0201 (0603 Metric)</field>
+        <field name="DigikeyPN">490-5405-1-ND</field>
+        <field name="Note">0.1uF 0201</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="C_Small-.Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CE723F9</tstamp>
+    </comp>
+    <comp ref="C28">
+      <value>GRM033R71A103KA01D</value>
+      <footprint>.Capacitor:C_0201_0603Metric_L</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/murata-electronics/GRM033R71A103KA01D/490-3194-2-ND/702460</datasheet>
+      <fields>
+        <field name="Description">10000pF ±10% 10V Ceramic Capacitor X7R 0201 (0603 Metric)</field>
+        <field name="DigikeyPN">490-3194-1-ND</field>
+        <field name="Note">10nF 0201</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="C_Small-.Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CE72401</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>GRM155R60J106ME15D</value>
+      <footprint>.Capacitor:C_0402_1005Metric_L</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R60J106ME15-01.pdf</datasheet>
+      <fields>
+        <field name="Description">10µF ±20% 6.3V Ceramic Capacitor X5R 0402 (1005 Metric)</field>
+        <field name="DigikeyPN">490-13238-1-ND</field>
+        <field name="Note">10uF 0402</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="C_Small-.Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CE8B6F7</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>GRM033R61A104ME15D</value>
+      <footprint>.Capacitor:C_0201_0603Metric_L</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/murata-electronics/GRM033R61A104ME15D/490-5405-2-ND/2175191</datasheet>
+      <fields>
+        <field name="Description">0.1µF ±20% 10V Ceramic Capacitor X5R 0201 (0603 Metric)</field>
+        <field name="DigikeyPN">490-5405-1-ND</field>
+        <field name="Note">0.1uF 0201</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="C_Small-.Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CE9F62C</tstamp>
+    </comp>
+    <comp ref="C29">
+      <value>GRM033R71A103KA01D</value>
+      <footprint>.Capacitor:C_0201_0603Metric_L</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/murata-electronics/GRM033R71A103KA01D/490-3194-2-ND/702460</datasheet>
+      <fields>
+        <field name="Description">10000pF ±10% 10V Ceramic Capacitor X7R 0201 (0603 Metric)</field>
+        <field name="DigikeyPN">490-3194-1-ND</field>
+        <field name="Note">10nF 0201</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="C_Small-.Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CE9F634</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>GRM033R61A104ME15D</value>
+      <footprint>.Capacitor:C_0201_0603Metric_L</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/murata-electronics/GRM033R61A104ME15D/490-5405-2-ND/2175191</datasheet>
+      <fields>
+        <field name="Description">0.1µF ±20% 10V Ceramic Capacitor X5R 0201 (0603 Metric)</field>
+        <field name="DigikeyPN">490-5405-1-ND</field>
+        <field name="Note">0.1uF 0201</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="C_Small-.Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CECD12D</tstamp>
+    </comp>
+    <comp ref="C30">
+      <value>GRM033R71A103KA01D</value>
+      <footprint>.Capacitor:C_0201_0603Metric_L</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/murata-electronics/GRM033R71A103KA01D/490-3194-2-ND/702460</datasheet>
+      <fields>
+        <field name="Description">10000pF ±10% 10V Ceramic Capacitor X7R 0201 (0603 Metric)</field>
+        <field name="DigikeyPN">490-3194-1-ND</field>
+        <field name="Note">10nF 0201</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="C_Small-.Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CECD135</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>ERJ-1GNF1801C</value>
+      <footprint>.Resistor:R_0201_0603Metric_ERJ_L</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-1GNF1801C/P122788CT-ND/8342515</datasheet>
+      <fields>
+        <field name="Description">1.8 kOhms ±1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric) Automotive AEC-Q200 Thick Film</field>
+        <field name="DigikeyPN">P122788CT-ND</field>
+        <field name="Note">1.8k 0201</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="R_Small_US-.Device-Siminiscope-Ser-Pow-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF1329C</tstamp>
+    </comp>
+    <comp ref="J_extra1">
+      <value>Conn_01x05</value>
+      <footprint>.Connector:B2B_Flex_05_Dual_Row_38milx24mil_Pad_20mil_copy</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">DNL</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CD3BA19</tstamp>
+    </comp>
+    <comp ref="J_extra2">
+      <value>Conn_01x05</value>
+      <footprint>.Connector:B2B_Flex_05_Dual_Row_38milx24mil_Pad_20mil_copy</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">DNL</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CD3C6CC</tstamp>
+    </comp>
+    <comp ref="J_coax_gnd1">
+      <value>Conn_01x01</value>
+      <footprint>.Connector:Conn_1x1_100x100_Pad</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">DNL</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="Conn_01x01-.Connector-Siminiscope-Ser-Pow-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CD10A6F</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>GRM21BR61A476ME15L</value>
+      <footprint>.Capacitor:C_0805_2012Metric_L</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/murata-electronics/GRM21BR61A476ME15L/490-9961-1-ND/5026442</datasheet>
+      <fields>
+        <field name="Description">47µF ±20% 10V Ceramic Capacitor X5R 0805 (2012 Metric)</field>
+        <field name="DigikeyPN">490-9961-1-ND</field>
+        <field name="Note">47uF 0805</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="C_Small-.Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D81FF01</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>ERJ-1GNF3321C</value>
+      <footprint>.Resistor:R_0201_0603Metric_ERJ_L</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-1GNF3321C/P122941CT-ND/8342821</datasheet>
+      <fields>
+        <field name="Description">3.32 kOhms ±1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric)  Thick Film</field>
+        <field name="DigikeyPN">P3.32KABCT-ND</field>
+        <field name="Note">3.32k 0201</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="R_Small_US-.Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EC9606A</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>ERJ-1GNF3321C</value>
+      <footprint>.Resistor:R_0201_0603Metric_ERJ_L</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-1GNF3321C/P122941CT-ND/8342821</datasheet>
+      <fields>
+        <field name="Description">3.32 kOhms ±1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric)  Thick Film</field>
+        <field name="DigikeyPN">P3.32KABCT-ND</field>
+        <field name="Note">3.32k 0201</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="R_Small_US-.Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EC96069</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>TPL0102-100RUCR</value>
+      <footprint>.Package_QFN:QFN_14_P40_200X200X40L40X20L</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tpl0102-100.pdf</datasheet>
+      <fields>
+        <field name="Description">Digital Potentiometer 100k Ohm 2 Circuit 256 Taps I²C Interface 14-QFN (2x2)</field>
+        <field name="DigikeyPN">296-28379-1-ND</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="TPL0102-100RUCR-.Potentiometer-MS_v4_ETL_LED_Driver_v2-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C189F4C</tstamp>
+    </comp>
+    <comp ref="C53">
+      <value>GRM033R61A104ME15D</value>
+      <footprint>.Capacitor:C_0201_0603Metric_L</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/murata-electronics/GRM033R61A104ME15D/490-5405-2-ND/2175191</datasheet>
+      <fields>
+        <field name="Description">0.1µF ±20% 10V Ceramic Capacitor X5R 0201 (0603 Metric)</field>
+        <field name="DigikeyPN">490-5405-1-ND</field>
+        <field name="Note">0.1uF 0201</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="C_Small-.Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F74F101</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>ERJ-1GNF1022C</value>
+      <footprint>.Resistor:R_0201_0603Metric_ERJ_L</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-1GEF1022C/P10-2KABCT-ND/1467562</datasheet>
+      <fields>
+        <field name="Description">10.2 kOhms ±1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric) Automotive AEC-Q200 Thick Film</field>
+        <field name="DigikeyPN">ERJ-1GNF1022C</field>
+        <field name="Note">10.2k 0201</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="ERJ-1GEF1022C-.Resistor-MS_v4_ETL_LED_Driver_v2-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F975983</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>.Connector:Conn_1x1_700_Circular_Pad</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">DNL</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F19916A</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>.Connector:Conn_1x1_700_Circular_Pad</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">DNL</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F19AFE9</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>.Connector:Conn_1x1_700_Circular_Pad</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">DNL</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F19C1A8</tstamp>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>.Connector:Conn_1x1_700_Circular_Pad</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">DNL</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F19D25C</tstamp>
+    </comp>
+    <comp ref="H5">
+      <value>MountingHole</value>
+      <footprint>.Connector:Conn_1x1_700_Circular_Pad</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">DNL</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F19E587</tstamp>
+    </comp>
+    <comp ref="H7">
+      <value>MountingHole</value>
+      <footprint>.Connector:Conn_1x1_700_Circular_Pad</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">DNL</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F1A02EC</tstamp>
+    </comp>
+    <comp ref="H6">
+      <value>MountingHole</value>
+      <footprint>.Connector:Conn_1x1_700_Circular_Pad</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">DNL</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F1A14C0</tstamp>
+    </comp>
+    <comp ref="C35">
+      <value>GRM155R61A104KA01J</value>
+      <footprint>.Capacitor:C_0402_1005Metric_L</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/murata-electronics/GRM155R61A104KA01J/490-6297-2-ND/2610841</datasheet>
+      <fields>
+        <field name="Description">0.1µF ±10% 10V Ceramic Capacitor X5R 0402 (1005 Metric)</field>
+        <field name="DigikeyPN">490-6297-1-ND</field>
+        <field name="Note">0.1uF 0402</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="C_Small-.Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D6B1507</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>GRM033R61C473KE84D</value>
+      <footprint>.Capacitor:C_0201_0603Metric_L</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/murata-electronics/GRM033R61C473KE84D/490-7227-1-ND/4213266</datasheet>
+      <fields>
+        <field name="Description">0.047µF ±10% 16V Ceramic Capacitor X5R 0201 (0603 Metric)</field>
+        <field name="DigikeyPN">490-7227-1-ND</field>
+        <field name="Note">0.047uF 0201</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CD1026D</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>MT9P031I12STM-DP</value>
+      <footprint>.Package_LCC:iLCC48P70_1000X1000X135L80X40N</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/MT9P031-D.PDF</datasheet>
+      <fields>
+        <field name="Description">	SENSOR IMAGE 5MP MONO CMOS 48LCC</field>
+        <field name="DigikeyPN">488-MT9P031I12STM-DP-ND</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="MT9P031-.Image_Sensor" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D680E30</tstamp>
+    </comp>
+    <comp ref="C39">
+      <value>GRM033R61A225ME47D</value>
+      <footprint>.Capacitor:C_0201_0603Metric_L</footprint>
+      <datasheet>http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R61A225ME47-01.pdf</datasheet>
+      <fields>
+        <field name="Description">2.2µF ±20% 10V Ceramic Capacitor X5R 0201 (0603 Metric)</field>
+        <field name="DigikeyPN">490-13228-1-ND</field>
+        <field name="Note">2.2uF 0201</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="C_Small-.Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C1956D5</tstamp>
+    </comp>
+    <comp ref="J_coax1">
+      <value>SMA-J-P-H-RA-TH1</value>
+      <footprint>.Connector:U-FL-R-SMT</footprint>
+      <datasheet>http://suddendocs.samtec.com/catalog_english/sma.pdf</datasheet>
+      <fields>
+        <field name="Description"> 	U.FL (UMCC) Connector Receptacle, Male Pin 50Ohm Surface Mount Solder </field>
+        <field name="DigikeyPN">H11891CT-ND</field>
+        <field name="Note">Hirose U.FL R</field>
+      </fields>
+      <libsource lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="SMA-J-P-H-RA-TH1-.Connector" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F6268F9</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>ERJ-1GN0R00C</value>
+      <footprint>.Resistor:R_0201_0603Metric_ERJ_L</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-1GEF1022C/P10-2KABCT-ND/1467562</datasheet>
+      <fields>
+        <field name="Description">10.2 kOhms ±1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric) Automotive AEC-Q200 Thick Film</field>
+        <field name="DigikeyPN">ERJ-1GNF1022C</field>
+        <field name="Note">10.2k 0201</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61910F9B</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x05">
+      <description>Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x05</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="ADL3225V-470MT-TL000-.Inductor-Siminiscope-Ser-Pow-rescue">
+      <footprints>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">ADL3225V-470MT-TL000-.Inductor-Siminiscope-Ser-Pow-rescue</field>
+        <field name="Footprint">.Inductor:L_1210_3225Metric_L</field>
+        <field name="Note">47uH</field>
+        <field name="Size">1210</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="BAS316-.Diode">
+      <footprints>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+        <fp>SOD?323*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">BAS316-.Diode</field>
+        <field name="Footprint">.Diode:SOD_323_250X125X110L30X32L</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="C" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="BNO055-.IMU">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BNO055-.IMU</field>
+        <field name="Footprint">LGA28R50P4X10_380X520X100</field>
+        <field name="Datasheet">LGA-28 Bosch</field>
+        <field name="Field4">BNO055</field>
+        <field name="Field5">Unavailable</field>
+        <field name="Field6">Bosch</field>
+        <field name="Field7">BNO055 9-axis Absolute Orientation Sensor _ SiP _ w/Sensors and Sensor Fusion</field>
+        <field name="Field8">None</field>
+      </fields>
+      <pins>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="VDD" type="power_in"/>
+        <pin num="4" name="NBOOT_LOAD_PIN" type="BiDi"/>
+        <pin num="5" name="PS1" type="input"/>
+        <pin num="6" name="PS0" type="input"/>
+        <pin num="9" name="CAP" type="passive"/>
+        <pin num="10" name="PIN10" type="power_in"/>
+        <pin num="11" name="NRESET" type="input"/>
+        <pin num="14" name="INT" type="output"/>
+        <pin num="15" name="PIN15" type="power_in"/>
+        <pin num="16" name="PIN16" type="power_in"/>
+        <pin num="17" name="COM3" type="BiDi"/>
+        <pin num="18" name="COM2" type="BiDi"/>
+        <pin num="19" name="COM1" type="BiDi"/>
+        <pin num="20" name="COM0" type="BiDi"/>
+        <pin num="25" name="GNDIO" type="power_in"/>
+        <pin num="26" name="XOUT32" type="output"/>
+        <pin num="27" name="XIN32" type="input"/>
+        <pin num="28" name="VDDIO" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="CL32A476KOJNNNE-.Capacitor">
+      <footprints>
+        <fp>C_0201*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CL32A476KOJNNNE-.Capacitor</field>
+        <field name="Footprint">.Capacitor:C_1210_3225Metric_L</field>
+        <field name="Note">47uF</field>
+        <field name="Size">1210</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="C_Small-.Device">
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small-.Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="Conn_01x01-.Connector">
+      <footprints>
+        <fp>Connector*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01-.Connector</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="Conn_01x01-.Connector-Siminiscope-Ser-Pow-rescue">
+      <footprints>
+        <fp>Connector*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01-.Connector-Siminiscope-Ser-Pow-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="DS90UB933-Q1-.SERDES">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DS90UB933-Q1-.SERDES</field>
+        <field name="Footprint">.Package_QFN:QFN_33_P50_500X500X80L40X24T310L</field>
+      </fields>
+      <pins>
+        <pin num="1" name="HSYNC" type="input"/>
+        <pin num="2" name="VSYNC" type="input"/>
+        <pin num="3" name="PCLK" type="input"/>
+        <pin num="4" name="SCL" type="BiDi"/>
+        <pin num="5" name="SDA" type="BiDi"/>
+        <pin num="6" name="ID[x]" type="BiDi"/>
+        <pin num="7" name="RES" type="BiDi"/>
+        <pin num="8" name="MODE" type="BiDi"/>
+        <pin num="9" name="PDB" type="BiDi"/>
+        <pin num="10" name="VDDPLL" type="power_in"/>
+        <pin num="11" name="VDDT" type="power_in"/>
+        <pin num="12" name="DOUT-" type="BiDi"/>
+        <pin num="13" name="DOUT+" type="BiDi"/>
+        <pin num="14" name="VDDCML" type="power_in"/>
+        <pin num="15" name="GPO[0]" type="output"/>
+        <pin num="16" name="GPO[1]" type="output"/>
+        <pin num="17" name="CPO[2]/CLKOUT" type="output"/>
+        <pin num="18" name="GPO[3]/CLKIN" type="BiDi"/>
+        <pin num="19" name="DIN[0]" type="input"/>
+        <pin num="20" name="DIN[1]" type="input"/>
+        <pin num="21" name="DIN[2]" type="input"/>
+        <pin num="22" name="DIN[3]" type="input"/>
+        <pin num="23" name="DIN[4]" type="input"/>
+        <pin num="24" name="DIN[5]" type="input"/>
+        <pin num="25" name="VDDIO" type="power_in"/>
+        <pin num="26" name="DIN[6]" type="input"/>
+        <pin num="27" name="DIN[7]" type="input"/>
+        <pin num="28" name="VDDD" type="power_in"/>
+        <pin num="29" name="DIN[8]" type="input"/>
+        <pin num="30" name="DIN[9]" type="input"/>
+        <pin num="31" name="DIN[10]" type="input"/>
+        <pin num="32" name="DIN[11]" type="input"/>
+        <pin num="33" name="VSS" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="ERJ-1GEF1022C-.Resistor-MS_v4_ETL_LED_Driver_v2-rescue">
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">ERJ-1GEF1022C-.Resistor-MS_v4_ETL_LED_Driver_v2-rescue</field>
+        <field name="Footprint">.Resistor:R_0201_0603Metric_ERJ_L</field>
+        <field name="Note">10.2K</field>
+        <field name="Size">0201</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="GRM033R61A225ME47D-.Capacitor-MS_v4_ETL_LED_Driver_v2-rescue">
+      <footprints>
+        <fp>C_0201*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">GRM033R61A225ME47D-.Capacitor-MS_v4_ETL_LED_Driver_v2-rescue</field>
+        <field name="Footprint">.Capacitor:C_0201_0603Metric_L</field>
+        <field name="Note">2.2uF</field>
+        <field name="Size">0201</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="GRM155R60J475ME87D-.Capacitor-MS_v4_ETL_LED_Driver_v2-rescue">
+      <footprints>
+        <fp>C_0402*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">GRM155R60J475ME87D-.Capacitor-MS_v4_ETL_LED_Driver_v2-rescue</field>
+        <field name="Footprint">.Capacitor:C_0402_1005Metric_L</field>
+        <field name="Note">4.7uF</field>
+        <field name="Size">0402</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="LED_Small_ALT-.Device">
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_Small_ALT-.Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="LQM18PN3R3MGHD-.Inductor">
+      <footprints>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">LQM18PN3R3MGHD-.Inductor</field>
+        <field name="Footprint">.Inductor:L_0603_1608Metric_L</field>
+        <field name="Note">3.3uH</field>
+        <field name="Size">0603</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="LTC3218-.Driver_LED-MS_v4_ETL_LED_Driver-rescue-MS_v4_ETL_LED_Driver-rescue-MS_v4_ETL_LED_Driver-rescue-MS_v4_ETL_LED_Driver_v2-rescue">
+      <footprints>
+        <fp>SON_11*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LTC3218-.Driver_LED-MS_v4_ETL_LED_Driver-rescue-MS_v4_ETL_LED_Driver-rescue-MS_v4_ETL_LED_Driver-rescue-MS_v4_ETL_LED_Driver_v2-rescue</field>
+        <field name="Footprint">.Package_SON:SON_11_P50_300X200X80L40X25T239X64L</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CP" type="unspc"/>
+        <pin num="2" name="CPO" type="unspc"/>
+        <pin num="3" name="I_LED" type="power_out"/>
+        <pin num="4" name="ENT" type="input"/>
+        <pin num="5" name="I_SETT" type="unspc"/>
+        <pin num="6" name="I_SETF" type="unspc"/>
+        <pin num="7" name="ENF" type="input"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="CM" type="unspc"/>
+        <pin num="10" name="VIN" type="power_in"/>
+        <pin num="11" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="LXZ1-PR01-.LED">
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LXZ1-PR01-.LED</field>
+        <field name="Footprint">.LED:LED_LXZ1_PR01_L</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="C" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="LXZ1-PR01-.LED-MS_v4_ETL_LED_Driver_v2-rescue">
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LXZ1-PR01-.LED-MS_v4_ETL_LED_Driver_v2-rescue</field>
+        <field name="Footprint">.LED:LED_LXZ1_PR01_L</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="C" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="L_Small-.Device-Siminiscope-Ser-Pow-rescue">
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L_Small-.Device-Siminiscope-Ser-Pow-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="MAX14574EWL+-.Driver_ETL">
+      <footprints>
+        <fp>BGA_15*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MAX14574EWL+-.Driver_ETL</field>
+        <field name="Footprint">.Package_BGA:BGA_15_NP50_3X5_155X255X69B31N</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="SDA" type="BiDi"/>
+        <pin num="A2" name="GND" type="power_in"/>
+        <pin num="A3" name="VDD" type="power_in"/>
+        <pin num="A4" name="LX" type="BiDi"/>
+        <pin num="A5" name="PGND" type="power_in"/>
+        <pin num="B1" name="SCL" type="BiDi"/>
+        <pin num="B2" name="EN" type="input"/>
+        <pin num="B3" name="TM1" type="BiDi"/>
+        <pin num="B4" name="TM2" type="BiDi"/>
+        <pin num="B5" name="VH" type="power_out"/>
+        <pin num="C1" name="COM" type="power_out"/>
+        <pin num="C2" name="LL4" type="power_out"/>
+        <pin num="C3" name="LL3" type="power_out"/>
+        <pin num="C4" name="LL2" type="power_out"/>
+        <pin num="C5" name="LL1" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="MT9P031-.Image_Sensor">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MT9P031-.Image_Sensor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VAA_PIX" type="input"/>
+        <pin num="2" name="AGND" type="input"/>
+        <pin num="3" name="TEST" type="input"/>
+        <pin num="4" name="SCLK" type="input"/>
+        <pin num="5" name="SDATA" type="input"/>
+        <pin num="6" name="RSVD" type="input"/>
+        <pin num="7" name="FRAME_VALID" type="input"/>
+        <pin num="8" name="LINE_VALID" type="input"/>
+        <pin num="9" name="STROBE" type="input"/>
+        <pin num="10" name="DGND" type="input"/>
+        <pin num="11" name="VDD_IO" type="input"/>
+        <pin num="12" name="VDD" type="input"/>
+        <pin num="13" name="SADDR" type="input"/>
+        <pin num="14" name="STANDBY_BAR" type="input"/>
+        <pin num="15" name="TRIGGER" type="input"/>
+        <pin num="16" name="REST_BAR" type="input"/>
+        <pin num="17" name="OE" type="input"/>
+        <pin num="20" name="TEST" type="input"/>
+        <pin num="21" name="TEST" type="input"/>
+        <pin num="22" name="AGND" type="input"/>
+        <pin num="23" name="VAA" type="input"/>
+        <pin num="24" name="VAA" type="input"/>
+        <pin num="25" name="VDD_PLL" type="input"/>
+        <pin num="26" name="DGND" type="input"/>
+        <pin num="31" name="EXTCLK" type="input"/>
+        <pin num="32" name="PIXCLK" type="input"/>
+        <pin num="33" name="DOUT0" type="output"/>
+        <pin num="34" name="DOUT1" type="output"/>
+        <pin num="35" name="DOUT2" type="output"/>
+        <pin num="36" name="DOUT3" type="output"/>
+        <pin num="37" name="DOUT4" type="output"/>
+        <pin num="38" name="DOUT5" type="output"/>
+        <pin num="39" name="VDD_IO" type="input"/>
+        <pin num="40" name="DOUT6" type="output"/>
+        <pin num="41" name="DOUT7" type="output"/>
+        <pin num="42" name="DOUT8" type="output"/>
+        <pin num="43" name="DOUT9" type="output"/>
+        <pin num="44" name="DOUT10" type="output"/>
+        <pin num="45" name="DOUT11" type="output"/>
+        <pin num="46" name="DGND" type="input"/>
+        <pin num="47" name="VDD" type="input"/>
+        <pin num="48" name="VAA_PIX" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="R_Small_US-.Device">
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small_US-.Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="R_Small_US-.Device-Siminiscope-Ser-Pow-rescue">
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small_US-.Device-Siminiscope-Ser-Pow-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="SMA-J-P-H-RA-TH1-.Connector">
+      <footprints>
+        <fp>*BNC*</fp>
+        <fp>*SMA*</fp>
+        <fp>*SMB*</fp>
+        <fp>*SMC*</fp>
+        <fp>*Cinch*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">SMA-J-P-H-RA-TH1-.Connector</field>
+        <field name="Footprint">.Connector:SMA-J-P-H-RA-TH1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="In" type="passive"/>
+        <pin num="2" name="Ext" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="SiT_2.5mmx2mm-.Oscillator">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SiT_2.5mmx2mm-.Oscillator</field>
+        <field name="Footprint">.Oscillator:OSC_CC250X200X80L70X75L</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OE/nST/NC" type="input"/>
+        <pin num="2" name="GND" type="input"/>
+        <pin num="3" name="OUT" type="input"/>
+        <pin num="4" name="VDD" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="TLV7103318DSER-.Regulator_Linear">
+      <footprints>
+        <fp>TLV710*</fp>
+        <fp>SON?6*</fp>
+        <fp>TLV711*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TLV7103318DSER-.Regulator_Linear</field>
+        <field name="Footprint">.Package_SON:SON_6_P50_150X150X80L50X25L</field>
+      </fields>
+      <pins>
+        <pin num="1" name="EN1" type="input"/>
+        <pin num="2" name="IN" type="power_in"/>
+        <pin num="3" name="EN2" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="OUT2" type="power_out"/>
+        <pin num="6" name="OUT1" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Kicad_LFOV_RigidFlex_Assembly-rescue" part="TPL0102-100RUCR-.Potentiometer-MS_v4_ETL_LED_Driver_v2-rescue">
+      <footprints>
+        <fp>QFN_14*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPL0102-100RUCR-.Potentiometer-MS_v4_ETL_LED_Driver_v2-rescue</field>
+        <field name="Footprint">.Package_QFN:QFN_14_P40_200X200X40L40X20L</field>
+      </fields>
+      <pins>
+        <pin num="1" name="HA" type="BiDi"/>
+        <pin num="2" name="LA" type="BiDi"/>
+        <pin num="3" name="WA" type="BiDi"/>
+        <pin num="4" name="HB" type="BiDi"/>
+        <pin num="5" name="LB" type="BiDi"/>
+        <pin num="6" name="WB" type="BiDi"/>
+        <pin num="7" name="A2" type="input"/>
+        <pin num="8" name="VSS" type="power_in"/>
+        <pin num="9" name="SDA" type="BiDi"/>
+        <pin num="10" name="SCL" type="input"/>
+        <pin num="11" name="GND" type="power_in"/>
+        <pin num="12" name="A1" type="input"/>
+        <pin num="13" name="A0" type="input"/>
+        <pin num="14" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+      </fields>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="TPS79318-EP">
+      <aliases>
+        <alias>TPS79325-EP</alias>
+        <alias>TPS79328-EP</alias>
+        <alias>TPS793285-EP</alias>
+        <alias>TPS79330-EP</alias>
+        <alias>TPS79333-EP</alias>
+        <alias>TPS793475-EP</alias>
+      </aliases>
+      <description>200mA UltraLow-Noise, High-Precision, Fast RF, Low Drop-out Voltage Regualtor, Fixed Output 1.8V, SOT-23</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tps79333-ep.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS79318-EP</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="BP" type="BiDi"/>
+        <pin num="5" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>D:\Program Files (x86)\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>D:\Program Files (x86)\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Kicad_LFOV_RigidFlex_Assembly-rescue">
+      <uri>I:\Monkey_Miniscope\Monkey_V2\Kicad_Monkey_ChangliangGuo\Kicad_Monkey_2LED_RigidFlex_Assembly_Federico\Siminiscope-master\Kicad_Monkey_2LED_RigidFlex_Assembly\Kicad_Final_V1/Kicad_LFOV_RigidFlex_Assembly-rescue.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>D:\Program Files (x86)\KiCad\share\kicad\library/Mechanical.lib</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>D:\Program Files (x86)\KiCad\share\kicad\library/Regulator_Linear.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="VDDPLL">
+      <node ref="C15" pin="1"/>
+      <node ref="C27" pin="1"/>
+      <node ref="C19" pin="1"/>
+      <node ref="L4" pin="1"/>
+      <node ref="U2" pin="10"/>
+    </net>
+    <net code="2" name="VDDCML">
+      <node ref="L5" pin="1"/>
+      <node ref="U2" pin="14"/>
+      <node ref="C16" pin="1"/>
+      <node ref="C20" pin="1"/>
+      <node ref="C28" pin="1"/>
+    </net>
+    <net code="3" name="VDDIO">
+      <node ref="R17" pin="1"/>
+      <node ref="U6" pin="13"/>
+      <node ref="U6" pin="48"/>
+      <node ref="U6" pin="1"/>
+      <node ref="U10" pin="4"/>
+      <node ref="R12" pin="1"/>
+      <node ref="C49" pin="1"/>
+      <node ref="U2" pin="25"/>
+      <node ref="U6" pin="14"/>
+      <node ref="U6" pin="11"/>
+      <node ref="C35" pin="1"/>
+      <node ref="U6" pin="39"/>
+      <node ref="C29" pin="1"/>
+      <node ref="C21" pin="1"/>
+      <node ref="U6" pin="25"/>
+      <node ref="U6" pin="24"/>
+      <node ref="U6" pin="23"/>
+      <node ref="C43" pin="1"/>
+      <node ref="C55" pin="1"/>
+      <node ref="R7" pin="1"/>
+      <node ref="C44" pin="1"/>
+      <node ref="C46" pin="1"/>
+      <node ref="U9" pin="5"/>
+      <node ref="C37" pin="1"/>
+      <node ref="C42" pin="1"/>
+      <node ref="C40" pin="1"/>
+      <node ref="C32" pin="1"/>
+    </net>
+    <net code="4" name="GND">
+      <node ref="C46" pin="2"/>
+      <node ref="C44" pin="2"/>
+      <node ref="C43" pin="2"/>
+      <node ref="D2" pin="1"/>
+      <node ref="J_coax_gnd1" pin="1"/>
+      <node ref="C40" pin="2"/>
+      <node ref="C37" pin="2"/>
+      <node ref="U10" pin="2"/>
+      <node ref="C32" pin="2"/>
+      <node ref="C42" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C31" pin="2"/>
+      <node ref="U1" pin="A2"/>
+      <node ref="U1" pin="A5"/>
+      <node ref="C28" pin="2"/>
+      <node ref="C55" pin="2"/>
+      <node ref="C20" pin="2"/>
+      <node ref="U9" pin="2"/>
+      <node ref="U6" pin="20"/>
+      <node ref="U6" pin="2"/>
+      <node ref="U6" pin="17"/>
+      <node ref="C50" pin="2"/>
+      <node ref="C54" pin="2"/>
+      <node ref="U6" pin="10"/>
+      <node ref="C35" pin="2"/>
+      <node ref="C22" pin="2"/>
+      <node ref="C30" pin="2"/>
+      <node ref="U8" pin="13"/>
+      <node ref="U8" pin="12"/>
+      <node ref="U8" pin="11"/>
+      <node ref="J_extra2" pin="3"/>
+      <node ref="J_extra1" pin="5"/>
+      <node ref="U8" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="C27" pin="2"/>
+      <node ref="C29" pin="2"/>
+      <node ref="C21" pin="2"/>
+      <node ref="U7" pin="8"/>
+      <node ref="R22" pin="2"/>
+      <node ref="R20" pin="2"/>
+      <node ref="U7" pin="7"/>
+      <node ref="U7" pin="11"/>
+      <node ref="C52" pin="2"/>
+      <node ref="C34" pin="2"/>
+      <node ref="U5" pin="8"/>
+      <node ref="U5" pin="7"/>
+      <node ref="C45" pin="2"/>
+      <node ref="U5" pin="11"/>
+      <node ref="C38" pin="2"/>
+      <node ref="C41" pin="2"/>
+      <node ref="C51" pin="2"/>
+      <node ref="C47" pin="2"/>
+      <node ref="D4" pin="C"/>
+      <node ref="C36" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="U3" pin="6"/>
+      <node ref="U3" pin="5"/>
+      <node ref="U3" pin="25"/>
+      <node ref="C9" pin="1"/>
+      <node ref="U3" pin="2"/>
+      <node ref="C49" pin="2"/>
+      <node ref="U3" pin="18"/>
+      <node ref="C33" pin="2"/>
+      <node ref="C11" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="J4" pin="1"/>
+      <node ref="C6" pin="2"/>
+      <node ref="U3" pin="17"/>
+      <node ref="U3" pin="16"/>
+      <node ref="U3" pin="15"/>
+      <node ref="C53" pin="2"/>
+      <node ref="D3" pin="C"/>
+      <node ref="U4" pin="4"/>
+      <node ref="C18" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="U2" pin="33"/>
+      <node ref="R3" pin="1"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="C23" pin="2"/>
+      <node ref="C25" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="C26" pin="2"/>
+      <node ref="C24" pin="2"/>
+      <node ref="U8" pin="8"/>
+      <node ref="U8" pin="7"/>
+      <node ref="C17" pin="2"/>
+      <node ref="U8" pin="5"/>
+      <node ref="C19" pin="2"/>
+      <node ref="U6" pin="21"/>
+      <node ref="U6" pin="6"/>
+      <node ref="U6" pin="46"/>
+      <node ref="R6" pin="2"/>
+      <node ref="U2" pin="7"/>
+      <node ref="U6" pin="3"/>
+      <node ref="U6" pin="26"/>
+      <node ref="U6" pin="22"/>
+      <node ref="U2" pin="6"/>
+      <node ref="J_coax1" pin="2"/>
+    </net>
+    <net code="5" name="I2C_SCL">
+      <node ref="U3" pin="19"/>
+      <node ref="R2" pin="1"/>
+      <node ref="U2" pin="4"/>
+      <node ref="J_extra2" pin="1"/>
+      <node ref="R15" pin="1"/>
+      <node ref="R4" pin="2"/>
+      <node ref="U8" pin="10"/>
+      <node ref="U1" pin="B1"/>
+      <node ref="U6" pin="4"/>
+    </net>
+    <net code="6" name="I2C_SDA">
+      <node ref="U2" pin="5"/>
+      <node ref="J_extra2" pin="2"/>
+      <node ref="R14" pin="1"/>
+      <node ref="U3" pin="20"/>
+      <node ref="U1" pin="A1"/>
+      <node ref="R8" pin="2"/>
+      <node ref="U6" pin="5"/>
+      <node ref="U8" pin="9"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="7" name="MODE">
+      <node ref="R5" pin="2"/>
+      <node ref="U2" pin="8"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="8" name="VDDD">
+      <node ref="R5" pin="1"/>
+      <node ref="U4" pin="5"/>
+      <node ref="C26" pin="1"/>
+      <node ref="C18" pin="1"/>
+      <node ref="C14" pin="1"/>
+      <node ref="C23" pin="1"/>
+      <node ref="L4" pin="2"/>
+      <node ref="L5" pin="2"/>
+      <node ref="U2" pin="28"/>
+      <node ref="C33" pin="1"/>
+      <node ref="C36" pin="1"/>
+      <node ref="C38" pin="1"/>
+      <node ref="C41" pin="1"/>
+      <node ref="C22" pin="1"/>
+      <node ref="C30" pin="1"/>
+      <node ref="U2" pin="11"/>
+      <node ref="U6" pin="12"/>
+      <node ref="U6" pin="47"/>
+    </net>
+    <net code="9" name="PDB">
+      <node ref="C10" pin="1"/>
+      <node ref="R7" pin="2"/>
+      <node ref="U2" pin="9"/>
+    </net>
+    <net code="10" name="Net-(C8-Pad1)">
+      <node ref="R3" pin="2"/>
+      <node ref="C8" pin="1"/>
+    </net>
+    <net code="11" name="Net-(C8-Pad2)">
+      <node ref="U2" pin="12"/>
+      <node ref="C8" pin="2"/>
+    </net>
+    <net code="12" name="DOUT_P">
+      <node ref="L2" pin="1"/>
+      <node ref="J_coax1" pin="1"/>
+      <node ref="C7" pin="1"/>
+    </net>
+    <net code="13" name="Net-(C7-Pad2)">
+      <node ref="U2" pin="13"/>
+      <node ref="C7" pin="2"/>
+    </net>
+    <net code="14" name="+3V3">
+      <node ref="R9" pin="1"/>
+      <node ref="U3" pin="3"/>
+      <node ref="U3" pin="28"/>
+      <node ref="R19" pin="1"/>
+      <node ref="C9" pin="2"/>
+      <node ref="U4" pin="6"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="R2" pin="2"/>
+      <node ref="R4" pin="1"/>
+      <node ref="C34" pin="1"/>
+      <node ref="U5" pin="10"/>
+      <node ref="C47" pin="1"/>
+      <node ref="R21" pin="1"/>
+      <node ref="J_extra2" pin="5"/>
+      <node ref="J_extra1" pin="4"/>
+      <node ref="R14" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="C12" pin="1"/>
+      <node ref="R15" pin="2"/>
+      <node ref="C25" pin="1"/>
+      <node ref="U8" pin="14"/>
+      <node ref="U7" pin="10"/>
+      <node ref="R8" pin="1"/>
+      <node ref="R10" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="U1" pin="B2"/>
+      <node ref="L1" pin="1"/>
+      <node ref="U1" pin="A3"/>
+    </net>
+    <net code="15" name="DIN5">
+      <node ref="U6" pin="41"/>
+      <node ref="U2" pin="24"/>
+    </net>
+    <net code="16" name="DIN9">
+      <node ref="U2" pin="30"/>
+      <node ref="U6" pin="45"/>
+    </net>
+    <net code="17" name="DIN10">
+      <node ref="U2" pin="31"/>
+      <node ref="J_extra1" pin="1"/>
+    </net>
+    <net code="18" name="DIN11">
+      <node ref="U2" pin="32"/>
+      <node ref="J_extra1" pin="2"/>
+    </net>
+    <net code="19" name="DIN8">
+      <node ref="U6" pin="44"/>
+      <node ref="U2" pin="29"/>
+    </net>
+    <net code="20" name="DIN7">
+      <node ref="U2" pin="27"/>
+      <node ref="U6" pin="43"/>
+    </net>
+    <net code="21" name="DIN6">
+      <node ref="U2" pin="26"/>
+      <node ref="U6" pin="42"/>
+    </net>
+    <net code="22" name="DIN4">
+      <node ref="U2" pin="23"/>
+      <node ref="U6" pin="40"/>
+    </net>
+    <net code="23" name="DIN3">
+      <node ref="U2" pin="22"/>
+      <node ref="U6" pin="38"/>
+    </net>
+    <net code="24" name="DIN2">
+      <node ref="U2" pin="21"/>
+      <node ref="U6" pin="37"/>
+    </net>
+    <net code="25" name="DIN1">
+      <node ref="U2" pin="20"/>
+      <node ref="U6" pin="36"/>
+    </net>
+    <net code="26" name="DIN0">
+      <node ref="U2" pin="19"/>
+      <node ref="U6" pin="35"/>
+    </net>
+    <net code="27" name="FV">
+      <node ref="U2" pin="2"/>
+      <node ref="U6" pin="7"/>
+    </net>
+    <net code="28" name="LV">
+      <node ref="U6" pin="8"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="29" name="+5V">
+      <node ref="R11" pin="1"/>
+      <node ref="C50" pin="1"/>
+      <node ref="J_extra2" pin="4"/>
+      <node ref="U4" pin="1"/>
+      <node ref="R13" pin="2"/>
+      <node ref="U9" pin="3"/>
+      <node ref="C24" pin="1"/>
+      <node ref="U4" pin="3"/>
+      <node ref="U4" pin="2"/>
+      <node ref="C13" pin="1"/>
+      <node ref="L3" pin="2"/>
+      <node ref="C17" pin="1"/>
+      <node ref="U9" pin="1"/>
+    </net>
+    <net code="30" name="Net-(D3-PadA)">
+      <node ref="U5" pin="3"/>
+      <node ref="D3" pin="A"/>
+    </net>
+    <net code="31" name="Net-(L2-Pad2)">
+      <node ref="R11" pin="2"/>
+      <node ref="L2" pin="2"/>
+      <node ref="L3" pin="1"/>
+    </net>
+    <net code="32" name="Net-(U2-Pad18)">
+      <node ref="U2" pin="18"/>
+    </net>
+    <net code="33" name="Net-(U2-Pad17)">
+      <node ref="U2" pin="17"/>
+    </net>
+    <net code="34" name="/ENT2">
+      <node ref="U7" pin="4"/>
+      <node ref="U2" pin="15"/>
+    </net>
+    <net code="35" name="/_Wb">
+      <node ref="R16" pin="1"/>
+      <node ref="U8" pin="6"/>
+    </net>
+    <net code="36" name="Net-(R16-Pad2)">
+      <node ref="R16" pin="2"/>
+      <node ref="U5" pin="5"/>
+      <node ref="U5" pin="6"/>
+    </net>
+    <net code="37" name="/_Wa">
+      <node ref="U8" pin="3"/>
+      <node ref="R18" pin="1"/>
+    </net>
+    <net code="38" name="CLK_OUT">
+      <node ref="U6" pin="32"/>
+      <node ref="U2" pin="3"/>
+      <node ref="J_extra1" pin="3"/>
+    </net>
+    <net code="39" name="/Vb">
+      <node ref="R22" pin="1"/>
+      <node ref="R21" pin="2"/>
+      <node ref="U8" pin="4"/>
+      <node ref="C53" pin="1"/>
+    </net>
+    <net code="40" name="/Va">
+      <node ref="R20" pin="1"/>
+      <node ref="U8" pin="1"/>
+      <node ref="R19" pin="2"/>
+      <node ref="C52" pin="1"/>
+    </net>
+    <net code="41" name="/DOUT0">
+      <node ref="U6" pin="33"/>
+    </net>
+    <net code="42" name="/DOUT1">
+      <node ref="U6" pin="34"/>
+    </net>
+    <net code="43" name="Net-(R23-Pad2)">
+      <node ref="R23" pin="2"/>
+    </net>
+    <net code="44" name="Net-(R23-Pad1)">
+      <node ref="R23" pin="1"/>
+    </net>
+    <net code="45" name="/STROBE">
+      <node ref="U6" pin="9"/>
+    </net>
+    <net code="46" name="/RESET_BAR">
+      <node ref="C31" pin="1"/>
+      <node ref="R12" pin="2"/>
+      <node ref="U6" pin="16"/>
+    </net>
+    <net code="47" name="/ENT1">
+      <node ref="U2" pin="16"/>
+      <node ref="U5" pin="4"/>
+    </net>
+    <net code="48" name="Net-(D1-PadA)">
+      <node ref="L1" pin="2"/>
+      <node ref="D1" pin="A"/>
+      <node ref="U1" pin="A4"/>
+    </net>
+    <net code="49" name="Net-(U1-PadB4)">
+      <node ref="U1" pin="B4"/>
+    </net>
+    <net code="50" name="Net-(U1-PadB3)">
+      <node ref="U1" pin="B3"/>
+    </net>
+    <net code="51" name="Net-(C6-Pad1)">
+      <node ref="D1" pin="C"/>
+      <node ref="U1" pin="B5"/>
+      <node ref="C6" pin="1"/>
+    </net>
+    <net code="52" name="Net-(U1-PadC5)">
+      <node ref="U1" pin="C5"/>
+    </net>
+    <net code="53" name="Net-(U1-PadC4)">
+      <node ref="U1" pin="C4"/>
+    </net>
+    <net code="54" name="Net-(U1-PadC3)">
+      <node ref="U1" pin="C3"/>
+    </net>
+    <net code="55" name="Net-(R17-Pad2)">
+      <node ref="R17" pin="2"/>
+      <node ref="U10" pin="1"/>
+    </net>
+    <net code="56" name="/EXTCLK">
+      <node ref="U10" pin="3"/>
+      <node ref="U6" pin="31"/>
+    </net>
+    <net code="57" name="/TRIGGER">
+      <node ref="U6" pin="15"/>
+    </net>
+    <net code="58" name="Net-(U3-Pad27)">
+      <node ref="U3" pin="27"/>
+    </net>
+    <net code="59" name="Net-(U3-Pad26)">
+      <node ref="U3" pin="26"/>
+    </net>
+    <net code="60" name="Net-(U3-Pad14)">
+      <node ref="U3" pin="14"/>
+    </net>
+    <net code="61" name="Net-(U3-Pad10)">
+      <node ref="U3" pin="10"/>
+    </net>
+    <net code="62" name="Net-(R9-Pad2)">
+      <node ref="R9" pin="2"/>
+      <node ref="U3" pin="11"/>
+    </net>
+    <net code="63" name="Net-(R10-Pad2)">
+      <node ref="U3" pin="4"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="64" name="/EWL1">
+      <node ref="U1" pin="C2"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="65" name="/EWL2">
+      <node ref="J3" pin="1"/>
+      <node ref="U1" pin="C1"/>
+    </net>
+    <net code="66" name="/CAP">
+      <node ref="C11" pin="2"/>
+      <node ref="U3" pin="9"/>
+    </net>
+    <net code="67" name="Net-(C45-Pad1)">
+      <node ref="U5" pin="2"/>
+      <node ref="C45" pin="1"/>
+    </net>
+    <net code="68" name="Net-(C48-Pad2)">
+      <node ref="U7" pin="1"/>
+      <node ref="C48" pin="2"/>
+    </net>
+    <net code="69" name="Net-(C39-Pad1)">
+      <node ref="U5" pin="9"/>
+      <node ref="C39" pin="1"/>
+    </net>
+    <net code="70" name="Net-(C39-Pad2)">
+      <node ref="C39" pin="2"/>
+      <node ref="U5" pin="1"/>
+    </net>
+    <net code="71" name="Net-(R18-Pad2)">
+      <node ref="R18" pin="2"/>
+      <node ref="U7" pin="6"/>
+      <node ref="U7" pin="5"/>
+    </net>
+    <net code="72" name="Net-(C48-Pad1)">
+      <node ref="U7" pin="9"/>
+      <node ref="C48" pin="1"/>
+    </net>
+    <net code="73" name="Net-(C51-Pad1)">
+      <node ref="C51" pin="1"/>
+      <node ref="U7" pin="2"/>
+    </net>
+    <net code="74" name="Net-(D4-PadA)">
+      <node ref="D4" pin="A"/>
+      <node ref="U7" pin="3"/>
+    </net>
+    <net code="75" name="Net-(D2-Pad2)">
+      <node ref="R13" pin="1"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="76" name="Net-(C54-Pad1)">
+      <node ref="C54" pin="1"/>
+      <node ref="U9" pin="4"/>
+    </net>
+  </nets>
+</export>

@@ -1,0 +1,3774 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A2 23386 16535
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:BNO055-.IMU U3
+U 1 1 5D4EA5F1
+P 16110 10485
+F 0 "U3" H 16110 9618 50  0000 C CNN
+F 1 "BNO055" H 16110 9709 50  0000 C CNN
+F 2 "Package_LGA:LGA-28_5.2x3.8mm_P0.5mm" H 16110 10485 50  0001 L BNN
+F 3 "LGA-28 Bosch" H 16110 10485 50  0001 L BNN
+F 4 "Accelerometer, Gyroscope, Magnetometer, 9 Axis Sensor I²C, UART Output" H 16110 10485 50  0001 C CNN "Description"
+F 5 "828-1058-1-ND" H 16110 10485 50  0001 C CNN "DigikeyPN"
+	1    16110 10485
+	-1   0    0    1   
+$EndComp
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:C_Small-.Device C9
+U 1 1 5D4ED5C9
+P 15060 9885
+F 0 "C9" V 14895 9885 50  0000 C CNN
+F 1 "GRM033R61A104ME15D" V 14922 9885 50  0001 C CNN
+F 2 ".Capacitor:C_0201_0603Metric_L" H 15060 9885 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/murata-electronics/GRM033R61A104ME15D/490-5405-2-ND/2175191" H 15060 9885 50  0001 C CNN
+F 4 "0.1µF ±20% 10V Ceramic Capacitor X5R 0201 (0603 Metric)" H 15060 9885 50  0001 C CNN "Description"
+F 5 "0.1uF 0201" V 14975 9775 50  0000 C CNN "Note"
+F 6 "490-5405-1-ND" H 15060 9885 50  0001 C CNN "DigikeyPN"
+	1    15060 9885
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	15310 9885 15260 9885
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:+3.3V-power-Monkey_2LED_BNO-EWL-rescue #PWR0101
+U 1 1 5D4EFA1C
+P 14710 9285
+F 0 "#PWR0101" H 14710 9135 50  0001 C CNN
+F 1 "+3.3V" H 14725 9458 50  0000 C CNN
+F 2 "" H 14710 9285 50  0001 C CNN
+F 3 "" H 14710 9285 50  0001 C CNN
+	1    14710 9285
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14960 9885 14710 9885
+Wire Wire Line
+	15260 9885 15260 9985
+Wire Wire Line
+	15260 9985 15310 9985
+Connection ~ 15260 9885
+Wire Wire Line
+	15260 9885 15160 9885
+Wire Wire Line
+	15260 9985 15260 10085
+Wire Wire Line
+	15260 10085 15310 10085
+Connection ~ 15260 9985
+Wire Wire Line
+	15260 10085 15260 10185
+Wire Wire Line
+	15260 10185 15310 10185
+Connection ~ 15260 10085
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:GND-power-Monkey_2LED_BNO-EWL-rescue #PWR0102
+U 1 1 5D4F0669
+P 15010 10135
+F 0 "#PWR0102" H 15010 9885 50  0001 C CNN
+F 1 "GND" H 15015 9962 50  0000 C CNN
+F 2 "" H 15010 10135 50  0001 C CNN
+F 3 "" H 15010 10135 50  0001 C CNN
+	1    15010 10135
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15260 10085 15010 10085
+Wire Wire Line
+	14710 10885 14710 9885
+Connection ~ 14710 9885
+Wire Wire Line
+	15310 10985 14710 10985
+Wire Wire Line
+	14710 10985 14710 10885
+Connection ~ 14710 10885
+Wire Wire Line
+	16910 10985 17060 10985
+Wire Wire Line
+	17060 10985 17060 10885
+Wire Wire Line
+	17060 10885 16910 10885
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:GND-power-Monkey_2LED_BNO-EWL-rescue #PWR0103
+U 1 1 5D4F177B
+P 17060 11135
+F 0 "#PWR0103" H 17060 10885 50  0001 C CNN
+F 1 "GND" H 17065 10962 50  0000 C CNN
+F 2 "" H 17060 11135 50  0001 C CNN
+F 3 "" H 17060 11135 50  0001 C CNN
+	1    17060 11135
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	17060 10985 17060 11135
+Connection ~ 17060 10985
+Wire Wire Line
+	15010 10085 15010 10135
+Wire Wire Line
+	16910 10185 17060 10185
+Wire Wire Line
+	17060 10185 17060 10885
+Connection ~ 17060 10885
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:C_Small-.Device C11
+U 1 1 5D4F4F66
+P 17235 9535
+F 0 "C11" V 17006 9535 50  0000 C CNN
+F 1 "GRM033R61A104ME15D" V 17097 9535 50  0001 C CNN
+F 2 ".Capacitor:C_0201_0603Metric_L" H 17235 9535 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/murata-electronics/GRM033R61A104ME15D/490-5405-2-ND/2175191" H 17235 9535 50  0001 C CNN
+F 4 "0.1µF ±20% 10V Ceramic Capacitor X5R 0201 (0603 Metric)" H 17235 9535 50  0001 C CNN "Description"
+F 5 "0.1uF 0201" V 17100 9600 50  0000 C CNN "Note"
+F 6 "490-5405-1-ND" H 17235 9535 50  0001 C CNN "DigikeyPN"
+	1    17235 9535
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	16910 9885 17160 9885
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:GND-power-Monkey_2LED_BNO-EWL-rescue #PWR0104
+U 1 1 5D4F5CF6
+P 17460 9635
+F 0 "#PWR0104" H 17460 9385 50  0001 C CNN
+F 1 "GND" H 17465 9462 50  0000 C CNN
+F 2 "" H 17460 9635 50  0001 C CNN
+F 3 "" H 17460 9635 50  0001 C CNN
+	1    17460 9635
+	1    0    0    -1  
+$EndComp
+NoConn ~ 15310 10285
+NoConn ~ 15310 10585
+NoConn ~ 15310 10685
+NoConn ~ 16910 10785
+Wire Wire Line
+	13460 9910 13460 10310
+Wire Wire Line
+	13710 10310 13460 10310
+Connection ~ 13460 10310
+Wire Wire Line
+	13460 10510 13710 10510
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:GND-power-Monkey_2LED_BNO-EWL-rescue #PWR0105
+U 1 1 5D4F85F4
+P 13710 10610
+F 0 "#PWR0105" H 13710 10360 50  0001 C CNN
+F 1 "GND" H 13715 10437 50  0000 C CNN
+F 2 "" H 13710 10610 50  0001 C CNN
+F 3 "" H 13710 10610 50  0001 C CNN
+	1    13710 10610
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13710 10610 13710 10510
+Connection ~ 13710 10510
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:C_Small-.Device C5
+U 1 1 5D4EDBF9
+P 13710 10410
+F 0 "C5" H 13810 10510 50  0000 L CNN
+F 1 "GRM033R61A104ME15D" H 13810 10410 50  0001 L CNN
+F 2 ".Capacitor:C_0201_0603Metric_L" H 13710 10410 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/murata-electronics/GRM033R61A104ME15D/490-5405-2-ND/2175191" H 13710 10410 50  0001 C CNN
+F 4 "0.1µF ±20% 10V Ceramic Capacitor X5R 0201 (0603 Metric)" H 13710 10410 50  0001 C CNN "Description"
+F 5 "0.1uF 0201" H 13900 10370 50  0000 C CNN "Note"
+F 6 "490-5405-1-ND" H 13710 10410 50  0001 C CNN "DigikeyPN"
+	1    13710 10410
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:C_Small-.Device C4
+U 1 1 5D4ED91A
+P 13460 10410
+F 0 "C4" H 13260 10510 50  0000 L CNN
+F 1 "GRM033R71A103KA01D" H 12970 10300 50  0001 L CNN
+F 2 ".Capacitor:C_0201_0603Metric_L" H 13460 10410 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/murata-electronics/GRM033R71A103KA01D/490-3194-2-ND/702460" H 13460 10410 50  0001 C CNN
+F 4 "10000pF ±10% 10V Ceramic Capacitor X7R 0201 (0603 Metric)" H 13460 10410 50  0001 C CNN "Description"
+F 5 "10nF 0201" H 13300 10370 50  0000 C CNN "Note"
+F 6 "490-3194-1-ND" H 13460 10410 50  0001 C CNN "DigikeyPN"
+	1    13460 10410
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:R_Small_US-.Device R10
+U 1 1 5D548B18
+P 17560 10485
+F 0 "R10" V 17485 10485 50  0000 C CNN
+F 1 "ERJ-1GNF1022C" V 17660 10485 50  0001 C CNN
+F 2 ".Resistor:R_0201_0603Metric_ERJ_L" V 17447 10485 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-1GEF1022C/P10-2KABCT-ND/1467562" H 17560 10485 50  0001 C CNN
+F 4 "10.2 kOhms ±1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric) Automotive AEC-Q200 Thick Film" H 17560 10485 50  0001 C CNN "Description"
+F 5 "10.2k 0201" V 17625 10475 50  0000 C CNN "Note"
+F 6 "ERJ-1GNF1022C" H 17560 10485 50  0001 C CNN "DigikeyPN"
+	1    17560 10485
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14710 10885 15310 10885
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:+3.3V-power-Monkey_2LED_BNO-EWL-rescue #PWR0106
+U 1 1 5D54E0FD
+P 13460 9910
+F 0 "#PWR0106" H 13460 9760 50  0001 C CNN
+F 1 "+3.3V" H 13475 10083 50  0000 C CNN
+F 2 "" H 13460 9910 50  0001 C CNN
+F 3 "" H 13460 9910 50  0001 C CNN
+	1    13460 9910
+	1    0    0    -1  
+$EndComp
+Text Notes 12985 9635 0    50   ~ 0
+Caps placed between pins 25 and 28
+Text Notes 14860 9585 0    50   ~ 0
+Cap placed between pins 2 and 3
+Wire Wire Line
+	17135 9535 16810 9535
+Wire Wire Line
+	17335 9535 17460 9535
+Wire Wire Line
+	17460 9535 17460 9635
+Text Label 16810 9535 0    50   ~ 0
+CAP
+Text Label 17010 9885 0    50   ~ 0
+CAP
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:+3.3V-power-Monkey_2LED_BNO-EWL-rescue #PWR0107
+U 1 1 5D555294
+P 17735 10235
+F 0 "#PWR0107" H 17735 10085 50  0001 C CNN
+F 1 "+3.3V" H 17750 10408 50  0000 C CNN
+F 2 "" H 17735 10235 50  0001 C CNN
+F 3 "" H 17735 10235 50  0001 C CNN
+	1    17735 10235
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16910 10085 17485 10085
+Text Label 16910 10085 0    50   ~ 0
+I2C_ADDR_SEL
+Wire Wire Line
+	16910 10485 17460 10485
+Wire Wire Line
+	17735 10485 17660 10485
+Wire Wire Line
+	17735 10235 17735 10485
+Wire Wire Line
+	14710 9285 14710 9885
+Wire Wire Line
+	17735 10685 17735 10485
+Connection ~ 17735 10485
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:R_Small_US-.Device R9
+U 1 1 5D565BFF
+P 17360 10685
+F 0 "R9" V 17285 10685 50  0000 C CNN
+F 1 "ERJ-1GNF1022C" V 17460 10685 50  0001 C CNN
+F 2 ".Resistor:R_0201_0603Metric_ERJ_L" V 17247 10685 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-1GEF1022C/P10-2KABCT-ND/1467562" H 17360 10685 50  0001 C CNN
+F 4 "10.2 kOhms ±1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric) Automotive AEC-Q200 Thick Film" H 17360 10685 50  0001 C CNN "Description"
+F 5 "10.2k 0201" V 17475 10775 50  0000 C CNN "Note"
+F 6 "ERJ-1GNF1022C" H 17360 10685 50  0001 C CNN "DigikeyPN"
+	1    17360 10685
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	16910 10685 17260 10685
+Wire Wire Line
+	17460 10685 17735 10685
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:GND-power-Monkey_2LED_BNO-EWL-rescue #PWR0110
+U 1 1 5D57BB34
+P 17485 10085
+F 0 "#PWR0110" H 17485 9835 50  0001 C CNN
+F 1 "GND" H 17490 9912 50  0000 C CNN
+F 2 "" H 17485 10085 50  0001 C CNN
+F 3 "" H 17485 10085 50  0001 C CNN
+	1    17485 10085
+	1    0    0    -1  
+$EndComp
+Text Notes 17285 9960 0    50   ~ 0
+GNDing the I2C ADDRESS SELECT pin sets the I2C address to 0x28
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:GND-power-Monkey_2LED_BNO-EWL-rescue #PWR0111
+U 1 1 5C6FEDE6
+P 14760 13985
+F 0 "#PWR0111" H 14760 13735 50  0001 C CNN
+F 1 "GND" H 14765 13812 50  0000 C CNN
+F 2 "" H 14760 13985 50  0001 C CNN
+F 3 "" H 14760 13985 50  0001 C CNN
+	1    14760 13985
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15210 13985 14760 13985
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:Conn_01x01-.Connector J4
+U 1 1 5C6FD752
+P 15410 13985
+F 0 "J4" H 15490 14027 50  0000 L CNN
+F 1 "Conn_01x01" H 15490 13936 50  0000 L CNN
+F 2 ".Connector:Conn_1x1_250x750_Pad" H 15410 13985 50  0001 C CNN
+F 3 "~" H 15410 13985 50  0001 C CNN
+F 4 "DNL" H 15410 13985 50  0001 C CNN "Description"
+	1    15410 13985
+	1    0    0    -1  
+$EndComp
+Text Notes 12910 14510 0    50   ~ 0
+These I2C pullup resistors replace those on the Serializer PCB. 
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:+3.3V-power-Monkey_2LED_BNO-EWL-rescue #PWR0112
+U 1 1 5EC9606B
+P 13335 14135
+F 0 "#PWR0112" H 13335 13985 50  0001 C CNN
+F 1 "+3.3V" H 13350 14308 50  0000 C CNN
+F 2 "" H 13335 14135 50  0001 C CNN
+F 3 "" H 13335 14135 50  0001 C CNN
+	1    13335 14135
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13335 14135 13530 14135
+Connection ~ 13810 12535
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:C_Small-.Device C6
+U 1 1 5C6E0A84
+P 13810 12635
+F 0 "C6" H 13902 12681 50  0000 L CNN
+F 1 "GRJ188R72A104KE11D" H 13902 12590 50  0001 L CNN
+F 2 ".Capacitor:C_0603_1608Metric_L" H 13810 12635 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/murata-electronics/GRJ188R72A104KE11D/490-10901-1-ND/5321102" H 13810 12635 50  0001 C CNN
+F 4 "0.1µF ±10% 100V Ceramic Capacitor X7R 0603 (1608 Metric)" H 13810 12635 50  0001 C CNN "Description"
+F 5 "100nF 100V 0603" H 14000 12620 50  0000 C CNN "Note"
+F 6 "490-10901-1-ND" H 13810 12635 50  0001 C CNN "DigikeyPN"
+	1    13810 12635
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:Conn_01x01-.Connector J3
+U 1 1 5C1BE5C6
+P 15410 13535
+F 0 "J3" H 15490 13577 50  0000 L CNN
+F 1 "Conn_01x01" H 15490 13486 50  0000 L CNN
+F 2 ".Connector:Conn_1x1_250x750_Pad" H 15410 13535 50  0001 C CNN
+F 3 "~" H 15410 13535 50  0001 C CNN
+F 4 "DNL" H 15410 13535 50  0001 C CNN "Description"
+	1    15410 13535
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:Conn_01x01-.Connector J2
+U 1 1 5C1BE586
+P 15410 13435
+F 0 "J2" H 15490 13477 50  0000 L CNN
+F 1 "Conn_01x01" H 15490 13386 50  0000 L CNN
+F 2 ".Connector:Conn_1x1_250x750_Pad" H 15410 13435 50  0001 C CNN
+F 3 "~" H 15410 13435 50  0001 C CNN
+F 4 "DNL" H 15410 13435 50  0001 C CNN "Description"
+	1    15410 13435
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14810 13535 15210 13535
+Wire Wire Line
+	14810 13435 15210 13435
+Text Label 14810 13535 0    50   ~ 0
+EWL2
+Text Label 14810 13435 0    50   ~ 0
+EWL1
+Connection ~ 12360 12185
+Connection ~ 12010 12385
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:GND-power-Monkey_2LED_BNO-EWL-rescue #PWR0113
+U 1 1 5C194F1D
+P 12010 12385
+F 0 "#PWR0113" H 12010 12135 50  0001 C CNN
+F 1 "GND" H 12015 12212 50  0000 C CNN
+F 2 "" H 12010 12385 50  0001 C CNN
+F 3 "" H 12010 12385 50  0001 C CNN
+	1    12010 12385
+	1    0    0    -1  
+$EndComp
+Text Label 13560 13385 0    50   ~ 0
+EWL2
+Text Label 13560 13185 0    50   ~ 0
+EWL1
+Connection ~ 11610 12185
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:+3.3V-power-Monkey_2LED_BNO-EWL-rescue #PWR0114
+U 1 1 5C194C35
+P 11610 12185
+F 0 "#PWR0114" H 11610 12035 50  0001 C CNN
+F 1 "+3.3V" H 11625 12358 50  0000 C CNN
+F 2 "" H 11610 12185 50  0001 C CNN
+F 3 "" H 11610 12185 50  0001 C CNN
+	1    11610 12185
+	1    0    0    -1  
+$EndComp
+Connection ~ 12760 13885
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:GND-power-Monkey_2LED_BNO-EWL-rescue #PWR0115
+U 1 1 5C194C03
+P 12760 13885
+F 0 "#PWR0115" H 12760 13635 50  0001 C CNN
+F 1 "GND" H 12765 13712 50  0000 C CNN
+F 2 "" H 12760 13885 50  0001 C CNN
+F 3 "" H 12760 13885 50  0001 C CNN
+	1    12760 13885
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:GND-power-Monkey_2LED_BNO-EWL-rescue #PWR0116
+U 1 1 5C194BA1
+P 13810 12735
+F 0 "#PWR0116" H 13810 12485 50  0001 C CNN
+F 1 "GND" H 13815 12562 50  0000 C CNN
+F 2 "" H 13810 12735 50  0001 C CNN
+F 3 "" H 13810 12735 50  0001 C CNN
+	1    13810 12735
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13810 12185 13660 12185
+Wire Wire Line
+	13810 12535 13810 12185
+Wire Wire Line
+	13210 12535 13810 12535
+Connection ~ 12810 12185
+Wire Wire Line
+	12810 12185 13460 12185
+Wire Wire Line
+	12810 12185 12810 12335
+Wire Wire Line
+	12710 12185 12810 12185
+Wire Wire Line
+	12010 12185 12360 12185
+Connection ~ 12010 12185
+Wire Wire Line
+	12010 12385 11610 12385
+Wire Wire Line
+	11610 12185 12010 12185
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:C_Small-.Device C2
+U 1 1 5C19445B
+P 12010 12285
+F 0 "C2" H 12102 12331 50  0000 L CNN
+F 1 "GRM033R61A104ME15D" H 11620 12455 50  0001 L CNN
+F 2 ".Capacitor:C_0201_0603Metric_L" H 12070 12555 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/murata-electronics/GRM033R61A104ME15D/490-5405-2-ND/2175191" H 12020 12355 50  0001 C CNN
+F 4 "0.1µF ±20% 10V Ceramic Capacitor X5R 0201 (0603 Metric)" H 12010 12285 50  0001 C CNN "Description"
+F 5 "0.1uF 0201" H 12050 12470 50  0000 C CNN "Note"
+F 6 "490-5405-1-ND" H 12010 12285 50  0001 C CNN "DigikeyPN"
+	1    12010 12285
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:C_Small-.Device C1
+U 1 1 5C194452
+P 11610 12285
+F 0 "C1" H 11702 12331 50  0000 L CNN
+F 1 "GRM155R60J475ME47D" H 11220 12455 50  0001 L CNN
+F 2 ".Capacitor:C_0402_1005Metric_L" H 11720 12555 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/murata-electronics/GRM155R60J475ME87D/490-5408-1-ND/2175215" H 11620 12355 50  0001 C CNN
+F 4 "4.7µF ±20% 6.3V Ceramic Capacitor X5R 0402 (1005 Metric)" H 11610 12285 50  0001 C CNN "Description"
+F 5 "4.7uF 0402" H 11400 12270 50  0000 C CNN "Note"
+F 6 "490-5915-1-ND" H 11610 12285 50  0001 C CNN "DigikeyPN"
+	1    11610 12285
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12360 12185 12510 12185
+Wire Wire Line
+	12360 12535 12360 12185
+Wire Wire Line
+	13210 13185 13560 13185
+Wire Wire Line
+	13210 13385 13560 13385
+Wire Wire Line
+	12760 13885 12760 13785
+Wire Wire Line
+	12860 13885 12760 13885
+Wire Wire Line
+	12860 13785 12860 13885
+Wire Wire Line
+	12360 12535 12410 12535
+Connection ~ 12360 12535
+Wire Wire Line
+	12360 12785 12360 12535
+Wire Wire Line
+	12410 12785 12360 12785
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:BAS316-.Diode D1
+U 1 1 5C18B231
+P 13560 12185
+F 0 "D1" H 13660 12135 50  0000 C CNN
+F 1 "BAS316-TP" H 13560 12299 50  0000 C CNN
+F 2 "Diode:SOD_323_250X125X110L30X32L" H 13310 12335 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/micro-commercial-co/BAS316-TP/BAS316-TPMSTR-ND/2625086" V 13560 12185 50  0001 C CNN
+F 4 "Diode Standard 100V 250mA (DC) Surface Mount SOD-323" H 13560 12185 50  0001 C CNN "Description"
+F 5 "BAS316-TPMSCT-ND" H 13560 12185 50  0001 C CNN "DigikeyPN"
+F 6 "BAS316" H 13560 12185 50  0001 C CNN "Note"
+	1    13560 12185
+	-1   0    0    1   
+$EndComp
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:LQM18PN3R3MGHD-.Inductor L1
+U 1 1 5C18B403
+P 12610 12185
+F 0 "L1" V 12695 12205 50  0000 L CNN
+F 1 "LQM18PN3R3MGHD" H 12660 12035 50  0001 L CNN
+F 2 ".Inductor:L_0603_1608Metric_L" H 12660 12485 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/murata-electronics/LQM18PN3R3MGHD/490-15635-2-ND/6799060" H 12610 12185 50  0001 C CNN
+F 4 "3.3µH Shielded Multilayer Inductor 1.05A 250mOhm Max 0603 (1608 Metric)" H 12610 12185 50  0001 C CNN "Description"
+F 5 "3.3uH" V 12695 12095 50  0000 C CNN "Note"
+F 6 "490-15635-1-ND" H 12610 12185 50  0001 C CNN "DigikeyPN"
+	1    12610 12185
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:MAX14574EWL+-.Driver_ETL U1
+U 1 1 5C189E9C
+P 12660 12585
+F 0 "U1" H 12560 12785 50  0000 C CNN
+F 1 "MAX14574EWL+" H 13160 12785 50  0000 C CNN
+F 2 ".Package_BGA:BGA_15_NP50_3X5_155X255X69B31N" H 12410 12885 50  0001 C CNN
+F 3 "" H 12660 12585 50  0001 C CNN
+F 4 "4-Channel, High-Voltage, Liquid Lens Driver" H 12660 12585 50  0001 C CNN "Description"
+F 5 "NA" H 12660 12585 50  0001 C CNN "DigikeyPN"
+	1    12660 12585
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:CL32A476KOJNNNE-.Capacitor C3
+U 1 1 5DC34165
+P 12560 10385
+F 0 "C3" H 12652 10431 50  0000 L CNN
+F 1 "GRM32ER61A107ME20L" H 12170 10555 50  0001 L CNN
+F 2 ".Capacitor:C_1210_3225Metric_L" H 12620 10655 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/kemet/C1210C107M8PACTU/399-11631-2-ND/4918884" H 12570 10455 50  0001 C CNN
+F 4 "100µF ±20% 10V Ceramic Capacitor X5R 1210 (3225 Metric)" H 12560 10385 50  0001 C CNN "Description"
+F 5 "10uF 1210" H 12400 10370 50  0000 C CNN "Note"
+F 6 "490-9969-1-ND" H 12560 10385 50  0001 C CNN "DigikeyPN"
+	1    12560 10385
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:+3.3V-power-Monkey_2LED_BNO-EWL-rescue #PWR0117
+U 1 1 5DC3725D
+P 12560 9935
+F 0 "#PWR0117" H 12560 9785 50  0001 C CNN
+F 1 "+3.3V" H 12575 10108 50  0000 C CNN
+F 2 "" H 12560 9935 50  0001 C CNN
+F 3 "" H 12560 9935 50  0001 C CNN
+	1    12560 9935
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:GND-power-Monkey_2LED_BNO-EWL-rescue #PWR0118
+U 1 1 5DC37DF9
+P 12560 10585
+F 0 "#PWR0118" H 12560 10335 50  0001 C CNN
+F 1 "GND" H 12565 10412 50  0000 C CNN
+F 2 "" H 12560 10585 50  0001 C CNN
+F 3 "" H 12560 10585 50  0001 C CNN
+	1    12560 10585
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12560 9935 12560 10285
+Wire Wire Line
+	12560 10485 12560 10585
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:C_Small-.Device C31
+U 1 1 5D68354B
+P 3780 12050
+F 0 "C31" H 3872 12096 50  0000 L CNN
+F 1 "GRM155R60J104KA01D" H 3872 12005 50  0001 L CNN
+F 2 ".Capacitor:C_0402_1005Metric_L" H 3780 12050 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/kemet/C0402C105K9PACTU/399-4873-2-ND/1090778" H 3780 12050 50  0001 C CNN
+F 4 "0.1µF ±10% 6.3V Ceramic Capacitor X5R 0402 (1005 Metric)" H 3780 12050 50  0001 C CNN "Description"
+F 5 "1uF 0402" H 3600 12050 50  0000 C CNN "Note"
+F 6 "490-6287-1-ND" H 3780 12050 50  0001 C CNN "DigikeyPN"
+	1    3780 12050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5680 11875 5680 11750
+Wire Wire Line
+	5680 11750 5580 11750
+Wire Wire Line
+	5580 11750 5580 11875
+Connection ~ 5580 11750
+Wire Wire Line
+	5980 11875 5980 11750
+Wire Wire Line
+	5980 11750 5880 11750
+Wire Wire Line
+	5880 11750 5880 11875
+Connection ~ 5880 11750
+Wire Wire Line
+	6180 11875 6180 11750
+Wire Wire Line
+	6180 11750 6330 11750
+Wire Wire Line
+	6680 11750 6680 11875
+Wire Wire Line
+	6580 11875 6580 11750
+Connection ~ 6580 11750
+Wire Wire Line
+	6580 11750 6680 11750
+Wire Wire Line
+	6430 11875 6430 11750
+Connection ~ 6430 11750
+Wire Wire Line
+	6430 11750 6580 11750
+Wire Wire Line
+	6330 11875 6330 11750
+Connection ~ 6330 11750
+Wire Wire Line
+	6330 11750 6430 11750
+Connection ~ 6180 11750
+Text Label 5580 11425 3    50   ~ 0
+VDD_IO
+Text Label 5880 11425 3    50   ~ 0
+VDD
+Text Label 6180 11425 3    50   ~ 0
+VAA
+Wire Wire Line
+	6680 14475 6680 14575
+Wire Wire Line
+	6680 14575 6580 14575
+Wire Wire Line
+	5880 14475 5880 14575
+Connection ~ 5880 14575
+Wire Wire Line
+	5980 14475 5980 14575
+Connection ~ 5980 14575
+Wire Wire Line
+	5980 14575 5880 14575
+Wire Wire Line
+	6180 14475 6180 14575
+Connection ~ 6180 14575
+Wire Wire Line
+	6180 14575 5980 14575
+Wire Wire Line
+	6280 14475 6280 14575
+Connection ~ 6280 14575
+Wire Wire Line
+	6280 14575 6180 14575
+Wire Wire Line
+	6480 14475 6480 14575
+Connection ~ 6480 14575
+Wire Wire Line
+	6480 14575 6280 14575
+Wire Wire Line
+	6580 14475 6580 14575
+Connection ~ 6580 14575
+Wire Wire Line
+	6580 14575 6480 14575
+$Comp
+L power:GND #PWR0119
+U 1 1 5D686DF6
+P 5305 14575
+F 0 "#PWR0119" H 5305 14325 50  0001 C CNN
+F 1 "GND" H 5310 14402 50  0000 C CNN
+F 2 "" H 5305 14575 50  0001 C CNN
+F 3 "" H 5305 14575 50  0001 C CNN
+	1    5305 14575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:R_Small_US-.Device R12
+U 1 1 5D683333
+P 3780 11600
+F 0 "R12" H 3848 11646 50  0000 L CNN
+F 1 "ERJ-1GNF1021C" H 3848 11555 50  0001 L CNN
+F 2 ".Resistor:R_0402_1005Metric_ERJ_L" H 3780 11600 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-1GNF1021C/P122658DKR-ND/8342256" H 3780 11600 50  0001 C CNN
+F 4 "	RES SMD 1.02K OHM 1% 1/20W 0201" H 3780 11600 50  0001 C CNN "Description"
+F 5 "1.02k 0402" H 3600 11600 50  0000 C CNN "Note"
+F 6 "P122658CT-ND" H 3780 11600 50  0001 C CNN "DigikeyPN"
+	1    3780 11600
+	1    0    0    -1  
+$EndComp
+Text Label 4830 12675 0    50   ~ 0
+RESET_BAR
+Wire Wire Line
+	4830 12675 5330 12675
+Wire Wire Line
+	5330 12575 5180 12575
+Wire Wire Line
+	5180 12575 5180 11750
+Wire Wire Line
+	5180 11750 5580 11750
+Wire Wire Line
+	5330 12775 4830 12775
+Text Label 4830 12775 0    50   ~ 0
+TRIGGER
+Wire Wire Line
+	5330 13475 4855 13475
+Text Label 4855 13475 0    50   ~ 0
+EXTCLK
+Wire Wire Line
+	5330 13175 4855 13175
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:SiT_2.5mmx2mm-.Oscillator U10
+U 1 1 5D68E7E5
+P 8905 11325
+F 0 "U10" H 8905 11550 50  0000 C CNN
+F 1 "SG-210STF 66.6667ML3" H 8905 11075 50  0000 C CNN
+F 2 ".Oscillator:OSC_CC250X200X80L70X75L" H 8855 11575 50  0001 C CNN
+F 3 "https://www.digikey.com/products/en?keywords=SG-210STF%2066.6667ML3" H 8855 11575 50  0001 C CNN
+F 4 "66.667MHz XO (Standard) CMOS Oscillator 1.6V ~ 3.6V Standby (Power Down) 4-SMD, No Lead" H 8905 11325 50  0001 C CNN "Description"
+F 5 "SER3901-ND" H 8905 11325 50  0001 C CNN "DigikeyPN"
+	1    8905 11325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3780 11700 3780 11825
+Wire Wire Line
+	3780 11825 4205 11825
+Connection ~ 3780 11825
+Wire Wire Line
+	3780 11825 3780 11950
+Text Label 3905 11825 0    50   ~ 0
+RESET_BAR
+Wire Wire Line
+	3780 11500 3780 11375
+Wire Wire Line
+	3780 12150 3780 12325
+$Comp
+L power:GND #PWR0120
+U 1 1 5D6981A3
+P 3780 12325
+F 0 "#PWR0120" H 3780 12075 50  0001 C CNN
+F 1 "GND" H 3785 12152 50  0000 C CNN
+F 2 "" H 3780 12325 50  0001 C CNN
+F 3 "" H 3780 12325 50  0001 C CNN
+	1    3780 12325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8405 11475 8305 11475
+Wire Wire Line
+	8305 11475 8305 11550
+$Comp
+L power:GND #PWR0121
+U 1 1 5D6999F2
+P 8305 11550
+F 0 "#PWR0121" H 8305 11300 50  0001 C CNN
+F 1 "GND" H 8310 11377 50  0000 C CNN
+F 2 "" H 8305 11550 50  0001 C CNN
+F 3 "" H 8305 11550 50  0001 C CNN
+	1    8305 11550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9405 11475 9730 11475
+Text Label 9730 11475 0    50   ~ 0
+EXTCLK
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:C_Small-.Device C49
+U 1 1 5D69B153
+P 7855 11300
+F 0 "C49" H 7947 11346 50  0000 L CNN
+F 1 "GRM155R71C103KA01J" H 7947 11255 50  0001 L CNN
+F 2 ".Capacitor:C_0402_1005Metric_L" H 7855 11300 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/murata-electronics/GRM155R71C103KA01J/490-6326-2-ND/2610890" H 7855 11300 50  0001 C CNN
+F 4 "10000pF ±10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)" H 7855 11300 50  0001 C CNN "Description"
+F 5 "10nF 0402" H 7650 11300 50  0000 C CNN "Note"
+F 6 "490-6326-1-ND" H 7855 11300 50  0001 C CNN "DigikeyPN"
+	1    7855 11300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8305 11475 7855 11475
+Wire Wire Line
+	7855 11475 7855 11400
+Connection ~ 8305 11475
+Wire Wire Line
+	7855 11200 7855 10750
+Wire Wire Line
+	7855 10750 8380 10750
+Wire Wire Line
+	9480 10750 9480 11225
+Wire Wire Line
+	9480 11225 9405 11225
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:R_Small_US-.Device R17
+U 1 1 5D6A00F6
+P 8380 10975
+F 0 "R17" H 8448 11021 50  0000 L CNN
+F 1 "DNL" H 8448 10930 50  0000 L CNN
+F 2 ".Resistor:R_0402_1005Metric_ERJ_L" H 8380 10975 50  0001 C CNN
+F 3 "~" H 8380 10975 50  0001 C CNN
+	1    8380 10975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8380 10875 8380 10750
+Connection ~ 8380 10750
+Wire Wire Line
+	8380 10750 9480 10750
+Wire Wire Line
+	8380 11075 8380 11225
+Wire Wire Line
+	8380 11225 8405 11225
+Wire Wire Line
+	6880 12275 7405 12275
+Wire Wire Line
+	6880 12375 7405 12375
+Wire Wire Line
+	6880 12475 7405 12475
+Wire Wire Line
+	6880 12575 7405 12575
+Wire Wire Line
+	6880 12675 7405 12675
+Wire Wire Line
+	6880 12775 7405 12775
+Wire Wire Line
+	6880 12875 7405 12875
+Wire Wire Line
+	6880 12975 7405 12975
+Wire Wire Line
+	6880 13075 7405 13075
+Wire Wire Line
+	6880 13175 7405 13175
+Wire Wire Line
+	6880 13275 7405 13275
+Wire Wire Line
+	6880 13375 7405 13375
+Wire Wire Line
+	6880 13525 7405 13525
+Wire Wire Line
+	6880 13625 7405 13625
+Wire Wire Line
+	6880 13725 7405 13725
+Wire Wire Line
+	6880 13825 7405 13825
+Text Label 7405 12275 2    50   ~ 0
+DOUT0
+Text Label 7405 12375 2    50   ~ 0
+DOUT1
+Text Label 7405 12475 2    50   ~ 0
+DOUT2
+Text Label 7405 12575 2    50   ~ 0
+DOUT3
+Text Label 7405 12675 2    50   ~ 0
+DOUT4
+Text Label 7405 12775 2    50   ~ 0
+DOUT5
+Text Label 7405 12875 2    50   ~ 0
+DOUT6
+Text Label 7405 12975 2    50   ~ 0
+DOUT7
+Text Label 7405 13075 2    50   ~ 0
+DOUT8
+Text Label 7405 13175 2    50   ~ 0
+DOUT9
+Text Label 7405 13275 2    50   ~ 0
+DOUT10
+Text Label 7405 13375 2    50   ~ 0
+DOUT11
+Text Label 7405 13525 2    50   ~ 0
+FV
+Text Label 7405 13625 2    50   ~ 0
+LV
+Text Label 7405 13725 2    50   ~ 0
+PIXCLK
+Text Label 7405 13825 2    50   ~ 0
+STROBE
+$Comp
+L power:+1V8 #PWR0122
+U 1 1 5D6B04AA
+P 3805 10075
+F 0 "#PWR0122" H 3805 9925 50  0001 C CNN
+F 1 "+1V8" H 3820 10248 50  0000 C CNN
+F 2 "" H 3805 10075 50  0001 C CNN
+F 3 "" H 3805 10075 50  0001 C CNN
+	1    3805 10075
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+2V8 #PWR0123
+U 1 1 5D6B0A50
+P 3805 9625
+F 0 "#PWR0123" H 3805 9475 50  0001 C CNN
+F 1 "+2V8" H 3820 9798 50  0000 C CNN
+F 2 "" H 3805 9625 50  0001 C CNN
+F 3 "" H 3805 9625 50  0001 C CNN
+	1    3805 9625
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:C_Small-.Device C32
+U 1 1 5D6B1247
+P 3805 9800
+F 0 "C32" H 3897 9846 50  0000 L CNN
+F 1 "GRM155R60J106ME15D" H 3897 9755 50  0001 L CNN
+F 2 ".Capacitor:C_0402_1005Metric_L" H 3805 9800 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R60J106ME15-01.pdf" H 3805 9800 50  0001 C CNN
+F 4 "10µF ±20% 6.3V Ceramic Capacitor X5R 0402 (1005 Metric)" H 3805 9800 50  0001 C CNN "Description"
+F 5 "10uF 0402" H 3600 9800 50  0000 C CNN "Note"
+F 6 "490-13238-1-ND" H 3805 9800 50  0001 C CNN "DigikeyPN"
+	1    3805 9800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:C_Small-.Device C37
+U 1 1 5D6B2753
+P 4480 9800
+F 0 "C37" H 4572 9846 50  0000 L CNN
+F 1 "GRM155R60J106ME15D" H 4572 9755 50  0001 L CNN
+F 2 ".Capacitor:C_0402_1005Metric_L" H 4480 9800 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R60J106ME15-01.pdf" H 4480 9800 50  0001 C CNN
+F 4 "10µF ±20% 6.3V Ceramic Capacitor X5R 0402 (1005 Metric)" H 4480 9800 50  0001 C CNN "Description"
+F 5 "10uF 0402" H 4450 10000 50  0000 C CNN "Note"
+F 6 "490-13238-1-ND" H 4480 9800 50  0001 C CNN "DigikeyPN"
+	1    4480 9800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:C_Small-.Device C40
+U 1 1 5D6B2759
+P 4830 9800
+F 0 "C40" H 4922 9846 50  0000 L CNN
+F 1 "GRM155R61A104KA01J" H 4922 9755 50  0001 L CNN
+F 2 ".Capacitor:C_0402_1005Metric_L" H 4830 9800 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/murata-electronics/GRM155R61A104KA01J/490-6297-2-ND/2610841" H 4830 9800 50  0001 C CNN
+F 4 "0.1µF ±10% 10V Ceramic Capacitor X5R 0402 (1005 Metric)" H 4830 9800 50  0001 C CNN "Description"
+F 5 "0.1uF 0402" H 4800 10000 50  0000 C CNN "Note"
+F 6 "490-6297-1-ND" H 4830 9800 50  0001 C CNN "DigikeyPN"
+	1    4830 9800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:C_Small-.Device C42
+U 1 1 5D6B4C93
+P 5155 9800
+F 0 "C42" H 5247 9846 50  0000 L CNN
+F 1 "GRM155R60J106ME15D" H 5247 9755 50  0001 L CNN
+F 2 ".Capacitor:C_0402_1005Metric_L" H 5155 9800 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R60J106ME15-01.pdf" H 5155 9800 50  0001 C CNN
+F 4 "10µF ±20% 6.3V Ceramic Capacitor X5R 0402 (1005 Metric)" H 5155 9800 50  0001 C CNN "Description"
+F 5 "10uF 0402" H 5150 10000 50  0000 C CNN "Note"
+F 6 "490-13238-1-ND" H 5155 9800 50  0001 C CNN "DigikeyPN"
+	1    5155 9800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:C_Small-.Device C43
+U 1 1 5D6B4C99
+P 5505 9800
+F 0 "C43" H 5597 9846 50  0000 L CNN
+F 1 "GRM155R61A104KA01J" H 5597 9755 50  0001 L CNN
+F 2 ".Capacitor:C_0402_1005Metric_L" H 5505 9800 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/murata-electronics/GRM155R61A104KA01J/490-6297-2-ND/2610841" H 5505 9800 50  0001 C CNN
+F 4 "0.1µF ±10% 10V Ceramic Capacitor X5R 0402 (1005 Metric)" H 5505 9800 50  0001 C CNN "Description"
+F 5 "0.1uF 0402" H 5500 10000 50  0000 C CNN "Note"
+F 6 "490-6297-1-ND" H 5505 9800 50  0001 C CNN "DigikeyPN"
+	1    5505 9800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:C_Small-.Device C44
+U 1 1 5D6B72EB
+P 5830 9800
+F 0 "C44" H 5922 9846 50  0000 L CNN
+F 1 "GRM155R60J106ME15D" H 5922 9755 50  0001 L CNN
+F 2 ".Capacitor:C_0402_1005Metric_L" H 5830 9800 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R60J106ME15-01.pdf" H 5830 9800 50  0001 C CNN
+F 4 "10µF ±20% 6.3V Ceramic Capacitor X5R 0402 (1005 Metric)" H 5830 9800 50  0001 C CNN "Description"
+F 5 "10uF 0402" H 5850 10000 50  0000 C CNN "Note"
+F 6 "490-13238-1-ND" H 5830 9800 50  0001 C CNN "DigikeyPN"
+	1    5830 9800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:C_Small-.Device C46
+U 1 1 5D6B72F1
+P 6180 9800
+F 0 "C46" H 6272 9846 50  0000 L CNN
+F 1 "GRM155R61A104KA01J" H 6272 9755 50  0001 L CNN
+F 2 ".Capacitor:C_0402_1005Metric_L" H 6180 9800 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/murata-electronics/GRM155R61A104KA01J/490-6297-2-ND/2610841" H 6180 9800 50  0001 C CNN
+F 4 "0.1µF ±10% 10V Ceramic Capacitor X5R 0402 (1005 Metric)" H 6180 9800 50  0001 C CNN "Description"
+F 5 "0.1uF 0402" H 6200 10000 50  0000 C CNN "Note"
+F 6 "490-6297-1-ND" H 6180 9800 50  0001 C CNN "DigikeyPN"
+	1    6180 9800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3805 9700 3805 9625
+Connection ~ 3805 9700
+Connection ~ 4155 9700
+Wire Wire Line
+	4155 9700 3805 9700
+Connection ~ 4480 9700
+Wire Wire Line
+	4480 9700 4155 9700
+Connection ~ 4830 9700
+Wire Wire Line
+	4830 9700 4480 9700
+Connection ~ 5155 9700
+Wire Wire Line
+	5155 9700 4830 9700
+Connection ~ 5505 9700
+Wire Wire Line
+	5505 9700 5155 9700
+Connection ~ 5830 9700
+Wire Wire Line
+	5830 9700 5505 9700
+Wire Wire Line
+	6180 9700 5830 9700
+Wire Wire Line
+	3805 9900 4155 9900
+Connection ~ 4155 9900
+Wire Wire Line
+	4155 9900 4480 9900
+Connection ~ 4480 9900
+Wire Wire Line
+	4480 9900 4830 9900
+Connection ~ 4830 9900
+Wire Wire Line
+	4830 9900 5155 9900
+Connection ~ 5155 9900
+Wire Wire Line
+	5155 9900 5505 9900
+Connection ~ 5505 9900
+Wire Wire Line
+	5505 9900 5830 9900
+Connection ~ 5830 9900
+Wire Wire Line
+	5830 9900 6180 9900
+Connection ~ 6180 9900
+$Comp
+L power:GND #PWR0124
+U 1 1 5D6C1E38
+P 6180 9900
+F 0 "#PWR0124" H 6180 9650 50  0001 C CNN
+F 1 "GND" H 6185 9727 50  0000 C CNN
+F 2 "" H 6180 9900 50  0001 C CNN
+F 3 "" H 6180 9900 50  0001 C CNN
+	1    6180 9900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:C_Small-.Device C33
+U 1 1 5D6C70FC
+P 3805 10225
+F 0 "C33" H 3897 10271 50  0000 L CNN
+F 1 "GRM155R60J106ME15D" H 3897 10180 50  0001 L CNN
+F 2 ".Capacitor:C_0402_1005Metric_L" H 3205 10100 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R60J106ME15-01.pdf" H 3805 10225 50  0001 C CNN
+F 4 "10µF ±20% 6.3V Ceramic Capacitor X5R 0402 (1005 Metric)" H 3805 10225 50  0001 C CNN "Description"
+F 5 "10uF 0402" H 3650 10200 50  0000 C CNN "Note"
+F 6 "490-13238-1-ND" H 3805 10225 50  0001 C CNN "DigikeyPN"
+	1    3805 10225
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:C_Small-.Device C36
+U 1 1 5D6C7102
+P 4155 10225
+F 0 "C36" H 4247 10271 50  0000 L CNN
+F 1 "GRM155R61A104KA01J" H 4247 10180 50  0001 L CNN
+F 2 ".Capacitor:C_0402_1005Metric_L" H 4155 10225 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/murata-electronics/GRM155R61A104KA01J/490-6297-2-ND/2610841" H 4155 10225 50  0001 C CNN
+F 4 "0.1µF ±10% 10V Ceramic Capacitor X5R 0402 (1005 Metric)" H 4155 10225 50  0001 C CNN "Description"
+F 5 "0.1uF 0402" H 4150 10400 50  0000 C CNN "Note"
+F 6 "490-6297-1-ND" H 4155 10225 50  0001 C CNN "DigikeyPN"
+	1    4155 10225
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:C_Small-.Device C38
+U 1 1 5D6C7108
+P 4480 10225
+F 0 "C38" H 4572 10271 50  0000 L CNN
+F 1 "GRM155R60J106ME15D" H 4572 10180 50  0001 L CNN
+F 2 ".Capacitor:C_0402_1005Metric_L" H 4480 10225 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R60J106ME15-01.pdf" H 4480 10225 50  0001 C CNN
+F 4 "10µF ±20% 6.3V Ceramic Capacitor X5R 0402 (1005 Metric)" H 4480 10225 50  0001 C CNN "Description"
+F 5 "10uF 0402" H 4500 10400 50  0000 C CNN "Note"
+F 6 "490-13238-1-ND" H 4480 10225 50  0001 C CNN "DigikeyPN"
+	1    4480 10225
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:C_Small-.Device C41
+U 1 1 5D6C710E
+P 4830 10225
+F 0 "C41" H 4922 10271 50  0000 L CNN
+F 1 "GRM155R61A104KA01J" H 4922 10180 50  0001 L CNN
+F 2 ".Capacitor:C_0402_1005Metric_L" H 4830 10225 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/murata-electronics/GRM155R61A104KA01J/490-6297-2-ND/2610841" H 4830 10225 50  0001 C CNN
+F 4 "0.1µF ±10% 10V Ceramic Capacitor X5R 0402 (1005 Metric)" H 4830 10225 50  0001 C CNN "Description"
+F 5 "0.1uF 0402" H 4800 10400 50  0000 C CNN "Note"
+F 6 "490-6297-1-ND" H 4830 10225 50  0001 C CNN "DigikeyPN"
+	1    4830 10225
+	1    0    0    -1  
+$EndComp
+Connection ~ 4155 10125
+Wire Wire Line
+	4155 10125 3805 10125
+Connection ~ 4480 10125
+Wire Wire Line
+	4480 10125 4155 10125
+Wire Wire Line
+	4830 10125 4480 10125
+Wire Wire Line
+	3805 10325 4155 10325
+Connection ~ 4155 10325
+Wire Wire Line
+	4155 10325 4480 10325
+Connection ~ 4480 10325
+Wire Wire Line
+	4480 10325 4830 10325
+Wire Wire Line
+	3805 10125 3805 10075
+Connection ~ 3805 10125
+$Comp
+L power:GND #PWR0125
+U 1 1 5D6D0BC9
+P 4830 10325
+F 0 "#PWR0125" H 4830 10075 50  0001 C CNN
+F 1 "GND" H 4835 10152 50  0000 C CNN
+F 2 "" H 4830 10325 50  0001 C CNN
+F 3 "" H 4830 10325 50  0001 C CNN
+	1    4830 10325
+	1    0    0    -1  
+$EndComp
+Connection ~ 4830 10325
+$Comp
+L Regulator_Linear:TPS79328-EP U9
+U 1 1 5D6D65C2
+P 8605 10000
+F 0 "U9" H 8605 10342 50  0000 C CNN
+F 1 "TPS79328-EP" H 8605 10251 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 8605 10325 50  0001 C CIN
+F 3 "https://www.ti.com/lit/ds/symlink/tps79333-ep.pdf?ts=1595290808654&ref_url=https%253A%252F%252Fwww.google.com%252F" H 8605 10050 50  0001 C CNN
+F 4 "296-12158-1-ND" H 8605 10000 50  0001 C CNN "DigikeyPN"
+F 5 "Linear Voltage Regulator IC  1 Output  200mA SOT-23-5" H 8605 10000 50  0001 C CNN "Description"
+	1    8605 10000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8305 9900 8230 9900
+Wire Wire Line
+	7955 9900 7955 9800
+Wire Wire Line
+	8305 10000 8230 10000
+Wire Wire Line
+	8230 10000 8230 9900
+Connection ~ 8230 9900
+Wire Wire Line
+	8230 9900 7955 9900
+$Comp
+L power:GND #PWR0126
+U 1 1 5D6E1490
+P 8605 10400
+F 0 "#PWR0126" H 8605 10150 50  0001 C CNN
+F 1 "GND" H 8610 10227 50  0000 C CNN
+F 2 "" H 8605 10400 50  0001 C CNN
+F 3 "" H 8605 10400 50  0001 C CNN
+	1    8605 10400
+	1    0    0    -1  
+$EndComp
+Connection ~ 7955 9900
+$Comp
+L power:GND #PWR0127
+U 1 1 5D6E25A0
+P 7955 10150
+F 0 "#PWR0127" H 7955 9900 50  0001 C CNN
+F 1 "GND" H 7960 9977 50  0000 C CNN
+F 2 "" H 7955 10150 50  0001 C CNN
+F 3 "" H 7955 10150 50  0001 C CNN
+	1    7955 10150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7955 10100 7955 10150
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:C_Small-.Device C50
+U 1 1 5D6E1BC9
+P 7955 10000
+F 0 "C50" H 8047 10046 50  0000 L CNN
+F 1 "GRM155R61A104KA01J" H 8047 9955 50  0001 L CNN
+F 2 ".Capacitor:C_0402_1005Metric_L" H 7955 10000 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/murata-electronics/GRM155R61A104KA01J/490-6297-2-ND/2610841" H 7955 10000 50  0001 C CNN
+F 4 "0.1µF ±10% 10V Ceramic Capacitor X5R 0402 (1005 Metric)" H 7955 10000 50  0001 C CNN "Description"
+F 5 "0.1uF 0402" H 7750 10000 50  0000 C CNN "Note"
+F 6 "490-6297-1-ND" H 7955 10000 50  0001 C CNN "DigikeyPN"
+	1    7955 10000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:C_Small-.Device C54
+U 1 1 5D6F17F4
+P 8980 10100
+F 0 "C54" H 9072 10146 50  0000 L CNN
+F 1 "GRM155R71C103KA01J" H 9072 10055 50  0001 L CNN
+F 2 ".Capacitor:C_0402_1005Metric_L" H 8980 10100 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/murata-electronics/GRM155R71C103KA01J/490-6326-2-ND/2610890" H 8980 10100 50  0001 C CNN
+F 4 "10000pF ±10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)" H 8980 10100 50  0001 C CNN "Description"
+F 5 "10nF 0402" H 9150 10050 50  0000 C CNN "Note"
+F 6 "490-6326-1-ND" H 8980 10100 50  0001 C CNN "DigikeyPN"
+	1    8980 10100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8905 10000 8980 10000
+Wire Wire Line
+	8605 10400 8605 10350
+Wire Wire Line
+	8605 10350 8980 10350
+Wire Wire Line
+	8980 10200 8980 10350
+Connection ~ 8605 10350
+Wire Wire Line
+	8605 10350 8605 10300
+Wire Wire Line
+	8905 9900 9430 9900
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:C_Small-.Device C55
+U 1 1 5D7094F6
+P 9430 10100
+F 0 "C55" H 9522 10146 50  0000 L CNN
+F 1 "GRM155R60J106ME15D" H 9522 10055 50  0001 L CNN
+F 2 ".Capacitor:C_0402_1005Metric_L" H 9430 10100 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R60J106ME15-01.pdf" H 9430 10100 50  0001 C CNN
+F 4 "10µF ±20% 6.3V Ceramic Capacitor X5R 0402 (1005 Metric)" H 9430 10100 50  0001 C CNN "Description"
+F 5 "10uF 0402" H 9600 10050 50  0000 C CNN "Note"
+F 6 "490-13238-1-ND" H 9430 10100 50  0001 C CNN "DigikeyPN"
+	1    9430 10100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9430 10200 9430 10350
+Wire Wire Line
+	9430 10350 8980 10350
+Connection ~ 8980 10350
+Wire Wire Line
+	9430 10000 9430 9900
+$Comp
+L power:+2V8 #PWR0128
+U 1 1 5D71343B
+P 9430 9900
+F 0 "#PWR0128" H 9430 9750 50  0001 C CNN
+F 1 "+2V8" H 9445 10073 50  0000 C CNN
+F 2 "" H 9430 9900 50  0001 C CNN
+F 3 "" H 9430 9900 50  0001 C CNN
+	1    9430 9900
+	1    0    0    -1  
+$EndComp
+Connection ~ 9430 9900
+Wire Wire Line
+	4730 13025 4730 11750
+Wire Wire Line
+	4730 11750 5180 11750
+Wire Wire Line
+	4730 13025 5330 13025
+Connection ~ 5180 11750
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:LED_Small_ALT-.Device D2
+U 1 1 5D71A3FD
+P 3780 13875
+F 0 "D2" V 3826 13807 50  0000 R CNN
+F 1 "VLMS1500-GS08" V 3735 13807 50  0000 R CNN
+F 2 ".LED:LED_SC80X160X65L40L" V 3780 13875 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/vishay-semiconductor-opto-division/VLMS1500-GS08/VLMS1500-GS08CT-ND/3504675" V 3780 13875 50  0001 C CNN
+F 4 "Red 631nm LED Indication - Discrete 2V 0402 (1005 Metric)" H 3780 13875 50  0001 C CNN "Description"
+F 5 "VLMS1500-GS08CT-ND" H 3780 13875 50  0001 C CNN "DigikeyPN"
+F 6 "RED" H 3780 13875 50  0001 C CNN "Note"
+	1    3780 13875
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:R_Small_US-.Device R13
+U 1 1 5D71BFEE
+P 3780 13525
+F 0 "R13" H 3712 13479 50  0000 R CNN
+F 1 "ERJ-2RKF4990X " H 3712 13570 50  0001 R CNN
+F 2 ".Resistor:R_0402_1005Metric_ERJ_L" H 3780 13525 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-2GEJ501X/ERJ-2GEJ501X-ND/6049450" H 3780 13525 50  0001 C CNN
+F 4 "	RES SMD 500 OHM 5% 1/10W 0402" H 3780 13525 50  0001 C CNN "Description"
+F 5 "500 0402" H 3910 13550 50  0000 C CNN "Note"
+F 6 "P499LCT-ND" H 3780 13525 50  0001 C CNN "DigikeyPN"
+	1    3780 13525
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3780 14075 3780 13975
+$Comp
+L power:GND #PWR0129
+U 1 1 5D72C7AB
+P 3780 14075
+F 0 "#PWR0129" H 3780 13825 50  0001 C CNN
+F 1 "GND" H 3785 13902 50  0000 C CNN
+F 2 "" H 3780 14075 50  0001 C CNN
+F 3 "" H 3780 14075 50  0001 C CNN
+	1    3780 14075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3780 13625 3780 13775
+Wire Wire Line
+	3780 13425 3780 13325
+$Comp
+L power:+5V #PWR0130
+U 1 1 5D73D669
+P 3780 13325
+F 0 "#PWR0130" H 3780 13175 50  0001 C CNN
+F 1 "+5V" H 3795 13498 50  0000 C CNN
+F 2 "" H 3780 13325 50  0001 C CNN
+F 3 "" H 3780 13325 50  0001 C CNN
+	1    3780 13325
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0131
+U 1 1 5D73DF94
+P 7955 9800
+F 0 "#PWR0131" H 7955 9650 50  0001 C CNN
+F 1 "+5V" H 7970 9973 50  0000 C CNN
+F 2 "" H 7955 9800 50  0001 C CNN
+F 3 "" H 7955 9800 50  0001 C CNN
+	1    7955 9800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+2V8 #PWR0136
+U 1 1 5D7D1849
+P 7855 10750
+F 0 "#PWR0136" H 7855 10600 50  0001 C CNN
+F 1 "+2V8" H 7870 10923 50  0000 C CNN
+F 2 "" H 7855 10750 50  0001 C CNN
+F 3 "" H 7855 10750 50  0001 C CNN
+	1    7855 10750
+	1    0    0    -1  
+$EndComp
+Connection ~ 7855 10750
+$Comp
+L power:+2V8 #PWR0137
+U 1 1 5D7D5666
+P 5580 11425
+F 0 "#PWR0137" H 5580 11275 50  0001 C CNN
+F 1 "+2V8" H 5595 11598 50  0000 C CNN
+F 2 "" H 5580 11425 50  0001 C CNN
+F 3 "" H 5580 11425 50  0001 C CNN
+	1    5580 11425
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+2V8 #PWR0138
+U 1 1 5D7D5DFD
+P 6180 11425
+F 0 "#PWR0138" H 6180 11275 50  0001 C CNN
+F 1 "+2V8" H 6195 11598 50  0000 C CNN
+F 2 "" H 6180 11425 50  0001 C CNN
+F 3 "" H 6180 11425 50  0001 C CNN
+	1    6180 11425
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+1V8 #PWR0139
+U 1 1 5D7D64A2
+P 5880 11425
+F 0 "#PWR0139" H 5880 11275 50  0001 C CNN
+F 1 "+1V8" H 5895 11598 50  0000 C CNN
+F 2 "" H 5880 11425 50  0001 C CNN
+F 3 "" H 5880 11425 50  0001 C CNN
+	1    5880 11425
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+2V8 #PWR0140
+U 1 1 5D850174
+P 3780 11375
+F 0 "#PWR0140" H 3780 11225 50  0001 C CNN
+F 1 "+2V8" H 3795 11548 50  0000 C CNN
+F 2 "" H 3780 11375 50  0001 C CNN
+F 3 "" H 3780 11375 50  0001 C CNN
+	1    3780 11375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5305 14575 5580 14575
+Wire Wire Line
+	5330 13825 5305 13825
+Wire Wire Line
+	5305 13825 5305 14575
+Connection ~ 5305 14575
+Wire Wire Line
+	5580 14475 5580 14575
+Connection ~ 5580 14575
+Wire Wire Line
+	5580 14575 5780 14575
+Wire Wire Line
+	5780 14475 5780 14575
+Connection ~ 5780 14575
+Wire Wire Line
+	5780 14575 5880 14575
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:LTC3218-.Driver_LED-MS_v4_ETL_LED_Driver-rescue-MS_v4_ETL_LED_Driver-rescue-MS_v4_ETL_LED_Driver-rescue-MS_v4_ETL_LED_Driver_v2-rescue U5
+U 1 1 5C18A1DE
+P 13050 2145
+F 0 "U5" H 12750 2495 50  0000 C CNN
+F 1 "LTC3218" H 13450 2495 50  0000 C CNN
+F 2 ".Package_SON:SON_11_P50_300X200X80L40X25T239X64L" H 12600 2395 50  0001 C CNN
+F 3 "http://www.linear.com/docs/19518" H 13050 2145 50  0001 C CNN
+F 4 "IC LED DRIVER RGLTR 150MA 10DFN" H 13050 2145 50  0001 C CNN "Description"
+F 5 "NA" H 13050 2145 50  0001 C CNN "DigikeyPN"
+	1    13050 2145
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:C_Small-.Device C34
+U 1 1 5C195649
+P 12150 2095
+F 0 "C34" H 12242 2141 50  0000 L CNN
+F 1 "GRM033R61A225ME47D" H 11760 2265 50  0001 L CNN
+F 2 ".Capacitor:C_0201_0603Metric_L" H 12260 2365 50  0001 C CNN
+F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R61A225ME47-01.pdf" H 12160 2165 50  0001 C CNN
+F 4 "2.2µF ±20% 10V Ceramic Capacitor X5R 0201 (0603 Metric)" H 12150 2095 50  0001 C CNN "Description"
+F 5 "2.2uF 0201" H 11950 2090 50  0000 C CNN "Note"
+F 6 "490-13228-1-ND" H 12150 2095 50  0001 C CNN "DigikeyPN"
+	1    12150 2095
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:C_Small-.Device C45
+U 1 1 5C1958AD
+P 14250 2095
+F 0 "C45" H 14342 2141 50  0000 L CNN
+F 1 "GRM155R60J475ME47D" H 13860 2265 50  0001 L CNN
+F 2 ".Capacitor:C_0402_1005Metric_L" H 14360 2365 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/murata-electronics/GRM155R60J475ME87D/490-5408-1-ND/2175215" H 14260 2165 50  0001 C CNN
+F 4 "4.7µF ±20% 6.3V Ceramic Capacitor X5R 0402 (1005 Metric)" H 14250 2095 50  0001 C CNN "Description"
+F 5 "4.7uF 0402" H 14050 2090 50  0000 C CNN "Note"
+F 6 "490-5915-1-ND" H 14250 2095 50  0001 C CNN "DigikeyPN"
+	1    14250 2095
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12600 1995 12150 1995
+Wire Wire Line
+	12600 2445 12350 2445
+Wire Wire Line
+	12600 2545 12500 2545
+Wire Wire Line
+	13550 2445 13550 2545
+Connection ~ 13550 2545
+Wire Wire Line
+	13550 2545 13550 2895
+Wire Wire Line
+	13000 1545 13000 1745
+Wire Wire Line
+	13200 1545 13250 1545
+Wire Wire Line
+	13250 1545 13250 1695
+Wire Wire Line
+	13250 1695 13150 1695
+Wire Wire Line
+	13150 1695 13150 1745
+Text Label 12200 2795 0    50   ~ 0
+ENT1
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:GND-power-MS_v4_ETL_LED_Driver_v2-rescue #PWR0142
+U 1 1 5C1972C5
+P 12350 2445
+F 0 "#PWR0142" H 12350 2195 50  0001 C CNN
+F 1 "GND" H 12355 2272 50  0000 C CNN
+F 2 "" H 12350 2445 50  0001 C CNN
+F 3 "" H 12350 2445 50  0001 C CNN
+	1    12350 2445
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:GND-power-MS_v4_ETL_LED_Driver_v2-rescue #PWR0143
+U 1 1 5C1973D2
+P 13550 2895
+F 0 "#PWR0143" H 13550 2645 50  0001 C CNN
+F 1 "GND" H 13555 2722 50  0000 C CNN
+F 2 "" H 13550 2895 50  0001 C CNN
+F 3 "" H 13550 2895 50  0001 C CNN
+	1    13550 2895
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:GND-power-MS_v4_ETL_LED_Driver_v2-rescue #PWR0144
+U 1 1 5C1973F3
+P 14250 2195
+F 0 "#PWR0144" H 14250 1945 50  0001 C CNN
+F 1 "GND" H 14255 2022 50  0000 C CNN
+F 2 "" H 14250 2195 50  0001 C CNN
+F 3 "" H 14250 2195 50  0001 C CNN
+	1    14250 2195
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:GND-power-MS_v4_ETL_LED_Driver_v2-rescue #PWR0145
+U 1 1 5C1975A0
+P 13750 2495
+F 0 "#PWR0145" H 13750 2245 50  0001 C CNN
+F 1 "GND" H 13755 2322 50  0000 C CNN
+F 2 "" H 13750 2495 50  0001 C CNN
+F 3 "" H 13750 2495 50  0001 C CNN
+	1    13750 2495
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:GND-power-MS_v4_ETL_LED_Driver_v2-rescue #PWR0146
+U 1 1 5C19813B
+P 12150 2195
+F 0 "#PWR0146" H 12150 1945 50  0001 C CNN
+F 1 "GND" H 12155 2022 50  0000 C CNN
+F 2 "" H 12150 2195 50  0001 C CNN
+F 3 "" H 12150 2195 50  0001 C CNN
+	1    12150 2195
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13550 2195 13750 2195
+Wire Wire Line
+	13750 2195 13750 2295
+Wire Wire Line
+	13550 1995 14250 1995
+Wire Wire Line
+	13000 2895 13000 2995
+Wire Wire Line
+	13000 2995 13150 2995
+Wire Wire Line
+	12500 2795 12200 2795
+Wire Wire Line
+	12500 2545 12500 2795
+Text Notes 13750 1345 0    50   ~ 0
+I_LED Current = R_Set
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:GND-power-MS_v4_ETL_LED_Driver_v2-rescue #PWR0148
+U 1 1 5C1A9BFD
+P 16500 3145
+F 0 "#PWR0148" H 16500 2895 50  0001 C CNN
+F 1 "GND" H 16505 2972 50  0000 C CNN
+F 2 "" H 16500 3145 50  0001 C CNN
+F 3 "" H 16500 3145 50  0001 C CNN
+	1    16500 3145
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:+3.3V-power-MS_v4_ETL_LED_Driver_v2-rescue #PWR0149
+U 1 1 5C1AB46C
+P 12150 1995
+F 0 "#PWR0149" H 12150 1845 50  0001 C CNN
+F 1 "+3.3V" H 12165 2168 50  0000 C CNN
+F 2 "" H 12150 1995 50  0001 C CNN
+F 3 "" H 12150 1995 50  0001 C CNN
+	1    12150 1995
+	1    0    0    -1  
+$EndComp
+Connection ~ 12150 1995
+Text Notes 15525 1570 0    50   ~ 0
+A: Sets Voltage divider to drop 3.3V down to ~1.2V\nB: Sets the current running out of I_Set based on the voltage divider of A\n
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:ERJ-1GEF1022C-.Resistor-MS_v4_ETL_LED_Driver_v2-rescue R15
+U 1 1 5C6EE01E
+P 19300 4000
+F 0 "R15" V 19095 4000 50  0000 C CNN
+F 1 "DNL" H 19330 3810 50  0001 L CNN
+F 2 ".Resistor:R_0201_0603Metric_ERJ_L" H 19230 3920 50  0001 C CNN
+F 3 "" H 19300 4000 50  0001 C CNN
+F 4 "" V 19300 4000 50  0001 C CNN "Note"
+	1    19300 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:ERJ-1GEF1022C-.Resistor-MS_v4_ETL_LED_Driver_v2-rescue R14
+U 1 1 5C6EE157
+P 19300 3750
+F 0 "R14" V 19095 3750 50  0000 C CNN
+F 1 "DNL" H 19330 3560 50  0001 L CNN
+F 2 ".Resistor:R_0201_0603Metric_ERJ_L" H 19230 3670 50  0001 C CNN
+F 3 "" H 19300 3750 50  0001 C CNN
+F 4 "" V 19300 3750 50  0001 C CNN "Note"
+	1    19300 3750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	19200 4000 19200 3750
+Wire Wire Line
+	19000 3750 19200 3750
+Connection ~ 19200 3750
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:+3.3V-power-MS_v4_ETL_LED_Driver_v2-rescue #PWR0152
+U 1 1 5C6F2EE5
+P 19000 3750
+F 0 "#PWR0152" H 19000 3600 50  0001 C CNN
+F 1 "+3.3V" H 19015 3923 50  0000 C CNN
+F 2 "" H 19000 3750 50  0001 C CNN
+F 3 "" H 19000 3750 50  0001 C CNN
+	1    19000 3750
+	1    0    0    -1  
+$EndComp
+Text Notes 18575 4125 0    50   ~ 0
+These I2C pullup resistors replace those on the Serializer PCB. 
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:C_Small-.Device C52
+U 1 1 5C6FB71E
+P 17150 1950
+F 0 "C52" H 16900 1950 50  0000 L CNN
+F 1 "GRM033R61A104ME15D" H 16760 2120 50  0001 L CNN
+F 2 ".Capacitor:C_0201_0603Metric_L" H 17210 2220 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/murata-electronics/GRM033R61A104ME15D/490-5405-2-ND/2175191" H 17160 2020 50  0001 C CNN
+F 4 "0.1µF ±20% 10V Ceramic Capacitor X5R 0201 (0603 Metric)" H 17150 1950 50  0001 C CNN "Description"
+F 5 "0.1uF 0201" H 17350 1950 50  0000 C CNN "Note"
+F 6 "490-5405-1-ND" H 17150 1950 50  0001 C CNN "DigikeyPN"
+	1    17150 1950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:GND-power-MS_v4_ETL_LED_Driver_v2-rescue #PWR0153
+U 1 1 5C6FCE5C
+P 17150 1850
+F 0 "#PWR0153" H 17150 1600 50  0001 C CNN
+F 1 "GND" H 17155 1677 50  0000 C CNN
+F 2 "" H 17150 1850 50  0001 C CNN
+F 3 "" H 17150 1850 50  0001 C CNN
+	1    17150 1850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:LTC3218-.Driver_LED-MS_v4_ETL_LED_Driver-rescue-MS_v4_ETL_LED_Driver-rescue-MS_v4_ETL_LED_Driver-rescue-MS_v4_ETL_LED_Driver_v2-rescue U7
+U 1 1 5D02BC5D
+P 15250 4525
+F 0 "U7" H 14950 4875 50  0000 C CNN
+F 1 "LTC3218" H 15650 4875 50  0000 C CNN
+F 2 ".Package_SON:SON_11_P50_300X200X80L40X25T239X64L" H 14800 4775 50  0001 C CNN
+F 3 "http://www.linear.com/docs/19518" H 15250 4525 50  0001 C CNN
+F 4 "IC LED DRIVER RGLTR 150MA 10DFN" H 15250 4525 50  0001 C CNN "Description"
+F 5 "NA" H 15250 4525 50  0001 C CNN "DigikeyPN"
+	1    15250 4525
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:GRM033R61A225ME47D-.Capacitor-MS_v4_ETL_LED_Driver_v2-rescue C47
+U 1 1 5D02BC65
+P 14350 4475
+F 0 "C47" H 14442 4521 50  0000 L CNN
+F 1 "GRM033R61A225ME47D" H 13960 4645 50  0001 L CNN
+F 2 ".Capacitor:C_0201_0603Metric_L" H 14460 4745 50  0001 C CNN
+F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R61A225ME47-01.pdf" H 14360 4545 50  0001 C CNN
+F 4 "2.2µF ±20% 10V Ceramic Capacitor X5R 0201 (0603 Metric)" H 14350 4475 50  0001 C CNN "Description"
+F 5 "2.2uF 0201" H 14150 4500 50  0000 C CNN "Note"
+F 6 "490-13228-1-ND" H 14350 4475 50  0001 C CNN "DigikeyPN"
+	1    14350 4475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:GRM033R61A225ME47D-.Capacitor-MS_v4_ETL_LED_Driver_v2-rescue C48
+U 1 1 5D02BC6D
+P 15300 3925
+F 0 "C48" V 15071 3925 50  0000 C CNN
+F 1 "GRM033R61A225ME47D" H 14910 4095 50  0001 L CNN
+F 2 ".Capacitor:C_0201_0603Metric_L" H 15410 4195 50  0001 C CNN
+F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R61A225ME47-01.pdf" H 15310 3995 50  0001 C CNN
+F 4 "2.2µF ±20% 10V Ceramic Capacitor X5R 0201 (0603 Metric)" H 15300 3925 50  0001 C CNN "Description"
+F 5 "2.2uF 0201" V 15175 3925 50  0000 C CNN "Note"
+F 6 "490-13228-1-ND" H 15300 3925 50  0001 C CNN "DigikeyPN"
+	1    15300 3925
+	0    1    1    0   
+$EndComp
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:GRM155R60J475ME87D-.Capacitor-MS_v4_ETL_LED_Driver_v2-rescue C51
+U 1 1 5D02BC75
+P 16450 4475
+F 0 "C51" H 16542 4521 50  0000 L CNN
+F 1 "GRM155R60J475ME47D" H 16060 4645 50  0001 L CNN
+F 2 ".Capacitor:C_0402_1005Metric_L" H 16560 4745 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/murata-electronics/GRM155R60J475ME87D/490-5408-1-ND/2175215" H 16460 4545 50  0001 C CNN
+F 4 "4.7µF ±20% 6.3V Ceramic Capacitor X5R 0402 (1005 Metric)" H 16450 4475 50  0001 C CNN "Description"
+F 5 "4.7uF 0402" H 16650 4450 50  0000 C CNN "Note"
+F 6 "490-5915-1-ND" H 16450 4475 50  0001 C CNN "DigikeyPN"
+	1    16450 4475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14800 4375 14350 4375
+Wire Wire Line
+	14800 4825 14550 4825
+Wire Wire Line
+	14800 4925 14700 4925
+Wire Wire Line
+	15750 4825 15750 4925
+Connection ~ 15750 4925
+Wire Wire Line
+	15750 4925 15750 5275
+Wire Wire Line
+	15200 3925 15200 4125
+Wire Wire Line
+	15400 3925 15450 3925
+Wire Wire Line
+	15450 3925 15450 4075
+Wire Wire Line
+	15450 4075 15350 4075
+Wire Wire Line
+	15350 4075 15350 4125
+Text Label 14400 5175 0    50   ~ 0
+ENT2
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:GND-power-MS_v4_ETL_LED_Driver_v2-rescue #PWR0154
+U 1 1 5D02BC87
+P 14550 4825
+F 0 "#PWR0154" H 14550 4575 50  0001 C CNN
+F 1 "GND" H 14555 4652 50  0000 C CNN
+F 2 "" H 14550 4825 50  0001 C CNN
+F 3 "" H 14550 4825 50  0001 C CNN
+	1    14550 4825
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:GND-power-MS_v4_ETL_LED_Driver_v2-rescue #PWR0155
+U 1 1 5D02BC8D
+P 15750 5275
+F 0 "#PWR0155" H 15750 5025 50  0001 C CNN
+F 1 "GND" H 15755 5102 50  0000 C CNN
+F 2 "" H 15750 5275 50  0001 C CNN
+F 3 "" H 15750 5275 50  0001 C CNN
+	1    15750 5275
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:GND-power-MS_v4_ETL_LED_Driver_v2-rescue #PWR0156
+U 1 1 5D02BC93
+P 16450 4575
+F 0 "#PWR0156" H 16450 4325 50  0001 C CNN
+F 1 "GND" H 16455 4402 50  0000 C CNN
+F 2 "" H 16450 4575 50  0001 C CNN
+F 3 "" H 16450 4575 50  0001 C CNN
+	1    16450 4575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:GND-power-MS_v4_ETL_LED_Driver_v2-rescue #PWR0157
+U 1 1 5D02BC99
+P 15950 4875
+F 0 "#PWR0157" H 15950 4625 50  0001 C CNN
+F 1 "GND" H 15955 4702 50  0000 C CNN
+F 2 "" H 15950 4875 50  0001 C CNN
+F 3 "" H 15950 4875 50  0001 C CNN
+	1    15950 4875
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:GND-power-MS_v4_ETL_LED_Driver_v2-rescue #PWR0158
+U 1 1 5D02BC9F
+P 14350 4575
+F 0 "#PWR0158" H 14350 4325 50  0001 C CNN
+F 1 "GND" H 14355 4402 50  0000 C CNN
+F 2 "" H 14350 4575 50  0001 C CNN
+F 3 "" H 14350 4575 50  0001 C CNN
+	1    14350 4575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:LXZ1-PR01-.LED-MS_v4_ETL_LED_Driver_v2-rescue D4
+U 1 1 5D02BCA5
+P 15950 4775
+F 0 "D4" V 16000 4725 50  0000 R CNN
+F 1 "LXZ1-PB01" V 15850 4775 50  0000 R CNN
+F 2 ".LED:LED_LXZ1_PR01_L" V 15950 4775 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/lumileds/LXZ1-PB01/1416-1052-2-ND/3961275" V 15950 4775 50  0001 C CNN
+F 4 " 	LED Lighting Color LUXEON Z Lime 568nm (566nm ~ 569nm) 0705 (1713 Metric) " H 15950 4775 50  0001 C CNN "Description"
+F 5 "1416-1052-1-ND" H 15950 4775 50  0001 C CNN "DigikeyPN"
+F 6 "LED LUXEON Z RYL Blue" H 15950 4775 50  0001 C CNN "Note"
+	1    15950 4775
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	15750 4575 15950 4575
+Wire Wire Line
+	15950 4575 15950 4675
+Wire Wire Line
+	15750 4375 16450 4375
+Wire Wire Line
+	15200 5275 15200 5375
+Wire Wire Line
+	15200 5375 15350 5375
+Wire Wire Line
+	15350 5375 15350 5275
+Wire Wire Line
+	14700 5175 14400 5175
+Wire Wire Line
+	14700 4925 14700 5175
+Text Notes 15950 3725 0    50   ~ 0
+I_LED Current = R_Set
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:ERJ-1GEF1022C-.Resistor-MS_v4_ETL_LED_Driver_v2-rescue R18
+U 1 1 5D02BCB7
+P 16700 5775
+F 0 "R18" V 16495 5775 50  0000 C CNN
+F 1 "ERJ-1GNF1022C" H 16730 5585 50  0001 L CNN
+F 2 ".Resistor:R_0201_0603Metric_ERJ_L" H 16630 5695 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-1GEF1022C/P10-2KABCT-ND/1467562" H 16700 5775 50  0001 C CNN
+F 4 "10.2 kOhms ±1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric) Automotive AEC-Q200 Thick Film" H 16700 5775 50  0001 C CNN "Description"
+F 5 "10.2k 0201" V 16575 5775 50  0000 C CNN "Note"
+F 6 "ERJ-1GNF1022C" H 16700 5775 50  0001 C CNN "DigikeyPN"
+	1    16700 5775
+	0    1    1    0   
+$EndComp
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:+3.3V-power-MS_v4_ETL_LED_Driver_v2-rescue #PWR0159
+U 1 1 5D02BCBD
+P 14350 4375
+F 0 "#PWR0159" H 14350 4225 50  0001 C CNN
+F 1 "+3.3V" H 14365 4548 50  0000 C CNN
+F 2 "" H 14350 4375 50  0001 C CNN
+F 3 "" H 14350 4375 50  0001 C CNN
+	1    14350 4375
+	1    0    0    -1  
+$EndComp
+Connection ~ 14350 4375
+Wire Wire Line
+	15350 5375 15350 5775
+Wire Wire Line
+	15350 5775 16600 5775
+Connection ~ 15350 5375
+Wire Wire Line
+	16800 5775 19200 5775
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:ERJ-1GEF1022C-.Resistor-MS_v4_ETL_LED_Driver_v2-rescue R21
+U 1 1 5D034890
+P 20750 1500
+F 0 "R21" H 20818 1546 50  0000 L CNN
+F 1 "ERJ-1GNF6201C" H 20818 1455 50  0001 L CNN
+F 2 ".Resistor:R_0201_0603Metric_ERJ_L" V 20790 1490 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-1GNJ622C/P123354CT-ND/8343647" H 20750 1500 50  0001 C CNN
+F 4 "6.2 kOhms ±1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric) Automotive AEC-Q200 Thick Film" H 20750 1500 50  0001 C CNN "Description"
+F 5 "6.2k 0201" H 20600 1500 50  0000 C CNN "Note"
+F 6 "P123105CT-ND" H 20750 1500 50  0001 C CNN "DigikeyPN"
+	1    20750 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:GND-power-MS_v4_ETL_LED_Driver_v2-rescue #PWR0160
+U 1 1 5D03986B
+P 19900 2175
+F 0 "#PWR0160" H 19900 1925 50  0001 C CNN
+F 1 "GND" H 19905 2002 50  0000 C CNN
+F 2 "" H 19900 2175 50  0001 C CNN
+F 3 "" H 19900 2175 50  0001 C CNN
+	1    19900 2175
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:+3.3V-power-MS_v4_ETL_LED_Driver_v2-rescue #PWR0161
+U 1 1 5D04768A
+P 19900 1250
+F 0 "#PWR0161" H 19900 1100 50  0001 C CNN
+F 1 "+3.3V" H 19915 1423 50  0000 C CNN
+F 2 "" H 19900 1250 50  0001 C CNN
+F 3 "" H 19900 1250 50  0001 C CNN
+	1    19900 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:+3.3V-power-MS_v4_ETL_LED_Driver_v2-rescue #PWR0162
+U 1 1 5D04822C
+P 20750 1250
+F 0 "#PWR0162" H 20750 1100 50  0001 C CNN
+F 1 "+3.3V" H 20765 1423 50  0000 C CNN
+F 2 "" H 20750 1250 50  0001 C CNN
+F 3 "" H 20750 1250 50  0001 C CNN
+	1    20750 1250
+	1    0    0    -1  
+$EndComp
+Text Label 19550 1725 0    50   ~ 0
+Va
+Wire Wire Line
+	19550 1725 19900 1725
+Connection ~ 19900 1725
+Text Label 20450 1700 0    50   ~ 0
+Vb
+Wire Wire Line
+	20450 1700 20750 1700
+Connection ~ 20750 1700
+Text Label 19200 5775 0    50   ~ 0
+_Wa
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:ERJ-1GEF1022C-.Resistor-MS_v4_ETL_LED_Driver_v2-rescue R22
+U 1 1 5D07CC2E
+P 20750 1925
+F 0 "R22" H 20818 1971 50  0000 L CNN
+F 1 "ERJ-1GNF3741C" H 20818 1880 50  0001 L CNN
+F 2 ".Resistor:R_0201_0603Metric_ERJ_L" V 20790 1915 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-1GNF3741C/P122972CT-ND/8342883" H 20750 1925 50  0001 C CNN
+F 4 "3.74 kOhms ±1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric)  Thick Film" H 20750 1925 50  0001 C CNN "Description"
+F 5 "3.74k 0201" H 20600 1900 50  0000 C CNN "Note"
+F 6 "P122972CT-ND" H 20750 1925 50  0001 C CNN "DigikeyPN"
+	1    20750 1925
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:GND-power-MS_v4_ETL_LED_Driver_v2-rescue #PWR0164
+U 1 1 5D07CC34
+P 20750 2175
+F 0 "#PWR0164" H 20750 1925 50  0001 C CNN
+F 1 "GND" H 20755 2002 50  0000 C CNN
+F 2 "" H 20750 2175 50  0001 C CNN
+F 3 "" H 20750 2175 50  0001 C CNN
+	1    20750 2175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19900 1250 19900 1400
+Wire Wire Line
+	19900 1600 19900 1725
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:ERJ-1GEF1022C-.Resistor-MS_v4_ETL_LED_Driver_v2-rescue R20
+U 1 1 5D031D7C
+P 19900 1925
+F 0 "R20" H 19968 1971 50  0000 L CNN
+F 1 "ERJ-1GNF3741C" H 19968 1880 50  0001 L CNN
+F 2 ".Resistor:R_0201_0603Metric_ERJ_L" V 19940 1915 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-1GNF3741C/P122972CT-ND/8342883" H 19900 1925 50  0001 C CNN
+F 4 "3.74 kOhms ±1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric)  Thick Film" H 19900 1925 50  0001 C CNN "Description"
+F 5 "3.74k 0201" H 19750 1900 50  0000 C CNN "Note"
+F 6 "P122972CT-ND" H 19900 1925 50  0001 C CNN "DigikeyPN"
+	1    19900 1925
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19900 1725 19900 1825
+Wire Wire Line
+	19900 2025 19900 2175
+Wire Wire Line
+	20750 1600 20750 1700
+Wire Wire Line
+	20750 1250 20750 1400
+Wire Wire Line
+	20750 1700 20750 1825
+Wire Wire Line
+	20750 2025 20750 2175
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:ERJ-1GEF1022C-.Resistor-MS_v4_ETL_LED_Driver_v2-rescue R19
+U 1 1 5D0314EF
+P 19900 1500
+F 0 "R19" H 19968 1546 50  0000 L CNN
+F 1 "ERJ-1GNF6201C" H 19968 1455 50  0001 L CNN
+F 2 ".Resistor:R_0201_0603Metric_ERJ_L" V 19940 1490 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-1GNJ622C/P123354CT-ND/8343647" H 19900 1500 50  0001 C CNN
+F 4 "6.2 kOhms ±1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric) Automotive AEC-Q200 Thick Film" H 19900 1500 50  0001 C CNN "Description"
+F 5 "6.2k 0201" H 19750 1500 50  0000 C CNN "Note"
+F 6 "P123105CT-ND" H 19900 1500 50  0001 C CNN "DigikeyPN"
+	1    19900 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:LXZ1-PR01-.LED D3
+U 1 1 5DBAF281
+P 13750 2395
+F 0 "D3" V 13796 2327 50  0000 R CNN
+F 1 "LXZ1-PB01" V 13705 2327 50  0000 R CNN
+F 2 ".LED:LED_LXZ1_PR01_L" H 13600 2420 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/lumileds/LXZ1-PB01/1416-1052-2-ND/3961275" V 13750 2395 50  0001 C CNN
+F 4 " 	LED Lighting Color LUXEON Z Lime 568nm (566nm ~ 569nm) 0705 (1713 Metric) " H 13750 2395 50  0001 C CNN "Description"
+F 5 "1416-1052-1-ND" H 13750 2395 50  0001 C CNN "DigikeyPN"
+F 6 "LED LUXEON Z RYL Blue" H 13750 2395 50  0001 C CNN "Note"
+	1    13750 2395
+	0    -1   -1   0   
+$EndComp
+Text Notes 1825 4900 0    50   ~ 0
+Can be swapped out with the DS90UB913 variant
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:TLV7103318DSER-.Regulator_Linear U4
+U 1 1 5C9C8E9A
+P 8450 2300
+F 0 "U4" H 8550 2642 50  0000 C CNN
+F 1 "TLV7103318DSER" H 8550 2551 50  0000 C CNN
+F 2 ".Package_SON:SON_6_P50_150X150X80L50X25L" H 8450 2600 50  0001 C CIN
+F 3 "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftlv710" H 8450 2300 50  0001 C CNN
+F 4 "Linear Voltage Regulator IC  2 Output  200mA 6-WSON (1.5x1.5)" H 8450 2300 50  0001 C CNN "Description"
+F 5 "296-46453-1-ND" H 8450 2300 50  0001 C CNN "DigikeyPN"
+	1    8450 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:ADL3225V-470MT-TL000-.Inductor-Siminiscope-Ser-Pow-rescue L3
+U 1 1 5C9C9416
+P 8825 1450
+F 0 "L3" V 9010 1450 50  0000 C CNN
+F 1 "ADL3225V-470MT-TL000" H 8875 1300 50  0001 L CNN
+F 2 ".Inductor:L_1210_3225Metric_L" H 8755 1390 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/tdk-corporation/ADL3225V-470MT-TL000/445-174611-1-ND/6193006" H 8825 1450 50  0001 C CNN
+F 4 "47µH Unshielded Wirewound Inductor 500mA 900mOhm Max 1210 (3225 Metric)" H 8825 1450 50  0001 C CNN "Description"
+F 5 "47uH" V 8925 1425 50  0000 C CNN "Note"
+F 6 "445-174611-1-ND" H 8825 1450 50  0001 C CNN "DigikeyPN"
+	1    8825 1450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:C_Small-.Device C17
+U 1 1 5C9F24DC
+P 9200 1550
+F 0 "C17" H 9292 1596 50  0000 L CNN
+F 1 "GRM155R60J106ME15D" H 8810 1720 50  0001 L CNN
+F 2 ".Capacitor:C_0402_1005Metric_L" H 9310 1820 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R60J106ME15-01.pdf" H 9210 1620 50  0001 C CNN
+F 4 "10µF ±20% 6.3V Ceramic Capacitor X5R 0402 (1005 Metric)" H 9200 1550 50  0001 C CNN "Description"
+F 5 "10uF 0402" H 9350 1500 50  0000 C CNN "Note"
+F 6 "490-13238-1-ND" H 9200 1550 50  0001 C CNN "DigikeyPN"
+	1    9200 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:C_Small-.Device C24
+U 1 1 5C9F29F6
+P 9600 1550
+F 0 "C24" H 9692 1596 50  0000 L CNN
+F 1 "GRM155R60J106ME15D" H 9210 1720 50  0001 L CNN
+F 2 ".Capacitor:C_0402_1005Metric_L" H 9710 1820 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R60J106ME15-01.pdf" H 9610 1620 50  0001 C CNN
+F 4 "10µF ±20% 6.3V Ceramic Capacitor X5R 0402 (1005 Metric)" H 9600 1550 50  0001 C CNN "Description"
+F 5 "10uF 0402" H 9750 1500 50  0000 C CNN "Note"
+F 6 "490-13238-1-ND" H 9600 1550 50  0001 C CNN "DigikeyPN"
+	1    9600 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 1450 9200 1450
+Connection ~ 9200 1450
+Wire Wire Line
+	8925 1450 9025 1450
+Connection ~ 9025 1450
+Wire Wire Line
+	9025 1450 9200 1450
+Wire Wire Line
+	9025 1750 8925 1750
+Wire Wire Line
+	9025 1450 9025 1750
+Wire Wire Line
+	8725 1450 8600 1450
+Wire Wire Line
+	8725 1750 8600 1750
+Wire Wire Line
+	8600 1750 8600 1450
+Connection ~ 8600 1450
+Wire Wire Line
+	8600 1450 8450 1450
+Wire Wire Line
+	9200 1650 9600 1650
+$Comp
+L power:GND #PWR0165
+U 1 1 5C9F5735
+P 9600 1650
+F 0 "#PWR0165" H 9600 1400 50  0001 C CNN
+F 1 "GND" H 9605 1477 50  0000 C CNN
+F 2 "" H 9600 1650 50  0001 C CNN
+F 3 "" H 9600 1650 50  0001 C CNN
+	1    9600 1650
+	1    0    0    -1  
+$EndComp
+Connection ~ 9600 1650
+$Comp
+L power:+5V #PWR0166
+U 1 1 5C9F61A7
+P 9600 1450
+F 0 "#PWR0166" H 9600 1300 50  0001 C CNN
+F 1 "+5V" H 9615 1623 50  0000 C CNN
+F 2 "" H 9600 1450 50  0001 C CNN
+F 3 "" H 9600 1450 50  0001 C CNN
+	1    9600 1450
+	1    0    0    -1  
+$EndComp
+Connection ~ 9600 1450
+Text GLabel 1525 2300 0    50   Input ~ 0
+LV
+Text GLabel 1525 2400 0    50   Input ~ 0
+FV
+Wire Wire Line
+	1650 2300 1525 2300
+Wire Wire Line
+	1525 2400 1650 2400
+Text GLabel 1525 2600 0    50   Input ~ 0
+DIN0
+Text GLabel 1525 2700 0    50   Input ~ 0
+DIN1
+Text GLabel 1525 2800 0    50   Input ~ 0
+DIN2
+Text GLabel 1525 2900 0    50   Input ~ 0
+DIN3
+Text GLabel 1525 3000 0    50   Input ~ 0
+DIN4
+Text GLabel 1525 3100 0    50   Input ~ 0
+DIN5
+Text GLabel 1525 3200 0    50   Input ~ 0
+DIN6
+Text GLabel 1525 3300 0    50   Input ~ 0
+DIN7
+Text GLabel 1525 3400 0    50   Input ~ 0
+DIN8
+Text GLabel 1525 3500 0    50   Input ~ 0
+DIN9
+Text GLabel 1525 3600 0    50   Input ~ 0
+DIN10
+Text GLabel 1525 3700 0    50   Input ~ 0
+DIN11
+Wire Wire Line
+	1650 3700 1525 3700
+Wire Wire Line
+	1650 3600 1525 3600
+Wire Wire Line
+	1650 3500 1525 3500
+Wire Wire Line
+	1650 3400 1525 3400
+Wire Wire Line
+	1650 3300 1525 3300
+Wire Wire Line
+	1650 3200 1525 3200
+Wire Wire Line
+	1650 3100 1525 3100
+Wire Wire Line
+	1650 3000 1525 3000
+Wire Wire Line
+	1650 2900 1525 2900
+Wire Wire Line
+	1650 2800 1525 2800
+Wire Wire Line
+	1650 2700 1525 2700
+Wire Wire Line
+	1650 2600 1525 2600
+Text GLabel 7850 1450 0    50   Input ~ 0
+DOUT_P
+Wire Wire Line
+	8250 1450 7850 1450
+Wire Wire Line
+	8150 2200 8075 2200
+Wire Wire Line
+	8075 2200 8075 2300
+Wire Wire Line
+	8075 2400 8150 2400
+Wire Wire Line
+	8150 2300 8075 2300
+Connection ~ 8075 2300
+Wire Wire Line
+	8075 2300 8075 2400
+$Comp
+L power:+5V #PWR0171
+U 1 1 5CC429D2
+P 7650 2300
+F 0 "#PWR0171" H 7650 2150 50  0001 C CNN
+F 1 "+5V" V 7665 2428 50  0000 L CNN
+F 2 "" H 7650 2300 50  0001 C CNN
+F 3 "" H 7650 2300 50  0001 C CNN
+	1    7650 2300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7650 2300 7800 2300
+Connection ~ 7800 2300
+Wire Wire Line
+	7800 2300 8075 2300
+Wire Wire Line
+	7800 2750 8150 2750
+Wire Wire Line
+	8550 2750 8550 2600
+$Comp
+L power:GND #PWR0172
+U 1 1 5CC49699
+P 8150 2850
+F 0 "#PWR0172" H 8150 2600 50  0001 C CNN
+F 1 "GND" H 8155 2677 50  0000 C CNN
+F 2 "" H 8150 2850 50  0001 C CNN
+F 3 "" H 8150 2850 50  0001 C CNN
+	1    8150 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 2850 8150 2750
+Connection ~ 8150 2750
+Wire Wire Line
+	8150 2750 8550 2750
+$Comp
+L power:+3.3V #PWR0173
+U 1 1 5CC4B63F
+P 9425 2125
+F 0 "#PWR0173" H 9425 1975 50  0001 C CNN
+F 1 "+3.3V" H 9440 2298 50  0000 C CNN
+F 2 "" H 9425 2125 50  0001 C CNN
+F 3 "" H 9425 2125 50  0001 C CNN
+	1    9425 2125
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+1V8 #PWR0174
+U 1 1 5CC4B9F6
+P 9200 2300
+F 0 "#PWR0174" H 9200 2150 50  0001 C CNN
+F 1 "+1V8" H 9215 2473 50  0000 C CNN
+F 2 "" H 9200 2300 50  0001 C CNN
+F 3 "" H 9200 2300 50  0001 C CNN
+	1    9200 2300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8950 2300 9200 2300
+Wire Wire Line
+	9200 2300 9525 2300
+Connection ~ 9200 2300
+$Comp
+L power:GND #PWR0175
+U 1 1 5CC5223E
+P 9525 2650
+F 0 "#PWR0175" H 9525 2400 50  0001 C CNN
+F 1 "GND" H 9530 2477 50  0000 C CNN
+F 2 "" H 9525 2650 50  0001 C CNN
+F 3 "" H 9525 2650 50  0001 C CNN
+	1    9525 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8950 2200 9425 2200
+Wire Wire Line
+	9425 2200 9425 2125
+Wire Wire Line
+	9425 2200 9900 2200
+Connection ~ 9425 2200
+Connection ~ 3875 4650
+Wire Wire Line
+	3875 4550 3875 4650
+Wire Wire Line
+	2750 4550 3875 4550
+Wire Wire Line
+	3900 4650 3875 4650
+Wire Wire Line
+	3900 4100 3900 4650
+$Comp
+L power:GND #PWR0176
+U 1 1 5CC5A56A
+P 3875 4650
+F 0 "#PWR0176" H 3875 4400 50  0001 C CNN
+F 1 "GND" H 3880 4477 50  0000 C CNN
+F 2 "" H 3875 4650 50  0001 C CNN
+F 3 "" H 3875 4650 50  0001 C CNN
+	1    3875 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:DS90UB933-Q1-.SERDES U2
+U 1 1 5C9C800D
+P 2550 2600
+F 0 "U2" H 3625 775 50  0000 C CNN
+F 1 "DS90UB913ATRTVTQ1" H 2125 775 50  0000 C CNN
+F 2 ".Package_QFN:QFN_33_P50_500X500X80L40X24T310L" H 1550 750 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/ds90ub913a-q1.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1595289439678" H 2550 2600 50  0001 C CNN
+F 4 "1.4Gbps Serializer 12 Input 1 Output 32-WQFN (5x5)" H 2550 2600 50  0001 C CNN "Description"
+F 5 "296-37226-1-ND" H 2550 2600 50  0001 C CNN "DigikeyPN"
+F 6 "Serializer 913A" H 2550 2600 50  0001 C CNN "Note"
+	1    2550 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9900 3650 9425 3650
+Connection ~ 9425 3650
+Wire Wire Line
+	9425 3650 9025 3650
+Wire Wire Line
+	9900 5000 9425 5000
+Connection ~ 9425 5000
+Wire Wire Line
+	9425 5000 9025 5000
+$Comp
+L power:GND #PWR0177
+U 1 1 5CC8722C
+P 9425 6575
+F 0 "#PWR0177" H 9425 6325 50  0001 C CNN
+F 1 "GND" H 9430 6402 50  0000 C CNN
+F 2 "" H 9425 6575 50  0001 C CNN
+F 3 "" H 9425 6575 50  0001 C CNN
+	1    9425 6575
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9900 6525 9425 6525
+Wire Wire Line
+	9425 6575 9425 6525
+$Comp
+L power:+1V8 #PWR0178
+U 1 1 5CC960E3
+P 9900 3275
+F 0 "#PWR0178" H 9900 3125 50  0001 C CNN
+F 1 "+1V8" H 9915 3448 50  0000 C CNN
+F 2 "" H 9900 3275 50  0001 C CNN
+F 3 "" H 9900 3275 50  0001 C CNN
+	1    9900 3275
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+1V8 #PWR0179
+U 1 1 5CC968A4
+P 10300 3925
+F 0 "#PWR0179" H 10300 3775 50  0001 C CNN
+F 1 "+1V8" H 10315 4098 50  0000 C CNN
+F 2 "" H 10300 3925 50  0001 C CNN
+F 3 "" H 10300 3925 50  0001 C CNN
+	1    10300 3925
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+1V8 #PWR0180
+U 1 1 5CC9C998
+P 9900 6150
+F 0 "#PWR0180" H 9900 6000 50  0001 C CNN
+F 1 "+1V8" H 9915 6323 50  0000 C CNN
+F 2 "" H 9900 6150 50  0001 C CNN
+F 3 "" H 9900 6150 50  0001 C CNN
+	1    9900 6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9900 3275 9900 3350
+Wire Wire Line
+	10300 3925 10300 4000
+Wire Wire Line
+	9900 6150 9900 6225
+Text GLabel 8725 6225 0    50   Input ~ 0
+VDDD
+Text GLabel 8725 4700 0    50   Input ~ 0
+VDDCML
+Text GLabel 8725 4000 0    50   Input ~ 0
+VDDPLL
+Text GLabel 8725 3350 0    50   Input ~ 0
+VDDT
+Wire Wire Line
+	9425 4300 9025 4300
+Wire Wire Line
+	9900 4300 9425 4300
+Connection ~ 9425 4300
+$Comp
+L power:GND #PWR0181
+U 1 1 5CCECEF1
+P 9425 3725
+F 0 "#PWR0181" H 9425 3475 50  0001 C CNN
+F 1 "GND" H 9430 3552 50  0000 C CNN
+F 2 "" H 9425 3725 50  0001 C CNN
+F 3 "" H 9425 3725 50  0001 C CNN
+	1    9425 3725
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0182
+U 1 1 5CCED832
+P 9425 4400
+F 0 "#PWR0182" H 9425 4150 50  0001 C CNN
+F 1 "GND" H 9430 4227 50  0000 C CNN
+F 2 "" H 9425 4400 50  0001 C CNN
+F 3 "" H 9425 4400 50  0001 C CNN
+	1    9425 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0183
+U 1 1 5CCEDC35
+P 9425 5075
+F 0 "#PWR0183" H 9425 4825 50  0001 C CNN
+F 1 "GND" H 9430 4902 50  0000 C CNN
+F 2 "" H 9425 5075 50  0001 C CNN
+F 3 "" H 9425 5075 50  0001 C CNN
+	1    9425 5075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9425 3725 9425 3650
+Wire Wire Line
+	9425 4300 9425 4400
+Wire Wire Line
+	9425 5000 9425 5075
+Text GLabel 3900 1775 1    50   Input ~ 0
+DOUT_P
+$Comp
+L Device:R R3
+U 1 1 5CD10FE2
+P 4575 2350
+F 0 "R3" V 4368 2350 50  0000 C CNN
+F 1 "ERJ-1GNF49R9C" V 4459 2350 50  0001 C CNN
+F 2 ".Resistor:R_0201_0603Metric_ERJ_L" V 4505 2350 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-1GNF49R9C/P123049CT-ND/8343037" H 4575 2350 50  0001 C CNN
+F 4 "49.9 Ohms ±1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric) Automotive AEC-Q200 Thick Film" H 4575 2350 50  0001 C CNN "Description"
+F 5 "49.9 0201" V 4475 2325 50  0000 C CNN "Note"
+F 6 "P123049CT-ND" H 4575 2350 50  0001 C CNN "DigikeyPN"
+	1    4575 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3900 2350 4025 2350
+Wire Wire Line
+	4325 2350 4425 2350
+$Comp
+L power:GND #PWR0184
+U 1 1 5CD1913A
+P 4850 2350
+F 0 "#PWR0184" H 4850 2100 50  0001 C CNN
+F 1 "GND" V 4855 2222 50  0000 R CNN
+F 2 "" H 4850 2350 50  0001 C CNN
+F 3 "" H 4850 2350 50  0001 C CNN
+	1    4850 2350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4725 2350 4850 2350
+$Comp
+L power:GND #PWR0185
+U 1 1 5CD1E39A
+P 4075 3600
+F 0 "#PWR0185" H 4075 3350 50  0001 C CNN
+F 1 "GND" V 4080 3472 50  0000 R CNN
+F 2 "" H 4075 3600 50  0001 C CNN
+F 3 "" H 4075 3600 50  0001 C CNN
+	1    4075 3600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3900 3600 4075 3600
+Text GLabel 4125 3500 2    50   Input ~ 0
+MODE
+Wire Wire Line
+	4125 3500 3900 3500
+Text GLabel 4150 4000 2    50   Input ~ 0
+PDB
+Wire Wire Line
+	4150 4000 3900 4000
+Text GLabel 1525 4150 0    50   Input ~ 0
+I2C_SDA
+Wire Wire Line
+	1525 4150 1650 4150
+Text GLabel 1525 4250 0    50   Input ~ 0
+I2C_SCL
+Wire Wire Line
+	1525 4250 1650 4250
+Text Notes 4100 3200 0    50   ~ 0
+Open as said in the datasheet\nds90ub933-q1.pdf Page 4
+$Comp
+L power:GND #PWR0186
+U 1 1 5CD64A42
+P 9425 5725
+F 0 "#PWR0186" H 9425 5475 50  0001 C CNN
+F 1 "GND" H 9430 5552 50  0000 C CNN
+F 2 "" H 9425 5725 50  0001 C CNN
+F 3 "" H 9425 5725 50  0001 C CNN
+	1    9425 5725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9900 5675 9425 5675
+Wire Wire Line
+	9425 5725 9425 5675
+Wire Wire Line
+	9900 5300 9900 5375
+Text GLabel 8725 5375 0    50   Input ~ 0
+VDDIO
+Text GLabel 2450 1775 1    50   Input ~ 0
+VDDIO
+Text GLabel 2650 1775 1    50   Input ~ 0
+VDDD
+Text GLabel 2750 1775 1    50   Input ~ 0
+VDDPLL
+Text GLabel 2850 1775 1    50   Input ~ 0
+VDDT
+Text GLabel 2950 1775 1    50   Input ~ 0
+VDDCML
+Wire Wire Line
+	2450 1775 2450 1950
+Wire Wire Line
+	2650 1775 2650 1950
+Wire Wire Line
+	2750 1775 2750 1950
+Wire Wire Line
+	2850 1775 2850 1950
+Wire Wire Line
+	2950 1775 2950 1950
+$Comp
+L power:+1V8 #PWR0187
+U 1 1 5CDD5E6E
+P 6400 2225
+F 0 "#PWR0187" H 6400 2075 50  0001 C CNN
+F 1 "+1V8" H 6415 2398 50  0000 C CNN
+F 2 "" H 6400 2225 50  0001 C CNN
+F 3 "" H 6400 2225 50  0001 C CNN
+	1    6400 2225
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 5CDD6D1F
+P 6400 2450
+F 0 "R5" H 6470 2496 50  0000 L CNN
+F 1 "ERJ-1GNF1022C" H 6470 2405 50  0001 L CNN
+F 2 ".Resistor:R_0201_0603Metric_ERJ_L" V 6330 2450 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-1GEF1022C/P10-2KABCT-ND/1467562" H 6400 2450 50  0001 C CNN
+F 4 "10.2 kOhms ±1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric) Automotive AEC-Q200 Thick Film" H 6400 2450 50  0001 C CNN "Description"
+F 5 "10.2k 0201" H 6250 2450 50  0000 C CNN "Note"
+F 6 "ERJ-1GNF1022C" H 6400 2450 50  0001 C CNN "DigikeyPN"
+	1    6400 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 5CDD7569
+P 6400 2900
+F 0 "R6" H 6470 2946 50  0000 L CNN
+F 1 " ERJ-1RHD1003C" H 6470 2855 50  0001 L CNN
+F 2 ".Resistor:R_0201_0603Metric_ERJ_L" V 6330 2900 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-1GNF1003C/P122655CT-ND/8342249" H 6400 2900 50  0001 C CNN
+F 4 "100 kOhms ±0.5% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric)  Thick Film" H 6400 2900 50  0001 C CNN "Description"
+F 5 "100k 0201" H 6250 2900 50  0000 C CNN "Note"
+F 6 "P15981TR-ND" H 6400 2900 50  0001 C CNN "DigikeyPN"
+	1    6400 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 2225 6400 2300
+Wire Wire Line
+	6400 2600 6400 2675
+$Comp
+L power:GND #PWR0188
+U 1 1 5CDE9C95
+P 6400 3125
+F 0 "#PWR0188" H 6400 2875 50  0001 C CNN
+F 1 "GND" H 6405 2952 50  0000 C CNN
+F 2 "" H 6400 3125 50  0001 C CNN
+F 3 "" H 6400 3125 50  0001 C CNN
+	1    6400 3125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 3050 6400 3125
+Text GLabel 6650 2675 2    50   Input ~ 0
+MODE
+Wire Wire Line
+	6650 2675 6400 2675
+Connection ~ 6400 2675
+Wire Wire Line
+	6400 2675 6400 2750
+$Comp
+L Device:R R7
+U 1 1 5CDF8F0F
+P 6425 4000
+F 0 "R7" H 6495 4046 50  0000 L CNN
+F 1 "ERJ-1GNF1022C" H 6495 3955 50  0001 L CNN
+F 2 ".Resistor:R_0201_0603Metric_ERJ_L" V 6355 4000 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-1GEF1022C/P10-2KABCT-ND/1467562" H 6425 4000 50  0001 C CNN
+F 4 "10.2 kOhms ±1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric) Automotive AEC-Q200 Thick Film" H 6425 4000 50  0001 C CNN "Description"
+F 5 "10.2k 0201" H 6250 4000 50  0000 C CNN "Note"
+F 6 "ERJ-1GNF1022C" H 6425 4000 50  0001 C CNN "DigikeyPN"
+	1    6425 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6425 3775 6425 3850
+Wire Wire Line
+	6425 4150 6425 4225
+$Comp
+L power:GND #PWR0189
+U 1 1 5CDF8F1D
+P 6425 4675
+F 0 "#PWR0189" H 6425 4425 50  0001 C CNN
+F 1 "GND" H 6430 4502 50  0000 C CNN
+F 2 "" H 6425 4675 50  0001 C CNN
+F 3 "" H 6425 4675 50  0001 C CNN
+	1    6425 4675
+	1    0    0    -1  
+$EndComp
+Text GLabel 6675 4225 2    50   Input ~ 0
+PDB
+Wire Wire Line
+	6675 4225 6425 4225
+Connection ~ 6425 4225
+$Comp
+L Device:C C10
+U 1 1 5CE02949
+P 6425 4475
+F 0 "C10" H 6540 4521 50  0000 L CNN
+F 1 "GRM033R61A105ME15D" H 6540 4430 50  0001 L CNN
+F 2 ".Resistor:R_0201_0603Metric_ERJ_L" H 6463 4325 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/murata-electronics/GRM033R61A105ME15D/490-13226-1-ND/5877434" H 6425 4475 50  0001 C CNN
+F 4 "1µF ±20% 10V Ceramic Capacitor X5R 0201 (0603 Metric)" H 6425 4475 50  0001 C CNN "Description"
+F 5 "1uF 0201" H 6250 4450 50  0000 C CNN "Note"
+F 6 "490-13226-1-ND" H 6425 4475 50  0001 C CNN "DigikeyPN"
+	1    6425 4475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6425 4225 6425 4325
+Wire Wire Line
+	6425 4625 6425 4675
+$Comp
+L power:+3.3V #PWR0190
+U 1 1 5CE12F5A
+P 6425 5250
+F 0 "#PWR0190" H 6425 5100 50  0001 C CNN
+F 1 "+3.3V" H 6440 5423 50  0000 C CNN
+F 2 "" H 6425 5250 50  0001 C CNN
+F 3 "" H 6425 5250 50  0001 C CNN
+	1    6425 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5CE13D55
+P 6250 5625
+F 0 "R4" H 6320 5671 50  0000 L CNN
+F 1 "ERJ-1GNF3321C" H 6320 5580 50  0001 L CNN
+F 2 ".Resistor:R_0201_0603Metric_ERJ_L" V 6180 5625 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-1GNF3321C/P122941CT-ND/8342821" H 6250 5625 50  0001 C CNN
+F 4 "3.32 kOhms ±1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric)  Thick Film" H 6250 5625 50  0001 C CNN "Description"
+F 5 "3.32k 0201" H 6100 5650 50  0000 C CNN "Note"
+F 6 "P3.32KABCT-ND" H 6250 5625 50  0001 C CNN "DigikeyPN"
+	1    6250 5625
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R8
+U 1 1 5CE143F7
+P 6650 5625
+F 0 "R8" H 6720 5671 50  0000 L CNN
+F 1 "ERJ-1GNF3321C" H 6720 5580 50  0001 L CNN
+F 2 ".Resistor:R_0201_0603Metric_ERJ_L" V 6580 5625 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-1GNF3321C/P122941CT-ND/8342821" H 6650 5625 50  0001 C CNN
+F 4 "3.32 kOhms ±1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric)  Thick Film" H 6650 5625 50  0001 C CNN "Description"
+F 5 "3.32k 0201" H 6800 5600 50  0000 C CNN "Note"
+F 6 "P3.32KABCT-ND" H 6650 5625 50  0001 C CNN "DigikeyPN"
+	1    6650 5625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6425 5250 6250 5250
+Wire Wire Line
+	6250 5250 6250 5475
+Wire Wire Line
+	6425 5250 6650 5250
+Wire Wire Line
+	6650 5250 6650 5475
+Connection ~ 6425 5250
+Text GLabel 6250 5950 3    50   Input ~ 0
+I2C_SCL
+Text GLabel 6650 5950 3    50   Input ~ 0
+I2C_SDA
+Wire Wire Line
+	6250 5775 6250 5950
+Wire Wire Line
+	6650 5775 6650 5950
+Wire Wire Line
+	9900 2200 9900 2250
+Wire Wire Line
+	9525 2350 9525 2300
+Wire Wire Line
+	8725 3350 9025 3350
+Wire Wire Line
+	9025 3400 9025 3350
+Connection ~ 9025 3350
+Wire Wire Line
+	9025 3350 9425 3350
+Wire Wire Line
+	9025 3600 9025 3650
+Wire Wire Line
+	9425 3400 9425 3350
+Connection ~ 9425 3350
+Wire Wire Line
+	9425 3350 9900 3350
+Wire Wire Line
+	9425 3600 9425 3650
+Wire Wire Line
+	9900 3400 9900 3350
+Connection ~ 9900 3350
+Wire Wire Line
+	9900 3600 9900 3650
+Wire Wire Line
+	10300 4000 10200 4000
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:C_Small-.Device C7
+U 1 1 5CDDD576
+P 3900 1950
+F 0 "C7" H 3992 1996 50  0000 L CNN
+F 1 "GRM033R61A104ME15D" H 3510 2120 50  0001 L CNN
+F 2 ".Capacitor:C_0201_0603Metric_L" H 3960 2220 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/murata-electronics/GRM033R61A104ME15D/490-5405-2-ND/2175191" H 3910 2020 50  0001 C CNN
+F 4 "0.1µF ±20% 10V Ceramic Capacitor X5R 0201 (0603 Metric)" H 3900 1950 50  0001 C CNN "Description"
+F 5 "0.1uF 0201" H 3700 1950 50  0000 C CNN "Note"
+F 6 "490-5405-1-ND" H 3900 1950 50  0001 C CNN "DigikeyPN"
+	1    3900 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 1850 3900 1775
+Wire Wire Line
+	3900 2050 3900 2250
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:L_Small-.Device-Siminiscope-Ser-Pow-rescue L2
+U 1 1 5CDF30FD
+P 8350 1450
+F 0 "L2" V 8443 1450 50  0000 C CNN
+F 1 "BLM15HD102SN1D" V 8444 1450 50  0001 C CNN
+F 2 "Inductor_SMD:L_0402_1005Metric" H 8350 1450 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/murata-electronics/BLM15HD102SN1D/490-4003-1-ND/1016263" H 8350 1450 50  0001 C CNN
+F 4 "1 kOhms @ 100MHz 1 Signal Line Ferrite Bead 0402 (1005 Metric) 250mA 1.25Ohm" H 8350 1450 50  0001 C CNN "Description"
+F 5 "1000ohm" V 8300 1450 50  0000 C CNN "Note"
+F 6 "490-4003-1-ND" H 8350 1450 50  0001 C CNN "DigikeyPN"
+	1    8350 1450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:LQM18PN3R3MGHD-.Inductor L4
+U 1 1 5CDF9985
+P 10100 4000
+F 0 "L4" V 10285 4000 50  0000 C CNN
+F 1 "BLM15HD102SN1D" V 10194 4000 50  0001 C CNN
+F 2 "Inductor_SMD:L_0402_1005Metric" H 10100 4000 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/murata-electronics/BLM15HD102SN1D/490-4003-1-ND/1016263" H 10100 4000 50  0001 C CNN
+F 4 "1 kOhms @ 100MHz 1 Signal Line Ferrite Bead 0402 (1005 Metric) 250mA 1.25Ohm" H 10100 4000 50  0001 C CNN "Description"
+F 5 "1000ohm" V 10150 4000 50  0000 C CNN "Note"
+F 6 "490-4003-1-ND" H 10100 4000 50  0001 C CNN "DigikeyPN"
+	1    10100 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+1V8 #PWR0191
+U 1 1 5CE054A4
+P 10300 4625
+F 0 "#PWR0191" H 10300 4475 50  0001 C CNN
+F 1 "+1V8" H 10315 4798 50  0000 C CNN
+F 2 "" H 10300 4625 50  0001 C CNN
+F 3 "" H 10300 4625 50  0001 C CNN
+	1    10300 4625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10300 4625 10300 4700
+Wire Wire Line
+	10300 4700 10200 4700
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:LQM18PN3R3MGHD-.Inductor L5
+U 1 1 5CE054AE
+P 10100 4700
+F 0 "L5" V 10285 4700 50  0000 C CNN
+F 1 "BLM15HD102SN1D" V 10194 4700 50  0001 C CNN
+F 2 "Inductor_SMD:L_0402_1005Metric" H 10100 4700 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/murata-electronics/BLM15HD102SN1D/490-4003-1-ND/1016263" H 10100 4700 50  0001 C CNN
+F 4 "1 kOhms @ 100MHz 1 Signal Line Ferrite Bead 0402 (1005 Metric) 250mA 1.25Ohm" H 10100 4700 50  0001 C CNN "Description"
+F 5 "1000ohm" V 10150 4700 50  0000 C CNN "Note"
+F 6 "490-4003-1-ND" H 10100 4700 50  0001 C CNN "DigikeyPN"
+	1    10100 4700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7800 2625 7800 2750
+Wire Wire Line
+	7800 2300 7800 2425
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:C_Small-.Device C13
+U 1 1 5CE194B8
+P 7800 2525
+F 0 "C13" H 7892 2571 50  0000 L CNN
+F 1 "GRM033R61A105ME15D" H 7892 2480 50  0001 L CNN
+F 2 ".Capacitor:C_0201_0603Metric_L" H 7800 2525 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/murata-electronics/GRM033R61A105ME15D/490-13226-1-ND/5877434" H 7800 2525 50  0001 C CNN
+F 4 "1µF ±20% 10V Ceramic Capacitor X5R 0201 (0603 Metric)" H 7800 2525 50  0001 C CNN "Description"
+F 5 "1uF 0201" H 7950 2500 50  0000 C CNN "Note"
+F 6 "490-13226-1-ND" H 7800 2525 50  0001 C CNN "DigikeyPN"
+	1    7800 2525
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:C_Small-.Device C23
+U 1 1 5CE1FE72
+P 9525 2450
+F 0 "C23" H 9617 2496 50  0000 L CNN
+F 1 "GRM033R61A105ME15D" H 9617 2405 50  0001 L CNN
+F 2 ".Capacitor:C_0201_0603Metric_L" H 9525 2450 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/murata-electronics/GRM033R61A105ME15D/490-13226-1-ND/5877434" H 9525 2450 50  0001 C CNN
+F 4 "1µF ±20% 10V Ceramic Capacitor X5R 0201 (0603 Metric)" H 9525 2450 50  0001 C CNN "Description"
+F 5 "1uF 0201" H 9700 2400 50  0000 C CNN "Note"
+F 6 "490-13226-1-ND" H 9525 2450 50  0001 C CNN "DigikeyPN"
+	1    9525 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:C_Small-.Device C25
+U 1 1 5CE2B3FE
+P 9900 2350
+F 0 "C25" H 9992 2396 50  0000 L CNN
+F 1 "GRM033R61A105ME15D" H 9992 2305 50  0001 L CNN
+F 2 ".Capacitor:C_0201_0603Metric_L" H 9900 2350 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/murata-electronics/GRM033R61A105ME15D/490-13226-1-ND/5877434" H 9900 2350 50  0001 C CNN
+F 4 "1µF ±20% 10V Ceramic Capacitor X5R 0201 (0603 Metric)" H 9900 2350 50  0001 C CNN "Description"
+F 5 "1uF 0201" H 10050 2300 50  0000 C CNN "Note"
+F 6 "490-13226-1-ND" H 9900 2350 50  0001 C CNN "DigikeyPN"
+	1    9900 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:C_Small-.Device C14
+U 1 1 5CE38628
+P 9025 3500
+F 0 "C14" H 9117 3546 50  0000 L CNN
+F 1 "GRM155R60J475ME47D" H 9117 3455 50  0001 L CNN
+F 2 ".Capacitor:C_0402_1005Metric_L" H 9025 3500 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/murata-electronics/GRM155R60J475ME87D/490-5408-1-ND/2175215" H 9025 3500 50  0001 C CNN
+F 4 "4.7µF ±20% 6.3V Ceramic Capacitor X5R 0402 (1005 Metric)" H 9025 3500 50  0001 C CNN "Description"
+F 5 "4.7uF 0402" H 8850 3500 50  0000 C CNN "Note"
+F 6 "490-5915-1-ND" H 9025 3500 50  0001 C CNN "DigikeyPN"
+	1    9025 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:C_Small-.Device C18
+U 1 1 5CE38BE5
+P 9425 3500
+F 0 "C18" H 9517 3546 50  0000 L CNN
+F 1 "GRM033R61A104ME15D" H 9517 3455 50  0001 L CNN
+F 2 ".Capacitor:C_0201_0603Metric_L" H 9425 3500 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/murata-electronics/GRM033R61A104ME15D/490-5405-2-ND/2175191" H 9425 3500 50  0001 C CNN
+F 4 "0.1µF ±20% 10V Ceramic Capacitor X5R 0201 (0603 Metric)" H 9425 3500 50  0001 C CNN "Description"
+F 5 "0.1uF 0201" H 9600 3450 50  0000 C CNN "Note"
+F 6 "490-5405-1-ND" H 9425 3500 50  0001 C CNN "DigikeyPN"
+	1    9425 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:C_Small-.Device C26
+U 1 1 5CE39151
+P 9900 3500
+F 0 "C26" H 9992 3546 50  0000 L CNN
+F 1 "GRM033R71A103KA01D" H 9992 3455 50  0001 L CNN
+F 2 ".Capacitor:C_0201_0603Metric_L" H 9900 3500 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/murata-electronics/GRM033R71A103KA01D/490-3194-2-ND/702460" H 9900 3500 50  0001 C CNN
+F 4 "10000pF ±10% 10V Ceramic Capacitor X7R 0201 (0603 Metric)" H 9900 3500 50  0001 C CNN "Description"
+F 5 "10nF 0201" H 10100 3450 50  0000 C CNN "Note"
+F 6 "490-3194-1-ND" H 9900 3500 50  0001 C CNN "DigikeyPN"
+	1    9900 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8725 4000 9025 4000
+Wire Wire Line
+	9025 4250 9025 4300
+Wire Wire Line
+	9425 4250 9425 4300
+Wire Wire Line
+	9900 4250 9900 4300
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:C_Small-.Device C15
+U 1 1 5CE422D4
+P 9025 4150
+F 0 "C15" H 9117 4196 50  0000 L CNN
+F 1 "GRM155R60J475ME47D" H 9117 4105 50  0001 L CNN
+F 2 ".Capacitor:C_0402_1005Metric_L" H 9025 4150 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/murata-electronics/GRM155R60J475ME87D/490-5408-1-ND/2175215" H 9025 4150 50  0001 C CNN
+F 4 "4.7µF ±20% 6.3V Ceramic Capacitor X5R 0402 (1005 Metric)" H 9025 4150 50  0001 C CNN "Description"
+F 5 "4.7uF 0402" H 8850 4100 50  0000 C CNN "Note"
+F 6 "490-5915-1-ND" H 9025 4150 50  0001 C CNN "DigikeyPN"
+	1    9025 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:C_Small-.Device C19
+U 1 1 5CE422DC
+P 9425 4150
+F 0 "C19" H 9517 4196 50  0000 L CNN
+F 1 "GRM033R61A104ME15D" H 9517 4105 50  0001 L CNN
+F 2 ".Capacitor:C_0201_0603Metric_L" H 9425 4150 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/murata-electronics/GRM033R61A104ME15D/490-5405-2-ND/2175191" H 9425 4150 50  0001 C CNN
+F 4 "0.1µF ±20% 10V Ceramic Capacitor X5R 0201 (0603 Metric)" H 9425 4150 50  0001 C CNN "Description"
+F 5 "0.1uF 0201" H 9600 4100 50  0000 C CNN "Note"
+F 6 "490-5405-1-ND" H 9425 4150 50  0001 C CNN "DigikeyPN"
+	1    9425 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:C_Small-.Device C27
+U 1 1 5CE422E4
+P 9900 4150
+F 0 "C27" H 9992 4196 50  0000 L CNN
+F 1 "GRM033R71A103KA01D" H 9992 4105 50  0001 L CNN
+F 2 ".Capacitor:C_0201_0603Metric_L" H 9900 4150 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/murata-electronics/GRM033R71A103KA01D/490-3194-2-ND/702460" H 9900 4150 50  0001 C CNN
+F 4 "10000pF ±10% 10V Ceramic Capacitor X7R 0201 (0603 Metric)" H 9900 4150 50  0001 C CNN "Description"
+F 5 "10nF 0201" H 10100 4100 50  0000 C CNN "Note"
+F 6 "490-3194-1-ND" H 9900 4150 50  0001 C CNN "DigikeyPN"
+	1    9900 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9025 4050 9025 4000
+Connection ~ 9025 4000
+Wire Wire Line
+	9025 4000 9425 4000
+Wire Wire Line
+	9425 4050 9425 4000
+Connection ~ 9425 4000
+Wire Wire Line
+	9425 4000 9900 4000
+Wire Wire Line
+	9900 4050 9900 4000
+Connection ~ 9900 4000
+Wire Wire Line
+	9900 4000 10000 4000
+Wire Wire Line
+	9425 4950 9425 5000
+Wire Wire Line
+	9900 4950 9900 5000
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:C_Small-.Device C20
+U 1 1 5CE723F9
+P 9425 4850
+F 0 "C20" H 9517 4896 50  0000 L CNN
+F 1 "GRM033R61A104ME15D" H 9517 4805 50  0001 L CNN
+F 2 ".Capacitor:C_0201_0603Metric_L" H 9425 4850 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/murata-electronics/GRM033R61A104ME15D/490-5405-2-ND/2175191" H 9425 4850 50  0001 C CNN
+F 4 "0.1µF ±20% 10V Ceramic Capacitor X5R 0201 (0603 Metric)" H 9425 4850 50  0001 C CNN "Description"
+F 5 "0.1uF 0201" H 9600 4800 50  0000 C CNN "Note"
+F 6 "490-5405-1-ND" H 9425 4850 50  0001 C CNN "DigikeyPN"
+	1    9425 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:C_Small-.Device C28
+U 1 1 5CE72401
+P 9900 4850
+F 0 "C28" H 9992 4896 50  0000 L CNN
+F 1 "GRM033R71A103KA01D" H 9992 4805 50  0001 L CNN
+F 2 ".Capacitor:C_0201_0603Metric_L" H 9900 4850 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/murata-electronics/GRM033R71A103KA01D/490-3194-2-ND/702460" H 9900 4850 50  0001 C CNN
+F 4 "10000pF ±10% 10V Ceramic Capacitor X7R 0201 (0603 Metric)" H 9900 4850 50  0001 C CNN "Description"
+F 5 "10nF 0201" H 10100 4800 50  0000 C CNN "Note"
+F 6 "490-3194-1-ND" H 9900 4850 50  0001 C CNN "DigikeyPN"
+	1    9900 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9425 4750 9425 4700
+Connection ~ 9425 4700
+Wire Wire Line
+	9425 4700 9900 4700
+Wire Wire Line
+	9900 4750 9900 4700
+Connection ~ 9900 4700
+Wire Wire Line
+	9900 4700 10000 4700
+Wire Wire Line
+	8725 4700 9025 4700
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:C_Small-.Device C16
+U 1 1 5CE8B6F7
+P 9025 4850
+F 0 "C16" H 9117 4896 50  0000 L CNN
+F 1 "GRM155R60J106ME15D" H 9117 4805 50  0001 L CNN
+F 2 ".Capacitor:C_0402_1005Metric_L" H 9025 4850 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R60J106ME15-01.pdf" H 9025 4850 50  0001 C CNN
+F 4 "10µF ±20% 6.3V Ceramic Capacitor X5R 0402 (1005 Metric)" H 9025 4850 50  0001 C CNN "Description"
+F 5 "10uF 0402" H 8850 4800 50  0000 C CNN "Note"
+F 6 "490-13238-1-ND" H 9025 4850 50  0001 C CNN "DigikeyPN"
+	1    9025 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9025 4750 9025 4700
+Connection ~ 9025 4700
+Wire Wire Line
+	9025 4700 9425 4700
+Wire Wire Line
+	9025 4950 9025 5000
+Wire Wire Line
+	8725 5375 9425 5375
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:C_Small-.Device C21
+U 1 1 5CE9F62C
+P 9425 5525
+F 0 "C21" H 9517 5571 50  0000 L CNN
+F 1 "GRM033R61A104ME15D" H 9517 5480 50  0001 L CNN
+F 2 ".Capacitor:C_0201_0603Metric_L" H 9425 5525 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/murata-electronics/GRM033R61A104ME15D/490-5405-2-ND/2175191" H 9425 5525 50  0001 C CNN
+F 4 "0.1µF ±20% 10V Ceramic Capacitor X5R 0201 (0603 Metric)" H 9425 5525 50  0001 C CNN "Description"
+F 5 "0.1uF 0201" H 9250 5500 50  0000 C CNN "Note"
+F 6 "490-5405-1-ND" H 9425 5525 50  0001 C CNN "DigikeyPN"
+	1    9425 5525
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:C_Small-.Device C29
+U 1 1 5CE9F634
+P 9900 5525
+F 0 "C29" H 9992 5571 50  0000 L CNN
+F 1 "GRM033R71A103KA01D" H 9992 5480 50  0001 L CNN
+F 2 ".Capacitor:C_0201_0603Metric_L" H 9900 5525 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/murata-electronics/GRM033R71A103KA01D/490-3194-2-ND/702460" H 9900 5525 50  0001 C CNN
+F 4 "10000pF ±10% 10V Ceramic Capacitor X7R 0201 (0603 Metric)" H 9900 5525 50  0001 C CNN "Description"
+F 5 "10nF 0201" H 10100 5500 50  0000 C CNN "Note"
+F 6 "490-3194-1-ND" H 9900 5525 50  0001 C CNN "DigikeyPN"
+	1    9900 5525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9425 5425 9425 5375
+Connection ~ 9425 5375
+Wire Wire Line
+	9425 5375 9900 5375
+Wire Wire Line
+	9425 5625 9425 5675
+Connection ~ 9425 5675
+Wire Wire Line
+	9900 5425 9900 5375
+Connection ~ 9900 5375
+Wire Wire Line
+	9900 5625 9900 5675
+Wire Wire Line
+	8725 6225 9425 6225
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:C_Small-.Device C22
+U 1 1 5CECD12D
+P 9425 6375
+F 0 "C22" H 9517 6421 50  0000 L CNN
+F 1 "GRM033R61A104ME15D" H 9517 6330 50  0001 L CNN
+F 2 ".Capacitor:C_0201_0603Metric_L" H 9425 6375 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/murata-electronics/GRM033R61A104ME15D/490-5405-2-ND/2175191" H 9425 6375 50  0001 C CNN
+F 4 "0.1µF ±20% 10V Ceramic Capacitor X5R 0201 (0603 Metric)" H 9425 6375 50  0001 C CNN "Description"
+F 5 "0.1uF 0201" H 9250 6350 50  0000 C CNN "Note"
+F 6 "490-5405-1-ND" H 9425 6375 50  0001 C CNN "DigikeyPN"
+	1    9425 6375
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:C_Small-.Device C30
+U 1 1 5CECD135
+P 9900 6375
+F 0 "C30" H 9992 6421 50  0000 L CNN
+F 1 "GRM033R71A103KA01D" H 9992 6330 50  0001 L CNN
+F 2 ".Capacitor:C_0201_0603Metric_L" H 9900 6375 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/murata-electronics/GRM033R71A103KA01D/490-3194-2-ND/702460" H 9900 6375 50  0001 C CNN
+F 4 "10000pF ±10% 10V Ceramic Capacitor X7R 0201 (0603 Metric)" H 9900 6375 50  0001 C CNN "Description"
+F 5 "10nF 0201" H 10100 6350 50  0000 C CNN "Note"
+F 6 "490-3194-1-ND" H 9900 6375 50  0001 C CNN "DigikeyPN"
+	1    9900 6375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9425 6275 9425 6225
+Connection ~ 9425 6225
+Wire Wire Line
+	9425 6225 9900 6225
+Wire Wire Line
+	9425 6475 9425 6525
+Connection ~ 9425 6525
+Wire Wire Line
+	9900 6275 9900 6225
+Connection ~ 9900 6225
+Wire Wire Line
+	9900 6475 9900 6525
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:R_Small_US-.Device-Siminiscope-Ser-Pow-rescue R11
+U 1 1 5CF1329C
+P 8825 1750
+F 0 "R11" V 8620 1750 50  0000 C CNN
+F 1 "ERJ-1GNF1801C" V 8711 1750 50  0000 C CNN
+F 2 ".Resistor:R_0201_0603Metric_ERJ_L" H 8825 1750 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-1GNF1801C/P122788CT-ND/8342515" H 8825 1750 50  0001 C CNN
+F 4 "1.8 kOhms ±1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric) Automotive AEC-Q200 Thick Film" H 8825 1750 50  0001 C CNN "Description"
+F 5 "1.8k 0201" V 8725 1775 50  0000 C CNN "Note"
+F 6 "P122788CT-ND" H 8825 1750 50  0001 C CNN "DigikeyPN"
+	1    8825 1750
+	0    1    1    0   
+$EndComp
+Text GLabel 1525 3900 0    50   Input ~ 0
+CLK_OUT
+Wire Wire Line
+	1525 3900 1650 3900
+Text GLabel 3950 5325 0    50   Input ~ 0
+DIN10
+Text GLabel 3950 5425 0    50   Input ~ 0
+DIN11
+$Comp
+L power:+3.3V #PWR0192
+U 1 1 5CCBC440
+P 3950 5625
+F 0 "#PWR0192" H 3950 5475 50  0001 C CNN
+F 1 "+3.3V" V 3965 5753 50  0000 L CNN
+F 2 "" H 3950 5625 50  0001 C CNN
+F 3 "" H 3950 5625 50  0001 C CNN
+	1    3950 5625
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3950 5525 4075 5525
+Wire Wire Line
+	3950 5425 4075 5425
+Wire Wire Line
+	3950 5325 4075 5325
+Text GLabel 3950 5525 0    50   Input ~ 0
+CLK_OUT
+Wire Wire Line
+	3950 5625 4075 5625
+Text GLabel 3950 5925 0    50   Input ~ 0
+I2C_SDA
+Text GLabel 3950 5825 0    50   Input ~ 0
+I2C_SCL
+Wire Wire Line
+	3950 5725 4075 5725
+Wire Wire Line
+	3950 5825 4075 5825
+$Comp
+L power:+5V #PWR0193
+U 1 1 5CCEB202
+P 3950 6125
+F 0 "#PWR0193" H 3950 5975 50  0001 C CNN
+F 1 "+5V" V 3965 6253 50  0000 L CNN
+F 2 "" H 3950 6125 50  0001 C CNN
+F 3 "" H 3950 6125 50  0001 C CNN
+	1    3950 6125
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0194
+U 1 1 5CD133E2
+P 3950 5725
+F 0 "#PWR0194" H 3950 5475 50  0001 C CNN
+F 1 "GND" V 3955 5597 50  0000 R CNN
+F 2 "" H 3950 5725 50  0001 C CNN
+F 3 "" H 3950 5725 50  0001 C CNN
+	1    3950 5725
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3950 5925 4075 5925
+$Comp
+L power:GND #PWR0195
+U 1 1 5CD1BF03
+P 3950 6025
+F 0 "#PWR0195" H 3950 5775 50  0001 C CNN
+F 1 "GND" V 3955 5897 50  0000 R CNN
+F 2 "" H 3950 6025 50  0001 C CNN
+F 3 "" H 3950 6025 50  0001 C CNN
+	1    3950 6025
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3950 6125 4075 6125
+Wire Wire Line
+	3950 6025 4075 6025
+Wire Wire Line
+	3950 6225 4075 6225
+$Comp
+L Connector_Generic:Conn_01x05 J_extra1
+U 1 1 5CD3BA19
+P 4275 5525
+F 0 "J_extra1" H 4355 5567 50  0000 L CNN
+F 1 "Conn_01x05" H 4355 5476 50  0000 L CNN
+F 2 ".Connector:B2B_Flex_05_Dual_Row_38milx24mil_Pad_20mil_copy" H 4275 5525 50  0001 C CNN
+F 3 "~" H 4275 5525 50  0001 C CNN
+F 4 "DNL" H 4275 5525 50  0001 C CNN "Description"
+	1    4275 5525
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x05 J_extra2
+U 1 1 5CD3C6CC
+P 4275 6025
+F 0 "J_extra2" H 4355 6067 50  0000 L CNN
+F 1 "Conn_01x05" H 4355 5976 50  0000 L CNN
+F 2 ".Connector:B2B_Flex_05_Dual_Row_38milx24mil_Pad_20mil_copy" H 4275 6025 50  0001 C CNN
+F 3 "~" H 4275 6025 50  0001 C CNN
+F 4 "DNL" H 4275 6025 50  0001 C CNN "Description"
+	1    4275 6025
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0196
+U 1 1 5CCC6379
+P 5350 1800
+F 0 "#PWR0196" H 5350 1550 50  0001 C CNN
+F 1 "GND" H 5355 1627 50  0000 C CNN
+F 2 "" H 5350 1800 50  0001 C CNN
+F 3 "" H 5350 1800 50  0001 C CNN
+	1    5350 1800
+	1    0    0    -1  
+$EndComp
+Text GLabel 5025 1550 0    50   Input ~ 0
+DOUT_P
+Wire Wire Line
+	5025 1550 5150 1550
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:Conn_01x01-.Connector-Siminiscope-Ser-Pow-rescue J_coax_gnd1
+U 1 1 5CD10A6F
+P 5275 4025
+F 0 "J_coax_gnd1" H 5355 4067 50  0000 L CNN
+F 1 "Conn_01x01" H 5355 3976 50  0000 L CNN
+F 2 ".Connector:Conn_1x1_100x100_Pad" H 5275 4025 50  0001 C CNN
+F 3 "~" H 5275 4025 50  0001 C CNN
+F 4 "DNL" H 5275 4025 50  0001 C CNN "Description"
+	1    5275 4025
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0197
+U 1 1 5CD112FF
+P 5000 4025
+F 0 "#PWR0197" H 5000 3775 50  0001 C CNN
+F 1 "GND" V 5005 3897 50  0000 R CNN
+F 2 "" H 5000 4025 50  0001 C CNN
+F 3 "" H 5000 4025 50  0001 C CNN
+	1    5000 4025
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5000 4025 5075 4025
+Wire Wire Line
+	9525 2550 9525 2650
+$Comp
+L power:GND #PWR0198
+U 1 1 5CE1068F
+P 9900 2525
+F 0 "#PWR0198" H 9900 2275 50  0001 C CNN
+F 1 "GND" H 9905 2352 50  0000 C CNN
+F 2 "" H 9900 2525 50  0001 C CNN
+F 3 "" H 9900 2525 50  0001 C CNN
+	1    9900 2525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9900 2450 9900 2525
+$Comp
+L power:+2V8 #PWR0200
+U 1 1 5D68F82D
+P 9900 5375
+F 0 "#PWR0200" H 9900 5225 50  0001 C CNN
+F 1 "+2V8" H 9915 5548 50  0000 C CNN
+F 2 "" H 9900 5375 50  0001 C CNN
+F 3 "" H 9900 5375 50  0001 C CNN
+	1    9900 5375
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0203
+U 1 1 5D766546
+P 3950 6225
+F 0 "#PWR0203" H 3950 6075 50  0001 C CNN
+F 1 "+3.3V" V 3965 6353 50  0000 L CNN
+F 2 "" H 3950 6225 50  0001 C CNN
+F 3 "" H 3950 6225 50  0001 C CNN
+	1    3950 6225
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:C_Small-.Device C12
+U 1 1 5D81FF01
+P 7450 5550
+F 0 "C12" H 7542 5596 50  0000 L CNN
+F 1 "GRM21BR61A476ME15L" H 7542 5505 50  0001 L CNN
+F 2 ".Capacitor:C_0805_2012Metric_L" H 7450 5550 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/murata-electronics/GRM21BR61A476ME15L/490-9961-1-ND/5026442" H 7450 5550 50  0001 C CNN
+F 4 "47µF ±20% 10V Ceramic Capacitor X5R 0805 (2012 Metric)" H 7450 5550 50  0001 C CNN "Description"
+F 5 "47uF 0805" H 7250 5550 50  0000 C CNN "Note"
+F 6 "490-9961-1-ND" H 7450 5550 50  0001 C CNN "DigikeyPN"
+	1    7450 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0204
+U 1 1 5D8209D1
+P 7450 5400
+F 0 "#PWR0204" H 7450 5250 50  0001 C CNN
+F 1 "+3.3V" H 7465 5573 50  0000 C CNN
+F 2 "" H 7450 5400 50  0001 C CNN
+F 3 "" H 7450 5400 50  0001 C CNN
+	1    7450 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 5450 7450 5400
+$Comp
+L power:GND #PWR0205
+U 1 1 5D82A6B0
+P 7450 5725
+F 0 "#PWR0205" H 7450 5475 50  0001 C CNN
+F 1 "GND" H 7455 5552 50  0000 C CNN
+F 2 "" H 7450 5725 50  0001 C CNN
+F 3 "" H 7450 5725 50  0001 C CNN
+	1    7450 5725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 5725 7450 5650
+Text Label 4200 2825 0    50   ~ 0
+ENT1
+Wire Wire Line
+	3900 2850 4200 2850
+Wire Wire Line
+	4200 2850 4200 2825
+Text GLabel 6425 3775 1    50   Input ~ 0
+VDDIO
+Text Label 3900 2750 0    50   ~ 0
+ENT2
+Text Notes 4905 8850 0    200  ~ 40
+MT9P031 Image Sensor
+Text Notes 13460 8885 0    200  ~ 40
+BNO055-EWL Drivers\n
+Text Notes 4150 1050 0    200  ~ 40
+Serializer Board\n
+Text Notes 13450 1000 0    200  ~ 40
+2 LED Board\n
+Text GLabel 16910 10285 2    50   Input ~ 0
+I2C_SCL
+Text GLabel 12410 13085 0    50   Input ~ 0
+I2C_SCL
+Text GLabel 13860 14385 2    50   Input ~ 0
+I2C_SCL
+Text GLabel 16910 10385 2    50   Input ~ 0
+I2C_SDA
+Text GLabel 12410 12985 0    50   Input ~ 0
+I2C_SDA
+Text GLabel 13860 14135 2    50   Input ~ 0
+I2C_SDA
+Wire Wire Line
+	13735 14135 13860 14135
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:R_Small_US-.Device R1
+U 1 1 5EC9606A
+P 13635 14135
+F 0 "R1" V 13430 14135 50  0000 C CNN
+F 1 "ERJ-1GNF3321C" H 13665 13945 50  0001 L CNN
+F 2 ".Resistor:R_0201_0603Metric_ERJ_L" H 13565 14055 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-1GNF3321C/P122941CT-ND/8342821" H 13635 14135 50  0001 C CNN
+F 4 "3.32 kOhms ±1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric)  Thick Film" H 13635 14135 50  0001 C CNN "Description"
+F 5 "3.32k 0201" V 13550 14150 50  0000 C CNN "Note"
+F 6 "P3.32KABCT-ND" H 13635 14135 50  0001 C CNN "DigikeyPN"
+	1    13635 14135
+	0    1    1    0   
+$EndComp
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:R_Small_US-.Device R2
+U 1 1 5EC96069
+P 13640 14385
+F 0 "R2" V 13505 14395 50  0000 C CNN
+F 1 "ERJ-1GNF3321C" H 13670 14195 50  0001 L CNN
+F 2 ".Resistor:R_0201_0603Metric_ERJ_L" H 13570 14305 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-1GNF3321C/P122941CT-ND/8342821" H 13640 14385 50  0001 C CNN
+F 4 "3.32 kOhms ±1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric)  Thick Film" H 13640 14385 50  0001 C CNN "Description"
+F 5 "3.32k 0201" V 13555 14545 50  0000 C CNN "Note"
+F 6 "P3.32KABCT-ND" H 13640 14385 50  0001 C CNN "DigikeyPN"
+	1    13640 14385
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	13530 14135 13530 14385
+Wire Wire Line
+	13530 14385 13540 14385
+Connection ~ 13530 14135
+Wire Wire Line
+	13530 14135 13535 14135
+Wire Wire Line
+	13740 14385 13860 14385
+$Comp
+L power:+3.3V #PWR0147
+U 1 1 5F0849EE
+P 15100 2050
+F 0 "#PWR0147" H 15100 1900 50  0001 C CNN
+F 1 "+3.3V" H 15115 2223 50  0000 C CNN
+F 2 "" H 15100 2050 50  0001 C CNN
+F 3 "" H 15100 2050 50  0001 C CNN
+	1    15100 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15600 2050 15100 2050
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:TPL0102-100RUCR-.Potentiometer-MS_v4_ETL_LED_Driver_v2-rescue U8
+U 1 1 5C189F4C
+P 16050 2450
+F 0 "U8" H 16050 3115 50  0000 C CNN
+F 1 "TPL0102-100RUCR" H 16050 3024 50  0000 C CNN
+F 2 ".Package_QFN:QFN_14_P40_200X200X40L40X20L" H 16200 1500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tpl0102-100.pdf" H 16200 1500 50  0001 C CNN
+F 4 "Digital Potentiometer 100k Ohm 2 Circuit 256 Taps I²C Interface 14-QFN (2x2)" H 16050 2450 50  0001 C CNN "Description"
+F 5 "296-28379-1-ND" H 16050 2450 50  0001 C CNN "DigikeyPN"
+	1    16050 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15600 2650 15600 2750
+Wire Wire Line
+	15600 2750 15600 2850
+Connection ~ 15600 2750
+Wire Wire Line
+	15600 2850 15600 3150
+Wire Wire Line
+	15600 3150 16000 3150
+Wire Wire Line
+	16500 3150 16500 3145
+Connection ~ 15600 2850
+Connection ~ 16500 3145
+Wire Wire Line
+	16500 3145 16500 2750
+Wire Wire Line
+	16500 2650 16500 2750
+Connection ~ 16500 2750
+Wire Wire Line
+	16000 3050 16000 3150
+Connection ~ 16000 3150
+Wire Wire Line
+	16000 3150 16100 3150
+Wire Wire Line
+	16100 3050 16100 3150
+Connection ~ 16100 3150
+Wire Wire Line
+	16100 3150 16500 3150
+Wire Wire Line
+	17150 2050 16650 2050
+Text Label 16650 1900 0    50   ~ 0
+Va
+Wire Wire Line
+	16650 1900 16650 2050
+Connection ~ 16650 2050
+Wire Wire Line
+	16650 2050 16500 2050
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:C_Small-.Device C53
+U 1 1 5F74F101
+P 17650 2300
+F 0 "C53" H 17750 2300 50  0000 L CNN
+F 1 "GRM033R61A104ME15D" H 17260 2470 50  0001 L CNN
+F 2 ".Capacitor:C_0201_0603Metric_L" H 17710 2570 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/murata-electronics/GRM033R61A104ME15D/490-5405-2-ND/2175191" H 17660 2370 50  0001 C CNN
+F 4 "0.1µF ±20% 10V Ceramic Capacitor X5R 0201 (0603 Metric)" H 17650 2300 50  0001 C CNN "Description"
+F 5 "0.1uF 0201" H 17450 2300 50  0000 C CNN "Note"
+F 6 "490-5405-1-ND" H 17650 2300 50  0001 C CNN "DigikeyPN"
+	1    17650 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0150
+U 1 1 5F7947E1
+P 17650 2400
+F 0 "#PWR0150" H 17650 2150 50  0001 C CNN
+F 1 "GND" H 17655 2227 50  0000 C CNN
+F 2 "" H 17650 2400 50  0001 C CNN
+F 3 "" H 17650 2400 50  0001 C CNN
+	1    17650 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16500 2150 17050 2150
+Wire Wire Line
+	17650 2150 17650 2200
+Text Label 17050 2250 0    50   ~ 0
+Vb
+Wire Wire Line
+	17050 2250 17050 2150
+Connection ~ 17050 2150
+Wire Wire Line
+	17050 2150 17650 2150
+Text Label 16600 2350 0    50   ~ 0
+_Wa
+Wire Wire Line
+	16500 2350 16600 2350
+Wire Wire Line
+	16500 2450 16750 2450
+Wire Wire Line
+	16750 2450 16750 3400
+Wire Wire Line
+	16750 3400 14400 3400
+Wire Wire Line
+	14200 3400 13150 3400
+Wire Wire Line
+	13150 2895 13150 2995
+Connection ~ 13150 2995
+Wire Wire Line
+	13150 2995 13150 3400
+Text Label 15000 3400 0    50   ~ 0
+_Wb
+Text GLabel 15600 2450 0    50   Input ~ 0
+I2C_SCL
+Text GLabel 15600 2350 0    50   Input ~ 0
+I2C_SDA
+Text GLabel 19400 3750 2    50   Input ~ 0
+I2C_SDA
+Text GLabel 19400 4000 2    50   Input ~ 0
+I2C_SCL
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:ERJ-1GEF1022C-.Resistor-MS_v4_ETL_LED_Driver_v2-rescue R16
+U 1 1 5F975983
+P 14300 3400
+F 0 "R16" V 14095 3400 50  0000 C CNN
+F 1 "ERJ-1GNF1022C" H 14330 3210 50  0001 L CNN
+F 2 ".Resistor:R_0201_0603Metric_ERJ_L" H 14230 3320 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-1GEF1022C/P10-2KABCT-ND/1467562" H 14300 3400 50  0001 C CNN
+F 4 "10.2 kOhms ±1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric) Automotive AEC-Q200 Thick Film" H 14300 3400 50  0001 C CNN "Description"
+F 5 "10.2k 0201" V 14200 3400 50  0000 C CNN "Note"
+F 6 "ERJ-1GNF1022C" H 14300 3400 50  0001 C CNN "DigikeyPN"
+	1    14300 3400
+	0    1    1    0   
+$EndComp
+Text GLabel 5330 13275 0    50   Input ~ 0
+I2C_SDA
+Text GLabel 4855 13175 0    50   Input ~ 0
+I2C_SCL
+Text GLabel 1425 12760 0    50   Input ~ 0
+DIN0
+Text GLabel 1425 12860 0    50   Input ~ 0
+DIN2
+Text GLabel 1425 12960 0    50   Input ~ 0
+DIN1
+Text GLabel 1425 13060 0    50   Input ~ 0
+DIN3
+Text GLabel 1425 13160 0    50   Input ~ 0
+CLK_OUT
+Text GLabel 1425 13260 0    50   Input ~ 0
+DIN4
+Text GLabel 1425 13360 0    50   Input ~ 0
+DIN5
+Text GLabel 1425 13460 0    50   Input ~ 0
+DIN7
+Text GLabel 1425 13560 0    50   Input ~ 0
+DIN6
+Text GLabel 1425 13660 0    50   Input ~ 0
+DIN8
+Text GLabel 1425 13760 0    50   Input ~ 0
+DIN9
+Text GLabel 1425 13860 0    50   Input ~ 0
+FV
+Text GLabel 1425 13960 0    50   Input ~ 0
+LV
+Text Label 1950 13960 2    50   ~ 0
+LV
+Text Label 1950 13860 2    50   ~ 0
+FV
+Text Label 1950 12760 2    50   ~ 0
+DOUT2
+Text Label 1950 12960 2    50   ~ 0
+DOUT3
+Text Label 1950 12860 2    50   ~ 0
+DOUT4
+Text Label 1950 13060 2    50   ~ 0
+DOUT5
+Text Label 1950 13160 2    50   ~ 0
+PIXCLK
+Text Label 1950 13260 2    50   ~ 0
+DOUT6
+Text Label 1950 13360 2    50   ~ 0
+DOUT7
+Text Label 1950 13560 2    50   ~ 0
+DOUT8
+Text Label 1950 13460 2    50   ~ 0
+DOUT9
+Text Label 1950 13660 2    50   ~ 0
+DOUT10
+Text Label 1950 13760 2    50   ~ 0
+DOUT11
+Wire Wire Line
+	1950 13960 1425 13960
+Wire Wire Line
+	1950 13860 1425 13860
+Wire Wire Line
+	1950 13760 1425 13760
+Wire Wire Line
+	1950 13660 1425 13660
+Wire Wire Line
+	1950 13560 1425 13560
+Wire Wire Line
+	1950 13460 1425 13460
+Wire Wire Line
+	1950 13360 1425 13360
+Wire Wire Line
+	1950 13260 1425 13260
+Wire Wire Line
+	1950 13160 1425 13160
+Wire Wire Line
+	1950 13060 1425 13060
+Wire Wire Line
+	1950 12960 1425 12960
+Wire Wire Line
+	1950 12860 1425 12860
+Wire Wire Line
+	1950 12760 1425 12760
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5F19916A
+P 1550 7040
+F 0 "H1" H 1650 7086 50  0000 L CNN
+F 1 "MountingHole" H 1650 6995 50  0000 L CNN
+F 2 ".Connector:Conn_1x1_700_Circular_Pad" H 1550 7040 50  0001 C CNN
+F 3 "~" H 1550 7040 50  0001 C CNN
+F 4 "DNL" H 1550 7040 50  0001 C CNN "Description"
+	1    1550 7040
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5F19AFE9
+P 1550 7200
+F 0 "H2" H 1650 7246 50  0000 L CNN
+F 1 "MountingHole" H 1650 7155 50  0000 L CNN
+F 2 ".Connector:Conn_1x1_700_Circular_Pad" H 1550 7200 50  0001 C CNN
+F 3 "~" H 1550 7200 50  0001 C CNN
+F 4 "DNL" H 1550 7200 50  0001 C CNN "Description"
+	1    1550 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5F19C1A8
+P 1550 7360
+F 0 "H3" H 1650 7406 50  0000 L CNN
+F 1 "MountingHole" H 1650 7315 50  0000 L CNN
+F 2 ".Connector:Conn_1x1_700_Circular_Pad" H 1550 7360 50  0001 C CNN
+F 3 "~" H 1550 7360 50  0001 C CNN
+F 4 "DNL" H 1550 7360 50  0001 C CNN "Description"
+	1    1550 7360
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5F19D25C
+P 1550 7530
+F 0 "H4" H 1650 7576 50  0000 L CNN
+F 1 "MountingHole" H 1650 7485 50  0000 L CNN
+F 2 ".Connector:Conn_1x1_700_Circular_Pad" H 1550 7530 50  0001 C CNN
+F 3 "~" H 1550 7530 50  0001 C CNN
+F 4 "DNL" H 1550 7530 50  0001 C CNN "Description"
+	1    1550 7530
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 5F19E587
+P 1550 7700
+F 0 "H5" H 1650 7746 50  0000 L CNN
+F 1 "MountingHole" H 1650 7655 50  0000 L CNN
+F 2 ".Connector:Conn_1x1_700_Circular_Pad" H 1550 7700 50  0001 C CNN
+F 3 "~" H 1550 7700 50  0001 C CNN
+F 4 "DNL" H 1550 7700 50  0001 C CNN "Description"
+	1    1550 7700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H7
+U 1 1 5F1A02EC
+P 1550 7860
+F 0 "H7" H 1650 7906 50  0000 L CNN
+F 1 "MountingHole" H 1650 7815 50  0000 L CNN
+F 2 ".Connector:Conn_1x1_700_Circular_Pad" H 1550 7860 50  0001 C CNN
+F 3 "~" H 1550 7860 50  0001 C CNN
+F 4 "DNL" H 1550 7860 50  0001 C CNN "Description"
+	1    1550 7860
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H6
+U 1 1 5F1A14C0
+P 1550 8020
+F 0 "H6" H 1650 8066 50  0000 L CNN
+F 1 "MountingHole" H 1650 7975 50  0000 L CNN
+F 2 ".Connector:Conn_1x1_700_Circular_Pad" H 1550 8020 50  0001 C CNN
+F 3 "~" H 1550 8020 50  0001 C CNN
+F 4 "DNL" H 1550 8020 50  0001 C CNN "Description"
+	1    1550 8020
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:C_Small-.Device C35
+U 1 1 5D6B1507
+P 4155 9800
+F 0 "C35" H 4247 9846 50  0000 L CNN
+F 1 "GRM155R61A104KA01J" H 4247 9755 50  0001 L CNN
+F 2 ".Capacitor:C_0402_1005Metric_L" H 4155 9800 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/murata-electronics/GRM155R61A104KA01J/490-6297-2-ND/2610841" H 4155 9800 50  0001 C CNN
+F 4 "0.1µF ±10% 10V Ceramic Capacitor X5R 0402 (1005 Metric)" H 4155 9800 50  0001 C CNN "Description"
+F 5 "0.1uF 0402" H 4150 10000 50  0000 C CNN "Note"
+F 6 "490-6297-1-ND" H 4155 9800 50  0001 C CNN "DigikeyPN"
+	1    4155 9800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C8
+U 1 1 5CD1026D
+P 4175 2350
+F 0 "C8" V 3923 2350 50  0000 C CNN
+F 1 "GRM033R61C473KE84D" V 4014 2350 50  0001 C CNN
+F 2 ".Capacitor:C_0201_0603Metric_L" H 4213 2200 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/murata-electronics/GRM033R61C473KE84D/490-7227-1-ND/4213266" H 4175 2350 50  0001 C CNN
+F 4 "0.047µF ±10% 16V Ceramic Capacitor X5R 0201 (0603 Metric)" H 4175 2350 50  0001 C CNN "Description"
+F 5 "0.047uF 0201" V 4025 2375 50  0000 C CNN "Note"
+F 6 "490-7227-1-ND" H 4175 2350 50  0001 C CNN "DigikeyPN"
+	1    4175 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5880 11750 5880 11425
+Wire Wire Line
+	5580 11750 5580 11425
+Wire Wire Line
+	6180 11750 6180 11425
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:MT9P031-.Image_Sensor U6
+U 1 1 5D680E30
+P 6080 12925
+F 0 "U6" H 5405 14125 50  0000 R CNN
+F 1 "MT9P031I12STM-DP" H 7055 14175 50  0000 R CNN
+F 2 ".Package_LCC:iLCC48P70_1000X1000X135L80X40N" H 6180 13525 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/MT9P031-D.PDF" H 6180 13525 50  0001 C CNN
+F 4 "	SENSOR IMAGE 5MP MONO CMOS 48LCC" H 6080 12925 50  0001 C CNN "Description"
+F 5 "488-MT9P031I12STM-DP-ND" H 6080 12925 50  0001 C CNN "DigikeyPN"
+	1    6080 12925
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:C_Small-.Device C39
+U 1 1 5C1956D5
+P 13100 1545
+F 0 "C39" V 12871 1545 50  0000 C CNN
+F 1 "GRM033R61A225ME47D" H 12710 1715 50  0001 L CNN
+F 2 ".Capacitor:C_0201_0603Metric_L" H 13210 1815 50  0001 C CNN
+F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R61A225ME47-01.pdf" H 13110 1615 50  0001 C CNN
+F 4 "2.2µF ±20% 10V Ceramic Capacitor X5R 0201 (0603 Metric)" H 13100 1545 50  0001 C CNN "Description"
+F 5 "2.2uF 0201" V 13005 1545 50  0000 C CNN "Note"
+F 6 "490-13228-1-ND" H 13100 1545 50  0001 C CNN "DigikeyPN"
+	1    13100 1545
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5350 1750 5350 1800
+$Comp
+L Kicad_LFOV_RigidFlex_Assembly-rescue:SMA-J-P-H-RA-TH1-.Connector J_coax1
+U 1 1 5F6268F9
+P 5350 1550
+F 0 "J_coax1" H 5450 1525 50  0000 L CNN
+F 1 "SMA-J-P-H-RA-TH1" H 5450 1434 50  0000 L CNN
+F 2 ".Connector:U-FL-R-SMT" H 5400 1050 50  0001 C CNN
+F 3 "http://suddendocs.samtec.com/catalog_english/sma.pdf" H 5350 1550 50  0001 C CNN
+F 4 " 	U.FL (UMCC) Connector Receptacle, Male Pin 50Ohm Surface Mount Solder " H 5350 1550 50  0001 C CNN "Description"
+F 5 "H11891CT-ND" H 5350 1550 50  0001 C CNN "DigikeyPN"
+F 6 "Hirose U.FL R" H 5350 1550 50  0001 C CNN "Note"
+	1    5350 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R23
+U 1 1 61910F9B
+P 5250 4600
+F 0 "R23" H 5320 4646 50  0000 L CNN
+F 1 "ERJ-1GN0R00C" H 5320 4555 50  0001 L CNN
+F 2 ".Resistor:R_0201_0603Metric_ERJ_L" V 5180 4600 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-1GEF1022C/P10-2KABCT-ND/1467562" H 5250 4600 50  0001 C CNN
+F 4 "10.2 kOhms ±1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric) Automotive AEC-Q200 Thick Film" H 5250 4600 50  0001 C CNN "Description"
+F 5 "10.2k 0201" H 5075 4600 50  0000 C CNN "Note"
+F 6 "ERJ-1GNF1022C" H 5250 4600 50  0001 C CNN "DigikeyPN"
+	1    5250 4600
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

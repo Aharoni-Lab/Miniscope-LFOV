@@ -1,0 +1,845 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Connector_Generic_Conn_01x05
+#
+DEF Connector_Generic_Conn_01x05 J 0 40 Y N 1 F N
+F0 "J" 0 300 50 H V C CNN
+F1 "Connector_Generic_Conn_01x05" 0 -300 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 205 0 195 1 1 6 N
+S -50 250 50 -250 1 1 10 f
+X Pin_1 1 -200 200 150 R 50 50 1 1 P
+X Pin_2 2 -200 100 150 R 50 50 1 1 P
+X Pin_3 3 -200 0 150 R 50 50 1 1 P
+X Pin_4 4 -200 -100 150 R 50 50 1 1 P
+X Pin_5 5 -200 -200 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_C
+#
+DEF Device_C C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "Device_C" 25 -100 50 H V L CNN
+F2 "" 38 -150 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_R
+#
+DEF Device_R R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "Device_R" 0 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Kicad_LFOV_RigidFlex_Assembly-rescue_+3.3V-power-MS_v4_ETL_LED_Driver_v2-rescue
+#
+DEF Kicad_LFOV_RigidFlex_Assembly-rescue_+3.3V-power-MS_v4_ETL_LED_Driver_v2-rescue #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "Kicad_LFOV_RigidFlex_Assembly-rescue_+3.3V-power-MS_v4_ETL_LED_Driver_v2-rescue" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +3V3 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# Kicad_LFOV_RigidFlex_Assembly-rescue_+3.3V-power-Monkey_2LED_BNO-EWL-rescue
+#
+DEF Kicad_LFOV_RigidFlex_Assembly-rescue_+3.3V-power-Monkey_2LED_BNO-EWL-rescue #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "Kicad_LFOV_RigidFlex_Assembly-rescue_+3.3V-power-Monkey_2LED_BNO-EWL-rescue" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +3V3 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# Kicad_LFOV_RigidFlex_Assembly-rescue_ADL3225V-470MT-TL000-.Inductor-Siminiscope-Ser-Pow-rescue
+#
+DEF Kicad_LFOV_RigidFlex_Assembly-rescue_ADL3225V-470MT-TL000-.Inductor-Siminiscope-Ser-Pow-rescue L 0 10 N N 1 F N
+F0 "L" 30 40 50 H V L CNN
+F1 "Kicad_LFOV_RigidFlex_Assembly-rescue_ADL3225V-470MT-TL000-.Inductor-Siminiscope-Ser-Pow-rescue" 50 -150 50 H I L CNN
+F2 ".Inductor:L_1210_3225Metric_L" -70 -60 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "47uH" 130 -60 50 H V C CNN "Note"
+F5 "1210" 150 -250 50 H I C CNN "Size"
+$FPLIST
+ *Coil*
+ Inductor_*
+ L_*
+$ENDFPLIST
+DRAW
+A 0 -60 20 -899 899 0 1 0 N 0 -80 0 -40
+A 0 -20 20 -899 899 0 1 0 N 0 -40 0 0
+A 0 20 20 -899 899 0 1 0 N 0 0 0 40
+A 0 60 20 -899 899 0 1 0 N 0 40 0 80
+X ~ 1 0 100 20 D 50 50 1 1 P
+X ~ 2 0 -100 20 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Kicad_LFOV_RigidFlex_Assembly-rescue_BAS316-.Diode
+#
+DEF Kicad_LFOV_RigidFlex_Assembly-rescue_BAS316-.Diode D 0 10 N N 1 F N
+F0 "D" -50 80 50 H V L CNN
+F1 "Kicad_LFOV_RigidFlex_Assembly-rescue_BAS316-.Diode" -150 -80 50 H V L CNN
+F2 ".Diode:SOD_323_250X125X110L30X32L" -250 150 50 H I C CNN
+F3 "" 0 0 50 V I C CNN
+$FPLIST
+ *_Diode_*
+ *SingleDiode*
+ D_*
+ SOD?323*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 -30 -40 -30 40 N
+P 2 0 1 0 -30 0 30 0 N
+P 4 0 1 0 30 -40 -30 0 30 40 30 -40 F
+X A A 100 0 70 L 50 50 1 1 P
+X C C -100 0 70 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Kicad_LFOV_RigidFlex_Assembly-rescue_BNO055-.IMU
+#
+DEF Kicad_LFOV_RigidFlex_Assembly-rescue_BNO055-.IMU U 0 40 Y Y 1 L N
+F0 "U" -580 620 50 H V L BNN
+F1 "Kicad_LFOV_RigidFlex_Assembly-rescue_BNO055-.IMU" -581 -772 50 H V L BNN
+F2 "LGA28R50P4X10_380X520X100" 0 0 50 H I L BNN
+F3 "LGA-28 Bosch" 0 0 50 H I L BNN
+F4 "BNO055" 0 0 50 H I L BNN
+F5 "Unavailable" 0 0 50 H I L BNN
+F6 "Bosch" 0 0 50 H I L BNN
+F7 "BNO055 9-axis Absolute Orientation Sensor _ SiP _ w/Sensors and Sensor Fusion" 0 0 50 H I L BNN
+F8 "None" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 10 -600 -700 600 -700 N
+P 2 0 0 10 -600 600 -600 -700 N
+P 2 0 0 10 600 -700 600 600 N
+P 2 0 0 10 600 600 -600 600 N
+X PIN10 10 800 -200 200 L 40 40 0 0 W
+X NRESET 11 -800 200 200 R 40 40 0 0 I
+X INT 14 800 100 200 L 40 40 0 0 O
+X PIN15 15 800 -300 200 L 40 40 0 0 W
+X PIN16 16 800 -400 200 L 40 40 0 0 W
+X COM3 17 -800 -400 200 R 40 40 0 0 B
+X COM2 18 -800 -300 200 R 40 40 0 0 B
+X COM1 19 -800 -200 200 R 40 40 0 0 B
+X GND 2 800 -600 200 L 40 40 0 0 W
+X COM0 20 -800 -100 200 R 40 40 0 0 B
+X GNDIO 25 800 -500 200 L 40 40 0 0 W
+X XOUT32 26 800 200 200 L 40 40 0 0 O
+X XIN32 27 -800 300 200 R 40 40 0 0 I
+X VDDIO 28 800 400 200 L 40 40 0 0 W
+X VDD 3 800 500 200 L 40 40 0 0 W
+X NBOOT_LOAD_PIN 4 -800 0 200 R 40 40 0 0 B
+X PS1 5 -800 400 200 R 40 40 0 0 I
+X PS0 6 -800 500 200 R 40 40 0 0 I
+X CAP 9 -800 -600 200 R 40 40 0 0 P
+ENDDRAW
+ENDDEF
+#
+# Kicad_LFOV_RigidFlex_Assembly-rescue_CL32A476KOJNNNE-.Capacitor
+#
+DEF Kicad_LFOV_RigidFlex_Assembly-rescue_CL32A476KOJNNNE-.Capacitor C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "Kicad_LFOV_RigidFlex_Assembly-rescue_CL32A476KOJNNNE-.Capacitor" -390 170 50 H I L CNN
+F2 ".Capacitor:C_1210_3225Metric_L" 60 270 50 H I C CNN
+F3 "" 10 70 50 H I C CNN
+F4 "47uF" 150 -100 50 H V C CNN "Note"
+F5 "1210" 110 -180 50 H I C CNN "Size"
+$FPLIST
+ C_0201*
+$ENDFPLIST
+DRAW
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Kicad_LFOV_RigidFlex_Assembly-rescue_C_Small-.Device
+#
+DEF Kicad_LFOV_RigidFlex_Assembly-rescue_C_Small-.Device C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "Kicad_LFOV_RigidFlex_Assembly-rescue_C_Small-.Device" 10 -80 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Kicad_LFOV_RigidFlex_Assembly-rescue_Conn_01x01-.Connector
+#
+DEF Kicad_LFOV_RigidFlex_Assembly-rescue_Conn_01x01-.Connector J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "Kicad_LFOV_RigidFlex_Assembly-rescue_Conn_01x01-.Connector" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*
+$ENDFPLIST
+DRAW
+S -50 5 0 -5 1 1 6 N
+S -50 50 50 -50 1 1 10 f
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Kicad_LFOV_RigidFlex_Assembly-rescue_Conn_01x01-.Connector-Siminiscope-Ser-Pow-rescue
+#
+DEF Kicad_LFOV_RigidFlex_Assembly-rescue_Conn_01x01-.Connector-Siminiscope-Ser-Pow-rescue J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "Kicad_LFOV_RigidFlex_Assembly-rescue_Conn_01x01-.Connector-Siminiscope-Ser-Pow-rescue" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*
+$ENDFPLIST
+DRAW
+S -50 5 0 -5 1 1 6 N
+S -50 50 50 -50 1 1 10 f
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Kicad_LFOV_RigidFlex_Assembly-rescue_DS90UB933-Q1-.SERDES
+#
+DEF Kicad_LFOV_RigidFlex_Assembly-rescue_DS90UB933-Q1-.SERDES U 0 40 Y Y 1 F N
+F0 "U" -700 550 50 H V C CNN
+F1 "Kicad_LFOV_RigidFlex_Assembly-rescue_DS90UB933-Q1-.SERDES" 950 500 50 H V C CNN
+F2 ".Package_QFN:QFN_33_P50_500X500X80L40X24T310L" -1000 -1850 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -700 450 1150 -1750 0 1 0 f
+X HSYNC 1 -900 300 200 R 50 50 1 1 I
+X VDDPLL 10 200 650 200 D 50 50 1 1 W
+X VDDT 11 300 650 200 D 50 50 1 1 W
+X DOUT- 12 1350 250 200 L 50 50 1 1 B
+X DOUT+ 13 1350 350 200 L 50 50 1 1 B
+X VDDCML 14 400 650 200 D 50 50 1 1 W
+X GPO[0] 15 1350 -150 200 L 50 50 1 1 O
+X GPO[1] 16 1350 -250 200 L 50 50 1 1 O
+X CPO[2]/CLKOUT 17 1350 -350 200 L 50 50 1 1 O
+X GPO[3]/CLKIN 18 1350 -450 200 L 50 50 1 1 B
+X DIN[0] 19 -900 0 200 R 50 50 1 1 I
+X VSYNC 2 -900 200 200 R 50 50 1 1 I
+X DIN[1] 20 -900 -100 200 R 50 50 1 1 I
+X DIN[2] 21 -900 -200 200 R 50 50 1 1 I
+X DIN[3] 22 -900 -300 200 R 50 50 1 1 I
+X DIN[4] 23 -900 -400 200 R 50 50 1 1 I
+X DIN[5] 24 -900 -500 200 R 50 50 1 1 I
+X VDDIO 25 -100 650 200 D 50 50 1 1 W
+X DIN[6] 26 -900 -600 200 R 50 50 1 1 I
+X DIN[7] 27 -900 -700 200 R 50 50 1 1 I
+X VDDD 28 100 650 200 D 50 50 1 1 W
+X DIN[8] 29 -900 -800 200 R 50 50 1 1 I
+X PCLK 3 -900 -1300 200 R 50 50 1 1 I
+X DIN[9] 30 -900 -900 200 R 50 50 1 1 I
+X DIN[10] 31 -900 -1000 200 R 50 50 1 1 I
+X DIN[11] 32 -900 -1100 200 R 50 50 1 1 I
+X VSS 33 200 -1950 200 U 50 50 1 1 W
+X SCL 4 -900 -1650 200 R 50 50 1 1 B
+X SDA 5 -900 -1550 200 R 50 50 1 1 B
+X ID[x] 6 1350 -1000 200 L 50 50 1 1 B
+X RES 7 1350 -1500 200 L 50 50 1 1 B
+X MODE 8 1350 -900 200 L 50 50 1 1 B
+X PDB 9 1350 -1400 200 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# Kicad_LFOV_RigidFlex_Assembly-rescue_ERJ-1GEF1022C-.Resistor-MS_v4_ETL_LED_Driver_v2-rescue
+#
+DEF Kicad_LFOV_RigidFlex_Assembly-rescue_ERJ-1GEF1022C-.Resistor-MS_v4_ETL_LED_Driver_v2-rescue R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "Kicad_LFOV_RigidFlex_Assembly-rescue_ERJ-1GEF1022C-.Resistor-MS_v4_ETL_LED_Driver_v2-rescue" 30 -190 50 H I L CNN
+F2 ".Resistor:R_0201_0603Metric_ERJ_L" -70 -80 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "10.2K" 150 -50 50 H V C CNN "Note"
+F5 "0201" 230 220 50 H I C CNN "Size"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+P 5 1 1 0 0 0 40 -15 0 -30 -40 -45 0 -60 N
+P 5 1 1 0 0 60 40 45 0 30 -40 15 0 0 N
+X ~ 1 0 100 40 D 50 50 1 1 P
+X ~ 2 0 -100 40 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Kicad_LFOV_RigidFlex_Assembly-rescue_GND-power-MS_v4_ETL_LED_Driver_v2-rescue
+#
+DEF Kicad_LFOV_RigidFlex_Assembly-rescue_GND-power-MS_v4_ETL_LED_Driver_v2-rescue #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "Kicad_LFOV_RigidFlex_Assembly-rescue_GND-power-MS_v4_ETL_LED_Driver_v2-rescue" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# Kicad_LFOV_RigidFlex_Assembly-rescue_GND-power-Monkey_2LED_BNO-EWL-rescue
+#
+DEF Kicad_LFOV_RigidFlex_Assembly-rescue_GND-power-Monkey_2LED_BNO-EWL-rescue #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "Kicad_LFOV_RigidFlex_Assembly-rescue_GND-power-Monkey_2LED_BNO-EWL-rescue" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# Kicad_LFOV_RigidFlex_Assembly-rescue_GRM033R61A225ME47D-.Capacitor-MS_v4_ETL_LED_Driver_v2-rescue
+#
+DEF Kicad_LFOV_RigidFlex_Assembly-rescue_GRM033R61A225ME47D-.Capacitor-MS_v4_ETL_LED_Driver_v2-rescue C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "Kicad_LFOV_RigidFlex_Assembly-rescue_GRM033R61A225ME47D-.Capacitor-MS_v4_ETL_LED_Driver_v2-rescue" -390 170 50 H I L CNN
+F2 ".Capacitor:C_0201_0603Metric_L" 110 270 50 H I C CNN
+F3 "" 10 70 50 H I C CNN
+F4 "2.2uF" 110 -80 50 H V C CNN "Note"
+F5 "0201" 110 -180 50 H I C CNN "Size"
+$FPLIST
+ C_0201*
+$ENDFPLIST
+DRAW
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Kicad_LFOV_RigidFlex_Assembly-rescue_GRM155R60J475ME87D-.Capacitor-MS_v4_ETL_LED_Driver_v2-rescue
+#
+DEF Kicad_LFOV_RigidFlex_Assembly-rescue_GRM155R60J475ME87D-.Capacitor-MS_v4_ETL_LED_Driver_v2-rescue C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "Kicad_LFOV_RigidFlex_Assembly-rescue_GRM155R60J475ME87D-.Capacitor-MS_v4_ETL_LED_Driver_v2-rescue" -390 170 50 H I L CNN
+F2 ".Capacitor:C_0402_1005Metric_L" 110 270 50 H I C CNN
+F3 "" 10 70 50 H I C CNN
+F4 "4.7uF" 110 -80 50 H V C CNN "Note"
+F5 "0402" 110 -180 50 H I C CNN "Size"
+$FPLIST
+ C_0402*
+$ENDFPLIST
+DRAW
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Kicad_LFOV_RigidFlex_Assembly-rescue_LED_Small_ALT-.Device
+#
+DEF Kicad_LFOV_RigidFlex_Assembly-rescue_LED_Small_ALT-.Device D 0 10 N N 1 F N
+F0 "D" -50 125 50 H V L CNN
+F1 "Kicad_LFOV_RigidFlex_Assembly-rescue_LED_Small_ALT-.Device" -175 -100 50 H V L CNN
+F2 "" 0 0 50 V I C CNN
+F3 "" 0 0 50 V I C CNN
+$FPLIST
+ LED*
+ LED_SMD:*
+ LED_THT:*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 -30 -40 -30 40 N
+P 2 0 1 0 40 0 -30 0 N
+P 4 0 1 0 30 -40 -30 0 30 40 30 -40 F
+P 5 0 1 0 0 30 -20 50 -10 50 -20 50 -20 40 N
+P 5 0 1 0 20 50 0 70 10 70 0 70 0 60 N
+X K 1 -100 0 70 R 50 50 1 1 P
+X A 2 100 0 70 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Kicad_LFOV_RigidFlex_Assembly-rescue_LQM18PN3R3MGHD-.Inductor
+#
+DEF Kicad_LFOV_RigidFlex_Assembly-rescue_LQM18PN3R3MGHD-.Inductor L 0 10 N N 1 F N
+F0 "L" 30 40 50 H V L CNN
+F1 "Kicad_LFOV_RigidFlex_Assembly-rescue_LQM18PN3R3MGHD-.Inductor" 50 -150 50 H I L CNN
+F2 ".Inductor:L_0603_1608Metric_L" 50 300 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "3.3uH" 130 -60 50 H V C CNN "Note"
+F5 "0603" 150 -250 50 H I C CNN "Size"
+$FPLIST
+ *Coil*
+ Inductor_*
+ L_*
+$ENDFPLIST
+DRAW
+A 0 -60 20 -899 899 0 1 0 N 0 -80 0 -40
+A 0 -20 20 -899 899 0 1 0 N 0 -40 0 0
+A 0 20 20 -899 899 0 1 0 N 0 0 0 40
+A 0 60 20 -899 899 0 1 0 N 0 40 0 80
+X ~ 1 0 100 20 D 50 50 1 1 P
+X ~ 2 0 -100 20 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Kicad_LFOV_RigidFlex_Assembly-rescue_LTC3218-.Driver_LED-MS_v4_ETL_LED_Driver-rescue-MS_v4_ETL_LED_Driver-rescue-MS_v4_ETL_LED_Driver-rescue-MS_v4_ETL_LED_Driver_v2-rescue
+#
+DEF Kicad_LFOV_RigidFlex_Assembly-rescue_LTC3218-.Driver_LED-MS_v4_ETL_LED_Driver-rescue-MS_v4_ETL_LED_Driver-rescue-MS_v4_ETL_LED_Driver-rescue-MS_v4_ETL_LED_Driver_v2-rescue U 0 40 Y Y 1 F N
+F0 "U" -350 350 50 H V C CNN
+F1 "Kicad_LFOV_RigidFlex_Assembly-rescue_LTC3218-.Driver_LED-MS_v4_ETL_LED_Driver-rescue-MS_v4_ETL_LED_Driver-rescue-MS_v4_ETL_LED_Driver-rescue-MS_v4_ETL_LED_Driver_v2-rescue" 300 350 50 H V C CNN
+F2 ".Package_SON:SON_11_P50_300X200X80L40X25T239X64L" -450 250 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ SON_11*
+$ENDFPLIST
+DRAW
+S -350 300 400 -650 0 1 0 f
+X CP 1 -50 400 100 D 50 50 1 1 U
+X VIN 10 -450 150 100 R 50 50 1 1 W
+X GND 11 500 -400 100 L 50 50 1 1 W
+X CPO 2 500 150 100 L 50 50 1 1 U
+X I_LED 3 500 -50 100 L 50 50 1 1 w
+X ENT 4 -450 -400 100 R 50 50 1 1 I
+X I_SETT 5 100 -750 100 U 50 50 1 1 U
+X I_SETF 6 -50 -750 100 U 50 50 1 1 U
+X ENF 7 -450 -300 100 R 50 50 1 1 I
+X GND 8 500 -300 100 L 50 50 1 1 W
+X CM 9 100 400 100 D 50 50 1 1 U
+ENDDRAW
+ENDDEF
+#
+# Kicad_LFOV_RigidFlex_Assembly-rescue_LXZ1-PR01-.LED
+#
+DEF Kicad_LFOV_RigidFlex_Assembly-rescue_LXZ1-PR01-.LED D 0 10 N N 1 F N
+F0 "D" -50 125 50 H V L CNN
+F1 "Kicad_LFOV_RigidFlex_Assembly-rescue_LXZ1-PR01-.LED" -175 -100 50 H V L CNN
+F2 ".LED:LED_LXZ1_PR01_L" -150 25 50 H I C CNN
+F3 "" 0 0 50 V I C CNN
+$FPLIST
+ LED*
+ LED_SMD:*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 -30 -40 -30 40 N
+P 2 0 1 0 40 0 -30 0 N
+P 4 0 1 0 30 -40 -30 0 30 40 30 -40 F
+P 5 0 1 0 0 30 -20 50 -10 50 -20 50 -20 40 N
+P 5 0 1 0 20 50 0 70 10 70 0 70 0 60 N
+X A A 100 0 70 L 50 50 1 1 P
+X C C -100 0 70 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Kicad_LFOV_RigidFlex_Assembly-rescue_LXZ1-PR01-.LED-MS_v4_ETL_LED_Driver_v2-rescue
+#
+DEF Kicad_LFOV_RigidFlex_Assembly-rescue_LXZ1-PR01-.LED-MS_v4_ETL_LED_Driver_v2-rescue D 0 10 N N 1 F N
+F0 "D" -50 125 50 H V L CNN
+F1 "Kicad_LFOV_RigidFlex_Assembly-rescue_LXZ1-PR01-.LED-MS_v4_ETL_LED_Driver_v2-rescue" -175 -100 50 H V L CNN
+F2 ".LED:LED_LXZ1_PR01_L" -150 25 50 H I C CNN
+F3 "" 0 0 50 V I C CNN
+$FPLIST
+ LED*
+ LED_SMD:*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 -30 -40 -30 40 N
+P 2 0 1 0 40 0 -30 0 N
+P 4 0 1 0 30 -40 -30 0 30 40 30 -40 F
+P 5 0 1 0 0 30 -20 50 -10 50 -20 50 -20 40 N
+P 5 0 1 0 20 50 0 70 10 70 0 70 0 60 N
+X A A 100 0 70 L 50 50 1 1 P
+X C C -100 0 70 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Kicad_LFOV_RigidFlex_Assembly-rescue_L_Small-.Device-Siminiscope-Ser-Pow-rescue
+#
+DEF Kicad_LFOV_RigidFlex_Assembly-rescue_L_Small-.Device-Siminiscope-Ser-Pow-rescue L 0 10 N N 1 F N
+F0 "L" 30 40 50 H V L CNN
+F1 "Kicad_LFOV_RigidFlex_Assembly-rescue_L_Small-.Device-Siminiscope-Ser-Pow-rescue" 30 -40 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Choke_*
+ *Coil*
+ Inductor_*
+ L_*
+$ENDFPLIST
+DRAW
+A 0 -60 20 -899 899 0 1 0 N 0 -80 0 -40
+A 0 -20 20 -899 899 0 1 0 N 0 -40 0 0
+A 0 20 20 -899 899 0 1 0 N 0 0 0 40
+A 0 60 20 -899 899 0 1 0 N 0 40 0 80
+X ~ 1 0 100 20 D 50 50 1 1 P
+X ~ 2 0 -100 20 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Kicad_LFOV_RigidFlex_Assembly-rescue_MAX14574EWL+-.Driver_ETL
+#
+DEF Kicad_LFOV_RigidFlex_Assembly-rescue_MAX14574EWL+-.Driver_ETL U 0 40 Y Y 1 F N
+F0 "U" -100 200 50 H V C CNN
+F1 "Kicad_LFOV_RigidFlex_Assembly-rescue_MAX14574EWL+-.Driver_ETL" 550 200 50 H V C CNN
+F2 ".Package_BGA:BGA_15_NP50_3X5_155X255X69B31N" -250 300 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ BGA_15*
+$ENDFPLIST
+DRAW
+S -150 150 450 -1100 0 1 0 f
+X SDA A1 -250 -400 100 R 50 50 1 1 B
+X GND A2 100 -1200 100 U 50 50 1 1 W
+X VDD A3 -250 50 100 R 50 50 1 1 W
+X LX A4 150 250 100 D 50 50 1 1 B
+X PGND A5 200 -1200 100 U 50 50 1 1 W
+X SCL B1 -250 -500 100 R 50 50 1 1 B
+X EN B2 -250 -200 100 R 50 50 1 1 I
+X TM1 B3 -250 -800 100 R 50 50 1 1 B
+X TM2 B4 -250 -700 100 R 50 50 1 1 B
+X VH B5 550 50 100 L 50 50 1 1 w
+X COM C1 550 -800 100 L 50 50 1 1 w
+X LL4 C2 550 -600 100 L 50 50 1 1 w
+X LL3 C3 550 -500 100 L 50 50 1 1 w
+X LL2 C4 550 -400 100 L 50 50 1 1 w
+X LL1 C5 550 -300 100 L 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
+# Kicad_LFOV_RigidFlex_Assembly-rescue_MT9P031-.Image_Sensor
+#
+DEF Kicad_LFOV_RigidFlex_Assembly-rescue_MT9P031-.Image_Sensor U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "Kicad_LFOV_RigidFlex_Assembly-rescue_MT9P031-.Image_Sensor" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -650 950 700 -1450 0 1 0 N
+X VAA_PIX 1 250 1050 100 D 50 50 1 1 I
+X DGND 10 -200 -1550 100 U 50 50 1 1 I
+X VDD_IO 11 -400 1050 100 D 50 50 1 1 I
+X VDD 12 -100 1050 100 D 50 50 1 1 I
+X SADDR 13 -750 350 100 R 50 50 1 1 I
+X STANDBY_BAR 14 -750 -100 100 R 50 50 1 1 I
+X TRIGGER 15 -750 150 100 R 50 50 1 1 I
+X REST_BAR 16 -750 250 100 R 50 50 1 1 I
+X OE 17 -750 -900 100 R 50 50 1 1 I
+X AGND 2 100 -1550 100 U 50 50 1 1 I
+X TEST 20 500 -1550 100 U 50 50 1 1 I
+X TEST 21 600 -1550 100 U 50 50 1 1 I
+X AGND 22 200 -1550 100 U 50 50 1 1 I
+X VAA 23 500 1050 100 D 50 50 1 1 I
+X VAA 24 600 1050 100 D 50 50 1 1 I
+X VDD_PLL 25 100 1050 100 D 50 50 1 1 I
+X DGND 26 -100 -1550 100 U 50 50 1 1 I
+X TEST 3 400 -1550 100 U 50 50 1 1 I
+X EXTCLK 31 -750 -550 100 R 50 50 1 1 I
+X PIXCLK 32 800 -800 100 L 50 50 1 1 I
+X DOUT0 33 800 650 100 L 50 50 1 1 O
+X DOUT1 34 800 550 100 L 50 50 1 1 O
+X DOUT2 35 800 450 100 L 50 50 1 1 O
+X DOUT3 36 800 350 100 L 50 50 1 1 O
+X DOUT4 37 800 250 100 L 50 50 1 1 O
+X DOUT5 38 800 150 100 L 50 50 1 1 O
+X VDD_IO 39 -500 1050 100 D 50 50 1 1 I
+X SCLK 4 -750 -250 100 R 50 50 1 1 I
+X DOUT6 40 800 50 100 L 50 50 1 1 O
+X DOUT7 41 800 -50 100 L 50 50 1 1 O
+X DOUT8 42 800 -150 100 L 50 50 1 1 O
+X DOUT9 43 800 -250 100 L 50 50 1 1 O
+X DOUT10 44 800 -350 100 L 50 50 1 1 O
+X DOUT11 45 800 -450 100 L 50 50 1 1 O
+X DGND 46 -300 -1550 100 U 50 50 1 1 I
+X VDD 47 -200 1050 100 D 50 50 1 1 I
+X VAA_PIX 48 350 1050 100 D 50 50 1 1 I
+X SDATA 5 -750 -350 100 R 50 50 1 1 I
+X RSVD 6 -500 -1550 100 U 50 50 1 1 I
+X FRAME_VALID 7 800 -600 100 L 50 50 1 1 I
+X LINE_VALID 8 800 -700 100 L 50 50 1 1 I
+X STROBE 9 800 -900 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Kicad_LFOV_RigidFlex_Assembly-rescue_R_Small_US-.Device
+#
+DEF Kicad_LFOV_RigidFlex_Assembly-rescue_R_Small_US-.Device R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "Kicad_LFOV_RigidFlex_Assembly-rescue_R_Small_US-.Device" 30 -40 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+P 5 1 1 0 0 0 40 -15 0 -30 -40 -45 0 -60 N
+P 5 1 1 0 0 60 40 45 0 30 -40 15 0 0 N
+X ~ 1 0 100 40 D 50 50 1 1 P
+X ~ 2 0 -100 40 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Kicad_LFOV_RigidFlex_Assembly-rescue_R_Small_US-.Device-Siminiscope-Ser-Pow-rescue
+#
+DEF Kicad_LFOV_RigidFlex_Assembly-rescue_R_Small_US-.Device-Siminiscope-Ser-Pow-rescue R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "Kicad_LFOV_RigidFlex_Assembly-rescue_R_Small_US-.Device-Siminiscope-Ser-Pow-rescue" 30 -40 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+P 5 1 1 0 0 0 40 -15 0 -30 -40 -45 0 -60 N
+P 5 1 1 0 0 60 40 45 0 30 -40 15 0 0 N
+X ~ 1 0 100 40 D 50 50 1 1 P
+X ~ 2 0 -100 40 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Kicad_LFOV_RigidFlex_Assembly-rescue_SMA-J-P-H-RA-TH1-.Connector
+#
+DEF Kicad_LFOV_RigidFlex_Assembly-rescue_SMA-J-P-H-RA-TH1-.Connector J 0 40 Y N 1 F N
+F0 "J" 10 120 50 H V C CNN
+F1 "Kicad_LFOV_RigidFlex_Assembly-rescue_SMA-J-P-H-RA-TH1-.Connector" 115 0 50 V V C CNN
+F2 ".Connector:SMA-J-P-H-RA-TH1" 50 -500 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ *BNC*
+ *SMA*
+ *SMB*
+ *SMC*
+ *Cinch*
+$ENDFPLIST
+DRAW
+A -2 0 71 1636 0 0 1 10 N -70 20 70 0
+A -1 0 71 0 -1638 0 1 10 N 70 0 -70 -20
+C 0 0 20 0 1 8 N
+P 2 0 1 0 -100 0 -20 0 N
+P 2 0 1 0 0 -100 0 -70 N
+X In 1 -200 0 100 R 50 50 1 1 P
+X Ext 2 0 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Kicad_LFOV_RigidFlex_Assembly-rescue_SiT_2.5mmx2mm-.Oscillator
+#
+DEF Kicad_LFOV_RigidFlex_Assembly-rescue_SiT_2.5mmx2mm-.Oscillator U 0 40 Y Y 1 F N
+F0 "U" 350 200 50 H V C CNN
+F1 "Kicad_LFOV_RigidFlex_Assembly-rescue_SiT_2.5mmx2mm-.Oscillator" -100 200 50 H V C CNN
+F2 ".Oscillator:OSC_CC250X200X80L70X75L" -50 250 50 H I C CNN
+F3 "" -50 250 50 H I C CNN
+DRAW
+S -400 150 400 -200 0 1 0 f
+X OE/nST/NC 1 -500 100 100 R 50 50 1 1 I
+X GND 2 -500 -150 100 R 50 50 1 1 I
+X OUT 3 500 -150 100 L 50 50 1 1 I
+X VDD 4 500 100 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Kicad_LFOV_RigidFlex_Assembly-rescue_TLV7103318DSER-.Regulator_Linear
+#
+DEF Kicad_LFOV_RigidFlex_Assembly-rescue_TLV7103318DSER-.Regulator_Linear U 0 20 Y Y 1 F N
+F0 "U" -150 225 50 H V C CNN
+F1 "Kicad_LFOV_RigidFlex_Assembly-rescue_TLV7103318DSER-.Regulator_Linear" 0 225 50 H V L CNN
+F2 ".Package_SON:SON_6_P50_150X150X80L50X25L" 0 300 50 H I C CIN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ TLV710*
+ SON?6*
+ TLV711*
+$ENDFPLIST
+DRAW
+S -200 175 400 -200 0 1 10 f
+X EN1 1 -300 0 100 R 50 50 1 1 I
+X IN 2 -300 100 100 R 50 50 1 1 W
+X EN2 3 -300 -100 100 R 50 50 1 1 I
+X GND 4 100 -300 100 U 50 50 1 1 W
+X OUT2 5 500 0 100 L 50 50 1 1 w
+X OUT1 6 500 100 100 L 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
+# Kicad_LFOV_RigidFlex_Assembly-rescue_TPL0102-100RUCR-.Potentiometer-MS_v4_ETL_LED_Driver_v2-rescue
+#
+DEF Kicad_LFOV_RigidFlex_Assembly-rescue_TPL0102-100RUCR-.Potentiometer-MS_v4_ETL_LED_Driver_v2-rescue U 0 40 Y Y 1 F N
+F0 "U" -300 550 50 H V C CNN
+F1 "Kicad_LFOV_RigidFlex_Assembly-rescue_TPL0102-100RUCR-.Potentiometer-MS_v4_ETL_LED_Driver_v2-rescue" 450 550 50 H V C CNN
+F2 ".Package_QFN:QFN_14_P40_200X200X40L40X20L" 150 -950 50 H I C CNN
+F3 "" 150 -950 50 H I C CNN
+$FPLIST
+ QFN_14*
+$ENDFPLIST
+DRAW
+S -350 500 350 -500 0 1 0 f
+X HA 1 450 400 100 L 50 50 1 1 B
+X SCL 10 -450 0 100 R 50 50 1 1 I
+X GND 11 50 -600 100 U 50 50 1 1 W
+X A1 12 -450 -300 100 R 50 50 1 1 I
+X A0 13 -450 -200 100 R 50 50 1 1 I
+X VDD 14 -450 400 100 R 50 50 1 1 W
+X LA 2 450 -200 100 L 50 50 1 1 B
+X WA 3 450 100 100 L 50 50 1 1 B
+X HB 4 450 300 100 L 50 50 1 1 B
+X LB 5 450 -300 100 L 50 50 1 1 B
+X WB 6 450 0 100 L 50 50 1 1 B
+X A2 7 -450 -400 100 R 50 50 1 1 I
+X VSS 8 -50 -600 100 U 50 50 1 1 W
+X SDA 9 -450 100 100 R 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# Mechanical_MountingHole
+#
+DEF Mechanical_MountingHole H 0 40 Y Y 1 F N
+F0 "H" 0 200 50 H V C CNN
+F1 "Mechanical_MountingHole" 0 125 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ MountingHole*
+$ENDFPLIST
+DRAW
+C 0 0 50 0 1 50 N
+ENDDRAW
+ENDDEF
+#
+# Regulator_Linear_TPS79328-EP
+#
+DEF Regulator_Linear_TPS79328-EP U 0 10 Y Y 1 F N
+F0 "U" -150 225 50 H V C CNN
+F1 "Regulator_Linear_TPS79328-EP" 0 225 50 H V L CNN
+F2 "Package_TO_SOT_SMD:SOT-23-5" 0 325 50 H I C CIN
+F3 "" 0 50 50 H I C CNN
+ALIAS TPS79325-EP TPS79328-EP TPS793285-EP TPS79330-EP TPS79333-EP TPS793475-EP
+$FPLIST
+ SOT?23*
+$ENDFPLIST
+DRAW
+S 200 -200 -200 175 1 1 10 f
+X IN 1 -300 100 100 R 50 50 1 1 W
+X GND 2 0 -300 100 U 50 50 1 1 W
+X EN 3 -300 0 100 R 50 50 1 1 I
+X BP 4 300 0 100 L 50 50 1 1 B
+X OUT 5 300 100 100 L 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
+# power_+1V8
+#
+DEF power_+1V8 #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+1V8" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +1V8 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_+2V8
+#
+DEF power_+2V8 #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+2V8" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +2V8 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_+3.3V
+#
+DEF power_+3.3V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+3.3V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+ALIAS +3.3V
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +3V3 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_+5V
+#
+DEF power_+5V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+5V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +5V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+#End Library
