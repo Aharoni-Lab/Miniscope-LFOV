@@ -23,5 +23,5 @@ Large field-of-view miniature microscope for rats and larger animals.
 <li>New DAQ software</li>
 </ul>
 <p align="center">
-  <img align="center" width="473" height="337" src="https://user-images.githubusercontent.com/44171252/141366558-0426378f-90db-4e11-9503-23eecbc692d4.jpg">
+  <img align="center" width="473" height="337" src="https://github.com/Aharoni-Lab/Miniscope-LFOV/blob/main/img/Assembly/Rigid-Flex_PCB.jpg">
 </p>
