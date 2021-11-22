@@ -25,3 +25,20 @@ Large field-of-view miniature microscope for rats and larger animals.
 <p align="center">
   <img align="center" width="473" height="337" src="https://github.com/Aharoni-Lab/Miniscope-LFOV/blob/main/img/Assembly/Rigid-Flex_PCB.jpg">
 </p>
+
+## How to cite
+A paper discussing the Miniscope Wire-Free DAQ can be found [here](https://www.biorxiv.org/content/10.1101/2021.11.21.469394v1). Please use the following citation information.
+
+```
+@article {Guo2021.11.21.469394,
+	author = {Guo, Changliang and Blair, Garrett J. and Sehgal, Megha and Sangiuliano Jimka, Federico N. and Bellafard, Arash and Silva, Alcino J. and Golshani, Peyman and Basso, Michele A and Blair, H. Tad and Aharoni, Daniel},
+	title = {Miniscope-LFOV: A large field of view, single cell resolution, miniature microscope for wired and wire-free imaging of neural dynamics in freely behaving animals},
+	elocation-id = {2021.11.21.469394},
+	year = {2021},
+	doi = {10.1101/2021.11.21.469394},
+	publisher = {Cold Spring Harbor Laboratory},
+	URL = {https://www.biorxiv.org/content/early/2021/11/22/2021.11.21.469394},
+	eprint = {https://www.biorxiv.org/content/early/2021/11/22/2021.11.21.469394.full.pdf},
+	journal = {bioRxiv}
+}
+``` 
