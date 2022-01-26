@@ -1,4 +1,7 @@
 # Miniscope-LFOV
+
+**[[Miniscope V4 Wiki](https://github.com/Aharoni-Lab/Miniscope-v4/wiki)] [[Miniscope DAQ Software Wiki](https://github.com/Aharoni-Lab/Miniscope-DAQ-QT-Software/wiki)] [[Miniscope DAQ Firmware Wiki](https://github.com/Aharoni-Lab/Miniscope-DAQ-Cypress-firmware/wiki)] [[Miniscope Wire-Free DAQ Wiki](https://github.com/Aharoni-Lab/Miniscope-Wire-Free-DAQ/wiki)] [[Miniscope-LFOV Wiki](https://github.com/Aharoni-Lab/Miniscope-LFOV/wiki)][[2021 Virtual Miniscope Workshop Recording](https://sites.google.com/metacell.us/miniscope-workshop-2021)]**
+
 Large field-of-view miniature microscope for rats and larger animals. 
 <p align="center">
   <img align="center" width="433" height="343" src="https://github.com/Aharoni-Lab/Miniscope-LFOV/blob/main/img/Assembly/Figure1-v27_LFOV.jpg">
@@ -25,3 +28,20 @@ Large field-of-view miniature microscope for rats and larger animals.
 <p align="center">
   <img align="center" width="473" height="337" src="https://github.com/Aharoni-Lab/Miniscope-LFOV/blob/main/img/Assembly/Rigid-Flex_PCB.jpg">
 </p>
+
+## How to cite
+A paper discussing the Miniscope Wire-Free DAQ can be found [here](https://www.biorxiv.org/content/10.1101/2021.11.21.469394v1). Please use the following citation information.
+
+```
+@article {Guo2021.11.21.469394,
+	author = {Guo, Changliang and Blair, Garrett J. and Sehgal, Megha and Sangiuliano Jimka, Federico N. and Bellafard, Arash and Silva, Alcino J. and Golshani, Peyman and Basso, Michele A and Blair, H. Tad and Aharoni, Daniel},
+	title = {Miniscope-LFOV: A large field of view, single cell resolution, miniature microscope for wired and wire-free imaging of neural dynamics in freely behaving animals},
+	elocation-id = {2021.11.21.469394},
+	year = {2021},
+	doi = {10.1101/2021.11.21.469394},
+	publisher = {Cold Spring Harbor Laboratory},
+	URL = {https://www.biorxiv.org/content/early/2021/11/22/2021.11.21.469394},
+	eprint = {https://www.biorxiv.org/content/early/2021/11/22/2021.11.21.469394.full.pdf},
+	journal = {bioRxiv}
+}
+``` 
