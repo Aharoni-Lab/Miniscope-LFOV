@@ -29,6 +29,11 @@ Large field-of-view miniature microscope for rats and larger animals.
   <img align="center" width="473" height="337" src="https://github.com/Aharoni-Lab/Miniscope-LFOV/blob/main/img/Assembly/Rigid-Flex_PCB.jpg">
 </p>
 
+## How to use with the Miniscope DAQ Software
+The MiniLFOV needs an updated videoDevices.json file which holds the configuration data for different modes the MiniLFOV is able to run in. This file can be found in the Miniscope_DAQ_Software_Configurations folder in this repository and should replace the same named fiel in the deviceConfig folder of the Miniscope Software.
+
+We have also included an example user configuration file that will run the MiniLFOV in its 2x binning and summing mode.
+
 ## How to cite
 A paper discussing the MiniLFOV and Miniscope Wire-Free DAQ can be found [here](https://www.science.org/doi/10.1126/sciadv.adg3918). Please use the following citation information.
 
